@@ -1,0 +1,24 @@
+
+Creating thread here /home/oaignb/OAIOSC_integration/odu_at_oai/l2/src/mt/mt_ss.c 3701
+
+INFO   -->  CU_STUB : Starting CU_STUB
+
+DEBUG  -->  CU_STUB : Reading CU configurations
+
+DEBUG  -->  EGTP : Initializing
+INFO  -->  EGTP : Configuration successful
+INFO  -->  EGTP : Received open server request
+INFO  -->  EGTP : Receiver socket[4] and Sender socket[5] open
+
+DEBUG  -->  SCTP : Initializing
+INFO  -->  SCTP : Connecting
+
+date: 09/21/2023 time: 15:50:05
+
+mtss(posix): sw error:  ent: 255  inst: 255  proc id: 000 
+file: /home/oaignb/OAIOSC_integration/odu_at_oai/l2/src/cm/cm_inet.c line: 3848 errcode: 00022 errcls: ERRCLS_DEBUG
+errval: 00000  errdesc: cmInetAccept() Failed : error(4), sockFd->fd(6)
+
+
+ERROR  -->  SCTP : Failed to accept connection
+ERROR  -->  SCTP: Unable to accept the connection at CU
