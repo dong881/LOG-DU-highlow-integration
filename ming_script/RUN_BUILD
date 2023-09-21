@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Define log file name and path
+LOG_FILE="oai_build_and_run.log"
+
+# Function to log a message to the log file
+log() {
+    local message="$1"
+    echo "$(date +'%Y-%m-%d %H:%M:%S') - $message" >> "$LOG_FILE"
+}
+
+# Log the script start
+log "Script started in $(pwd)"
+
+# Clone OAI project in Develop Branch
+echo "Cloning OAI project..."
+log "Cloning OAI project..."
+# git clone https://gitlab.eurecom.fr/oai/openairinterface5g.git > "$LOG_FILE" 2>&1
+cd openairinterface5g/
+
+# Build ONLY FOR the FIRST time
+echo "Building OAI..."
+log "Building OAI..."
+source oaienv
+cd cmake_targets
+export BUILD_UHD_FROM_SOURCE=True
+export UHD_VERSION=4.3.0.0-rc1 # (optional UHD_VERSION=4.4.0.0)
+./build_oai -I -C -w USRP -c > "$LOG_FILE" 2>&1
+cd ran_build/build

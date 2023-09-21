@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# Check if a kernel version is provided as an argument
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <kernel-version>"
+    exit 1
+fi
+
+
+# Extract the desired kernel version from the argument
+desired_kernel="$1"
+
+# Log file to store all output
+log_file="kernel_change_log.txt"
+
+# Function to log messages to the log file
+log_message() {
+    local message="$1"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - $message" >> "$log_file"
+}
+
+# Redirect all output to the log file
+exec >> "$log_file" 2>&1
+
+# Check the current kernel version
+current_kernel=$(uname -r)
+log_message "Current kernel version: $current_kernel"
+
+# Install the desired kernel version
+log_message "Installing kernel $desired_kernel"
+sudo apt-get install linux-image-"$desired_kernel" linux-headers-"$desired_kernel"
+
+# Update Grub
+log_message "Updating Grub"
+sudo update-grub
+
+# Remind the user to manually reboot
+log_message "Kernel installation is complete. Please reboot your system manually."
+
+# After reboot, the user can check the new kernel version using uname -r
+log_message "After reboot, you can check the new kernel version using 'uname -r'"
