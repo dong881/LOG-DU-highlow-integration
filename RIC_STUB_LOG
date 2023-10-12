@@ -257,8 +257,4 @@ DEBUG  -->  E2AP : Received flat buffer to be decoded : 0502c00601d0500101050201
 </E2AP-PDU>
 
 INFO  -->  E2AP : RIC Indication Acknowledged
-cmInetSctpRecvMsg() Failed : error(11), sockFd->fd(5)
-cmInetSctpRecvMsg() Failed : error(11), sockFd->fd(5)
-cmInetSctpRecvMsg() Failed : error(11), sockFd->fd(5)
-cmInetSctpRecvMsg() Failed : error(11), sockFd->fd(5)
 INFO   -->  SCTP : Shutdown Event notification received

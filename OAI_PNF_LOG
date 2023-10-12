@@ -48,10 +48,10 @@
 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
 [0m[OPT]   OPT disabled
-[0m[HW]   Version: Branch:  Abrev. Hash:  Date: 
+[0m[HW]   Version: Branch: YC_develop Abrev. Hash: 61312ca6e2 Date: Fri Aug 12 05:33:12 2022 +0000
 [0m[NR_PHY]   PRB blacklist 
-[0m[NR_PHY]   RC.gNB = 0x5628116dda30
-[0m[NR_PHY]   RC.gNB[0] = 0x7facf92c0010
+[0m[NR_PHY]   RC.gNB = 0x5623fe2f0a30
+[0m[NR_PHY]   RC.gNB[0] = 0x7f9fdc2d6010
 [0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
@@ -59,24 +59,9 @@
 [0m[ENB_APP]   nfapi running mode: PNF
 [0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5628116e2430
+[0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x5623fe2f5430
 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-[0m[ITTI]   Created Posix thread TASK_SCTP
-[0m[X2AP]   X2AP is disabled.
-[0m[NGAP]   Starting NGAP layer
-[0m[ITTI]   Created Posix thread TASK_NGAP
-[0m[PHY]   gNB_app_task() Task ready initialize structures
-[0m[NR_PHY]   PRB blacklist 
-[0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
-[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
-[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
-[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
-[0m[ENB_APP]   nfapi running mode: PNF
-[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-[0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-[0m[MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
-[0mCMDLINE: "./nr-softmodem" "-O" "../../../../odu_at_oai/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "1" 
+[0mCMDLINE: "/home/oaignb/OAIOSC_integration/openairinterface5g/cmake_targets/ran_build/build/nr-softmodem" "-O" "../../../../odu_at_oai/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf" "--sa" "-E" "--gNBs.[0].min_rxtxtime" "6" "--continuous-tx" "--nfapi" "1" 
 [CONFIG] get parameters from libconfig ../../../../odu_at_oai/l2/mwnl/oai_pnf_conf/oaiL1.nfapi.usrpb210.conf , debug flags: 0x00000000
 [LIBCONFIG] Path for include directive set to: ../../../../odu_at_oai/l2/mwnl/oai_pnf_conf
 [CONFIG] function config_libconfig_init returned 0
@@ -99,7 +84,7 @@ Reading in command-line options
 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 1, nb_ru 1
 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
 configuring for RAU/RRU
-CPU Freq is 3.504112 
+CPU Freq is 3.503865 
 [LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
@@ -111,6 +96,7 @@ configure_nr_nfapi_pnf() PNF
 
 
 configure_nr_nfapi_pnf() VNF:127.0.0.1:62324 PNF_PHY[addr:127.0.0.2 UDP:tx_addr:127.0.0.1:50611 rx:32123]
+Initializing northbound interface for L1
 
  Read message unpack:  0  0  1  0  0  8  0  0 
 [PNF] pnf param request
@@ -130,7 +116,153 @@ TAG value :2
 RUNNING pack_param_response
 [PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:1 number_of_tlvs:62
 [PNF] param request .. exit
-Initializing northbound interface for L1
+
+ Read message unpack:  0  1  0  2  2  236  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  2  1  1  1  1  1  1  1  1  1  1  1  1[PHY]   DL frequency 2188160000 Hz, UL frequency 1788160000 Hz: band 66, uldl offset -400000000 Hz
+[0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 1,DL freq 2188160000, UL freq 1788160000)
+[0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
+[0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132
+[0m[PHY]   Doing symbol rotation calculation for gNB TX/RX, f0 2188160000.000000 Hz, Nsymb 28
+[0m[PHY]   Symbol rotation 0/28 => tl 0.000000 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 1/28 => tl 0.000036 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 2/28 => tl 0.000072 (-32767,-1) (0.500000)
+[0m[PHY]   Symbol rotation 3/28 => tl 0.000108 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 4/28 => tl 0.000143 (16383,28377) (0.833333)
+[0m[PHY]   Symbol rotation 5/28 => tl 0.000179 (32767,-1) (0.000000)
+[0m[PHY]   Symbol rotation 6/28 => tl 0.000215 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 7/28 => tl 0.000250 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 8/28 => tl 0.000286 (-32767,-1) (0.500000)
+[0m[PHY]   Symbol rotation 9/28 => tl 0.000322 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 10/28 => tl 0.000357 (16383,28377) (0.833333)
+[0m[PHY]   Symbol rotation 11/28 => tl 0.000393 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 12/28 => tl 0.000429 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 13/28 => tl 0.000464 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 14/28 => tl 0.000500 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 15/28 => tl 0.000536 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 16/28 => tl 0.000572 (-32767,-1) (0.500000)
+[0m[PHY]   Symbol rotation 17/28 => tl 0.000608 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 18/28 => tl 0.000643 (16383,28377) (0.833333)
+[0m[PHY]   Symbol rotation 19/28 => tl 0.000679 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 20/28 => tl 0.000715 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 21/28 => tl 0.000750 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 22/28 => tl 0.000786 (-32767,-1) (0.500000)
+[0m[PHY]   Symbol rotation 23/28 => tl 0.000822 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 24/28 => tl 0.000857 (16383,28377) (0.833333)
+[0m[PHY]   Symbol rotation 25/28 => tl 0.000893 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 26/28 => tl 0.000929 (16383,-28378) (0.166667)
+[0m[PHY]   Symbol rotation 27/28 => tl 0.000964 (-16384,-28378) (0.333333)
+[0m[PHY]   Doing symbol rotation calculation for gNB TX/RX, f0 1788160000.000000 Hz, Nsymb 28
+[0m[PHY]   Symbol rotation 0/28 => tl 0.000000 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 1/28 => tl 0.000036 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 2/28 => tl 0.000072 (32767,-1) (0.000000)
+[0m[PHY]   Symbol rotation 3/28 => tl 0.000108 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 4/28 => tl 0.000143 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 5/28 => tl 0.000179 (32767,-1) (0.000000)
+[0m[PHY]   Symbol rotation 6/28 => tl 0.000215 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 7/28 => tl 0.000250 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 8/28 => tl 0.000286 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 9/28 => tl 0.000322 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 10/28 => tl 0.000357 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 11/28 => tl 0.000393 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 12/28 => tl 0.000429 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 13/28 => tl 0.000464 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 14/28 => tl 0.000500 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 15/28 => tl 0.000536 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 16/28 => tl 0.000572 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 17/28 => tl 0.000608 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 18/28 => tl 0.000643 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 19/28 => tl 0.000679 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 20/28 => tl 0.000715 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 21/28 => tl 0.000750 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 22/28 => tl 0.000786 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 23/28 => tl 0.000822 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 24/28 => tl 0.000857 (-16384,28377) (0.666667)
+[0m[PHY]   Symbol rotation 25/28 => tl 0.000893 (32767,0) (1.000000)
+[0m[PHY]   Symbol rotation 26/28 => tl 0.000929 (-16384,-28378) (0.333333)
+[0m[PHY]   Symbol rotation 27/28 => tl 0.000964 (-16384,28377) (0.666667)
+[0m[PHY]   Timeshift symbol rotation 0 => (32767,0) 0.000000
+[0m[PHY]   Timeshift symbol rotation 1 => (32721,1742) -0.053178
+[0m[PHY]   Timeshift symbol rotation 2 => (32582,3478) -0.106356
+[0m[PHY]   Timeshift symbol rotation 3 => (32351,5205) -0.159534
+[0m[PHY]   Timeshift symbol rotation 4 => (32028,6917) -0.212712
+[0m[PHY]   Timeshift symbol rotation 5 => (31616,8610) -0.265890
+[0m[PHY]   Timeshift symbol rotation 6 => (31113,10278) -0.319068
+[0m[PHY]   Timeshift symbol rotation 7 => (30523,11918) -0.372246
+[0m[PHY]   Timeshift symbol rotation 8 => (29846,13523) -0.425424
+[0m[PHY]   Timeshift symbol rotation 9 => (29085,15090) -0.478602
+[0m[PHY]   gNB 0 configured
+[0m[PHY]   fp->scs=30000
+[0m[PHY]   fp->ofdm_symbol_size=1536
+[0m[PHY]   fp->nb_prefix_samples0=132
+[0m[PHY]   fp->nb_prefix_samples=108
+[0m[PHY]   fp->slots_per_subframe=2
+[0m[PHY]   fp->samples_per_subframe_wCP=43008
+[0m[PHY]   fp->samples_per_frame_wCP=430080
+[0m[PHY]   fp->samples_per_subframe=46080
+[0m[PHY]   fp->samples_per_frame=460800
+[0m[PHY]   fp->dl_CarrierFreq=2188160000
+[0m[PHY]   fp->ul_CarrierFreq=1788160000
+[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0m[ITTI]   Created Posix thread TASK_SCTP
+[0m[X2AP]   X2AP is disabled.
+[0m[NGAP]   Starting NGAP layer
+[0m[ITTI]   Created Posix thread TASK_NGAP
+[0m[PHY]   gNB_app_task() Task ready initialize structures
+[0m[ITTI]   Created Posix thread TASK_GNB_APP
+[0m[NR_RRC]   Creating NR RRC gNB Task
+[0m[NR_PHY]   PRB blacklist 
+[0m[NR_PHY]   Copying 0 blacklisted PRB to L1 context
+[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+[0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+[0m[ENB_APP]   nfapi running mode: PNF
+[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0m[MAC]   [MAIN] Init function start:nb_nr_macrlc_inst=1
+[0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[NR_MAC]   PUSCH Target 150, PUCCH Target 200, PUCCH Failure 10, PUSCH Failure 10
+[0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:1
+[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+[0m[PHY]   Installing callbacks for IF_Module - UL_indication
+[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+[0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+[0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7f9fcc00ce10
+[0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7f9fcc00ce30 (1 of 1)
+[0m[RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
+[0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
+[0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
+[0m[RRC]   Read in ServingCellConfigDedicated UL (FreqDensity_0 -1, FreqDensity_1 -1, TimeDensity_0 -1, TimeDensity_1 -1, TimeDensity_2 -1, RE offset -1, First_active_BWP_ID 1 SCS 1, LocationandBW 28875 
+[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+[0m[NR_RRC]   Setting node_type to ngran_gNB
+[0m  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  2  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  34  16  1  0  2  0  20  16  2  0  4  0  33  24  248  16  4  0  2  0  106  16  5  0  2  0  1  16  6  0  2  0  20  16  7  0  4  0  26  254  120  16  9  0  2  0  106  16  10  0  2  0  1  16  12  0  2  0  1  16  13  0  1  0  16  14  0  4  0  0  0  0  16  16  0  1  1  16  18  0  1  30  16  19  0  1  0  16  20  0  1  1  16  41  0  1  88  16  21  0  2  0  0  16  23  0  2  0  0  16  24  0  1  4  16  27  0  1  1  16  29  0  2  0  24  16  31  0  1  2  16  32  0  1  0  16  33  0  4  0  0  6  0  16  34  0  4  0  0  0  1  1  0  0  4  127  0  0  1  1  2  0  2  197  179  1  31  0  1  3  1  32  0  1  10  1  30  0  1  30 
+[PNF] Received NFAPI_CONFIG_REQ phy_id:1
+
+Timing window tag: 286
+Phy_info:Timing window:30 NFAPI_CONFIG:timing_window:30
+timing info mode:3
+timing info period provided value:10
+nr_config_request() NFAPI_NR_CONFIG_DL_BANDWIDTH_TAG N_RB_DL:20
+[PNF] CONFIG_REQUEST[num_tlv:34] TLVs processed:6
+[PNF] Simulating PHY CONFIG - DJP
+DL frequency 2188160000: band 66, UL frequency 1788160000
+[PNF] 1 vnf p7 127.0.0.1:50611 timing 30 3 10
+[PNF] Sent NFAPI_PNF_CONFIG_RESPONSE phy_id:1
+
+ Read message unpack:  0  1  0  4  0  8  0  0 
+[PNF] Received NFAPI_START_REQ phy_id:1
+[PNF] P7 remote:127.0.0.1:50611 local:127.0.0.2:32123
+subframe_buffer_size configured using phy_info->timing_window:30
+[PNF] Sending PNF_START_RESP
+Sending NFAPI_START_RESPONSE config:0x5623fe2f31b0 phy_id:1
 [LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
@@ -149,39 +281,33 @@ Initializing northbound interface for L1
 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
+[LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (26 to default value)
 
  Read message unpack:  0  0  1  0  0  8  0  0 
 [PNF] pnf param request
-[LIBCONFIG] MACRLCs.[0]: 33/33 parameters successfully set, (26 to default value)
 
  Read message unpack:  0  0  1  2  0  26  0  0  16  3  0  14  0  2  0  2  0  0  0  0  0  0  0  0  0  0 
 [PNF] pnf config request
 [PNF] pnf config request assigned phy_id 2 to phy_config_index 0
-[PNF[ITTI]   Created Posix thread TASK_GNB_APP
-[0m[NR_RRC]   Creating NR RRC gNB Task
-[0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[NR_MAC]   PUSCH Target 150, PUCCH Target 200, PUCCH Failure 10, PUSCH Failure 10
-[0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:1
-[0m[PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
-[0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
-[0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
-[0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7face800ce10
-[0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7face800ce30 (1 of 1)
-[0m[RRC]   Read in ServingCellConfigCommon (PhysCellId 0, ABSFREQSSB 641280, DLBand 78, ABSFREQPOINTA 640008, DLBW 106,RACH_TargetReceivedPower -96
-[0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-[0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-[0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
-[0m[NR_MAC]   NR band 78, duplex mode TDD, duplex spacing = 0 KHz
-[0m[RRC]   Read in ServingCellConfigDedicated UL (FreqDensity_0 -1, FreqDensity_1 -1, TimeDensity_0 -1, TimeDensity_1 -1, TimeDensity_2 -1, RE offset -1, First_active_BWP_ID 1 SCS 1, LocationandBW 28875 
-[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[GNB_APP]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[GNB_APP]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-[0m[NR_RRC]   Setting node_type to ngran_gNB
-[0m[GNB_APP]   pdsch_AntennaPorts N1 1
+[PNF] Sent pnf_config_resp
+
+ Read message unpack:  0  0  1  4  0  8  0  0 
+Received NFAPI_PNF_START_REQUEST
+[PNF] Sent NFAPI_PNF_START_RESP
+
+ Read message unpack:  0  2  0  0  0  8  0  0 
+[PNF] Received NFAPI_PARAM_REQUEST phy_id:2
+TAG value :2
+RUNNING pack_param_response
+[PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:2 number_of_tlvs:62
+[PNF] param request .. exit
+[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
+[LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
+[LIBCONFIG] gNBs.[0].servingCellConfigDedicated.[0]: 42/42 parameters successfully set, (21 to default value)
+NRRRC 0: Southbound Transport local_mac
+[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3[GNB_APP]   pdsch_AntennaPorts N1 1
 [0m[GNB_APP]   pdsch_AntennaPorts N2 1
 [0m[GNB_APP]   pdsch_AntennaPorts XP 1
 [0m[GNB_APP]   pusch_AntennaPorts 1
@@ -205,7 +331,7 @@ Initializing northbound interface for L1
 [0m[NGAP]   [gNB 0] check the amf registration state
 [0m[NR_RRC]   Entering main loop of NR_RRC message task
 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
-[0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7face800e510
+[0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7f9fcc00e510
 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
 [0m[NR_MAC]   NR band duplex spacing is 0 KHz (nr_bandtable[37].band = 78)
@@ -213,25 +339,7 @@ Initializing northbound interface for L1
 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
 [0m[NR_RRC]   SIB1 freq: absoluteFrequencySSB 641280, absoluteFrequencyPointA 640008
 [0m[NR_RRC]   SIB1 freq: absolute_diff 1272, 2*(absolute_diff/(12*2) - 10) 86
-[0m] Sent pnf_config_resp
-
- Read message unpack:  0  0  1  4  0  8  0  0 
-Received NFAPI_PNF_START_REQUEST
-[PNF] Sent NFAPI_PNF_START_RESP
-
- Read message unpack:  0  2  0  0  0  8  0  0 
-[PNF] Received NFAPI_PARAM_REQUEST phy_id:2
-TAG value :2
-RUNNING pack_param_response
-[PNF] Sent NFAPI_PNF_PARAM_RESPONSE phy_id:2 number_of_tlvs:62
-[PNF] param request .. exit
-[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-[LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
-[LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
-[LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (9 to default value)
-[LIBCONFIG] gNBs.[0].servingCellConfigDedicated.[0]: 42/42 parameters successfully set, (21 to default value)
-NRRRC 0: Southbound Transport local_mac
-[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m/3 parameters successfully set, (0 to default value)
 [LIBCONFIG] security: 4/4 parameters successfully set, (2 to default value)
 [LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (18 to default value)
@@ -531,75 +639,7 @@ NRRRC 0: Southbound Transport local_mac
 [0m[32m[PHY]   Configuring MIB for instance 0, : (Nid_cell 0,DL freq 3619200000, UL freq 3619200000)
 [0m[PHY]   Initializing frame parms for mu 1, N_RB 106, Ncp 0
 [0m[PHY]   Init: N_RB_DL 106, first_carrier_offset 900, nb_prefix_samples 108,nb_prefix_samples0 132
-[0m[PHY]   Doing symbol rotation calculation for gNB TX/RX, f0 3619200000.000000 Hz, Nsymb 28
-[0m[PHY]   Symbol rotation 0/28 => tl 0.000000 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 1/28 => tl 0.000036 (32767,-1) (0.000000)
-[0m[PHY]   Symbol rotation 2/28 => tl 0.000072 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 3/28 => tl 0.000108 (32767,0) (0.000000)
-[0m[PHY]   Symbol rotation 4/28 => tl 0.000143 (-32767,0) (0.500000)
-[0m[PHY]   Symbol rotation 5/28 => tl 0.000179 (32767,-1) (0.000000)
-[0m[PHY]   Symbol rotation 6/28 => tl 0.000215 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 7/28 => tl 0.000250 (32767,0) (0.000000)
-[0m[PHY]   Symbol rotation 8/28 => tl 0.000286 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 9/28 => tl 0.000322 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 10/28 => tl 0.000357 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 11/28 => tl 0.000393 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 12/28 => tl 0.000429 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 13/28 => tl 0.000464 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 14/28 => tl 0.000500 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 15/28 => tl 0.000536 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 16/28 => tl 0.000572 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 17/28 => tl 0.000608 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 18/28 => tl 0.000643 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 19/28 => tl 0.000679 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 20/28 => tl 0.000715 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 21/28 => tl 0.000750 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 22/28 => tl 0.000786 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 23/28 => tl 0.000822 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 24/28 => tl 0.000857 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 25/28 => tl 0.000893 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 26/28 => tl 0.000929 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 27/28 => tl 0.000964 (32766,0) (1.000000)
-[0m[PHY]   Doing symbol rotation calculation for gNB TX/RX, f0 3619200000.000000 Hz, Nsymb 28
-[0m[PHY]   Symbol rotation 0/28 => tl 0.000000 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 1/28 => tl 0.000036 (32767,-1) (0.000000)
-[0m[PHY]   Symbol rotation 2/28 => tl 0.000072 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 3/28 => tl 0.000108 (32767,0) (0.000000)
-[0m[PHY]   Symbol rotation 4/28 => tl 0.000143 (-32767,0) (0.500000)
-[0m[PHY]   Symbol rotation 5/28 => tl 0.000179 (32767,-1) (0.000000)
-[0m[PHY]   Symbol rotation 6/28 => tl 0.000215 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 7/28 => tl 0.000250 (32767,0) (0.000000)
-[0m[PHY]   Symbol rotation 8/28 => tl 0.000286 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 9/28 => tl 0.000322 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 10/28 => tl 0.000357 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 11/28 => tl 0.000393 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 12/28 => tl 0.000429 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 13/28 => tl 0.000464 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 14/28 => tl 0.000500 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 15/28 => tl 0.000536 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 16/28 => tl 0.000572 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 17/28 => tl 0.000608 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 18/28 => tl 0.000643 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 19/28 => tl 0.000679 (32767,0) (1.000000)
-[0m[PHY]   Symbol rotation 20/28 => tl 0.000715 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 21/28 => tl 0.000750 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 22/28 => tl 0.000786 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 23/28 => tl 0.000822 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 24/28 => tl 0.000857 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 25/28 => tl 0.000893 (32766,0) (1.000000)
-[0m[PHY]   Symbol rotation 26/28 => tl 0.000929 (-32767,-1) (0.500000)
-[0m[PHY]   Symbol rotation 27/28 => tl 0.000964 (32766,0) (1.000000)
-[0m[PHY]   Timeshift symbol rotation 0 => (32767,0) 0.000000
-[0m[PHY]   Timeshift symbol rotation 1 => (32721,1742) -0.053178
-[0m[PHY]   Timeshift symbol rotation 2 => (32582,3478) -0.106356
-[0m[PHY]   Timeshift symbol rotation 3 => (32351,5205) -0.159534
-[0m[PHY]   Timeshift symbol rotation 4 => (32028,6917) -0.212712
-[0m[PHY]   Timeshift symbol rotation 5 => (31616,8610) -0.265890
-[0m[PHY]   Timeshift symbol rotation 6 => (31113,10278) -0.319068
-[0m[PHY]   Timeshift symbol rotation 7 => (30523,11918) -0.372246
-[0m[PHY]   Timeshift symbol rotation 8 => (29846,13523) -0.425424
-[0m[PHY]   Timeshift symbol rotation 9 => (29085,15090) -0.478602
-[0m[PHY]   gNB 0 configured
+[0m[1;31m[PHY]   Already gNB already configured, do nothing
 [0m[NR_MAC]   In rrc_mac_config_req_gNB: slot 0 DL 1 UL 0
 [0m[NR_MAC]   In rrc_mac_config_req_gNB: slot 1 DL 1 UL 0
 [0m[NR_MAC]   In rrc_mac_config_req_gNB: slot 2 DL 1 UL 0
@@ -622,16 +662,16 @@ NRRRC 0: Southbound Transport local_mac
 [0m[NR_MAC]   In rrc_mac_config_req_gNB: slot 19 DL 0 UL 1
 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
-[0m[ITTI]   Created Posix thread TASK_GTPV1_U
 [0m[93m[GTPU]   bind: Cannot assign requested address
 [0m[1;31m[GTPU]   failed to bind socket: 192.168.70.129 2152 
 [0m[1;31m[GTPU]   can't create GTP-U instance
 [0m[GTPU]   Created gtpu instance id: -1
+[0m[ITTI]   Created Posix thread TASK_GTPV1_U
 [0m[PHY]   Initializing gNB 0 single_thread_flag:1
 [0m[PHY]   Initializing gNB 0
-[0m[PHY]   Registering with MAC interface module (before 0x5628116e2430)
+[0m[PHY]   Registering with MAC interface module (before 0x5623fe2f5430)
 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
-[0m[PHY]   Registering with MAC interface module (after 0x5628116e2430)
+[0m[PHY]   Registering with MAC interface module (after 0x5623fe2f5430)
 [0m[PHY]   Setting indication lists
 [0m[PHY]   [nr-gnb.c] gNB structure allocated
 [0m[PHY]   Setting clock source to internal
@@ -657,20 +697,20 @@ NRRRC 0: Southbound Transport local_mac
 [0m[PHY]   fp->ul_CarrierFreq=3619200000
 [0m[PHY]   Channel 0: setting tx_gain offset 90, rx_gain offset 125, tx_freq 3619200000 Hz, rx_freq 3619200000 Hz, tune_offset 0 Hz
 [0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1, nb_rx 1
-[0m[PHY]   [INIT] common.txdata[0] = 0x7face442c040 (1844480 bytes,sf_extension 320)
-[0m[PHY]   [INIT] common.txdata[0] = 0x7face442c540 
+[0m[PHY]   [INIT] common.txdata[0] = 0x7f9fd042c040 (1844480 bytes,sf_extension 320)
+[0m[PHY]   [INIT] common.txdata[0] = 0x7f9fd042c540 
 [0m[PHY]   nb_tx 1
-[0m[PHY]   rxdata_7_5kHz[0] 0x7facf40c0040 for RU 0
-[0m[PHY]   [INIT] common.txdata_BF= 0x7facc8000b00 (8 bytes)
-[0m[PHY]   txdataF_BF[0] 0x7facf9464040 for RU 0
-[0m[PHY]   rxdataF[0] 0x7facf406b040 for RU 0
+[0m[PHY]   rxdata_7_5kHz[0] 0x7f9fd80d8040 for RU 0
+[0m[PHY]   [INIT] common.txdata_BF= 0x7f9fb0000b00 (8 bytes)
+[0m[PHY]   txdataF_BF[0] 0x7f9fdc47a040 for RU 0
+[0m[PHY]   rxdataF[0] 0x7f9fd8083040 for RU 0
 [0m[PHY]   [INIT] nr_phy_init_RU() ru->num_gNB:1 
 [0m[HW]   openair0_cfg[0].sdr_addrs == '(null)'
 [0m[HW]   openair0_cfg[0].clock_source == '0' (internal = 0, external = 1)
 [0m[HW]   UHD version 4.5.0.0-0ubuntu1~bionic1 (4.5.0)
+[0m[HW]   Found USRP b200
 [0m[PHY]   init feptx thread 0
 [0m[PHY]   init feptx thread 1
-[0m[HW]   Found USRP b200
 [0m[HW]   Setting clock source to internal
 [0m[HW]   Setting time source to internal
 [0mDL frequency 3619200000: band 48, UL frequency 3619200000
@@ -687,10 +727,10 @@ Initializing RU threads
 configuring RU from file
 [LIBCONFIG] RUs.[0]: 33/33 parameters successfully set, (25 to default value)
 Set RU mask to 1
-Creating RC.ru[0]:0x5628116e4d10
+Creating RC.ru[0]:0x5623fe2f7d10
 Setting function for RU 0 to gNodeB_3GPP
 [RU 0] Setting nr_flag 0, nr_band 7, nr_scs_for_raster 1
-configuring ru_id 0 (start_rf 0x56280f477700)
+configuring ru_id 0 (start_rf 0x5623fc11c700)
 [LIBCONFIG] device.recplay: 8/8 parameters successfully set, (8 to default value)
 [LIBCONFIG] device: 1/1 parameters successfully set, (1 to default value)
 [LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
@@ -725,12 +765,1488 @@ waiting for NFAPI PNF connection and population of global structure (main?)
 [0m[HW]     Actual TX bandwidth: 40.000000M...
 [0m[HW]     Actual TX antenna: TX/RX...
 [0m[HW]     Actual TX packet size: 1916
-[0m[HW]   Device timestamp: 2.171793...
+[0m[HW]   Device timestamp: 2.240847...
 [0m[HW]   [RAU] has loaded USRP B200 device.
 [0m[PHY]   RU 0 Setting N_TA_offset to 600 samples (factor 1.500000, UL Freq 3600120, N_RB 106, mu 1)
 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
-[0m[1;31m[SCTP]   SCTP_ASSOC_CHANGE to SCTP_CANT_STR_ASSOC
-[0m[1;31m[SCTP]   sctp_recvmsg (fd 101, len -1 ): Connection timed out:110
+[0m[PHY]   init_eNB_afterRU() RC.nb_nr_inst:1
+[0m[PHY]   RC.nb_nr_CC[inst:0]:0x7f9fdc2d6010
+[0m[PHY]   [gNB 0] phy_init_nr_gNB() About to wait for gNB to be configured
+[0m[PHY]   Initialise nr transport
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 0/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 1/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 2/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 3/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 4/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 5/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 6/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 7/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 8/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 9/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 10/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 11/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 12/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 13/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 14/16
+[0m[PHY]   Allocating Transport Channel Buffers for PUCCH 15/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 0/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 1/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 2/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 3/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 4/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 5/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 6/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 7/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 8/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 9/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 10/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 11/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 12/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 13/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 14/16
+[0m[PHY]   Allocating Transport Channel Buffers for SRS 15/16
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  0/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  1/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  2/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  3/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  4/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  5/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  6/8
+[0m[PHY]   Allocating Transport Channel Buffers for ULSCH  7/8
+[0m[PHY]   Mapping RX ports from 1 RUs to gNB 0
+[0m[PHY]   gNB->num_RU:1
+[0m[PHY]   Attaching RU 0 antenna 0 to gNB antenna 0
+[0m[PHY]   Number of threads requested in config file: 4, Number of threads available on this machine: 4
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 0/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 1/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 2/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 3/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 4/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 5/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 6/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 7/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 0/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 1/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 2/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 3/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 4/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 5/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 6/8
+[0m[PHY]   Allocating Transport Channel Buffers for DLSCH 7/8
+[0m[PHY]   Waiting for RUs to be configured ... RC.ru_mask:00
+[0m[PHY]   RUs configured
+[0msetup_RU_buffers: frame_parms = 0x5623fe2fb5e0
+waiting for sync (ru_thread,-1/0x5623fcd7a2b4,0x5623fdb2b700,0x5623fd9807e0)
+[PNF] waiting for OAI to be configured (eNB/RU)
+[PNF] OAI eNB/RU configured
+[PNF] About to call init_eNB_afterRU()
+[LIBCONFIG] loader.dfts: 2/2 parameters successfully set, (1 to default value)
+shlib_path libdfts.so
+[LOADER] library libdfts.so successfully loaded
+[LIBCONFIG] loader.ldpc: 2/2 parameters successfully set, (1 to default value)
+shlib_path libldpc.so
+[LOADER] library libldpc.so successfully loaded
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+create a thread for core -1
+waiting for sync (L1_stats_thread,-1/0x5623fcd7a2b4,0x5623fdb2b700,0x5623fd9807e0)
+NFAPI: got sync (main?)
+wait RUs
+ALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init gNBs
+NFAPI mode - DO NOT call init_gNB_afterRU()
+ALL RUs ready - ALL gNBs ready
+Sending sync to all threads
+About to call end_configmodule() from main() /home/oaignb/OAIOSC_integration/openairinterface5g/executables/nr-softmodem.c:790
+Called end_configmodule() from main() /home/oaignb/OAIOSC_integration/openairinterface5g/executables/nr-softmodem.c:795
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+got sync (ru_thread)
+got sync (L1_stats_thread)
+[PHY]   RU 0 rf device ready
+[0m[PHY]   RU 0 RF started
+[0m[MAC]   [GNB]  the NFAPI_MODE_PNF in rx_func is about to send slot_ind sfn : 0, slot : 0
+[0m[MAC]   [GNB]  the NFAPI_MODE_PNF in rx_func is about to send slot_ind sfn : 0, slot : 1
+[0m[MAC]   [GNB]  the NFAPI_MODE_PNF in rx_func is about to send slot_ind sfn : 0, slot : 2
+[0msleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+sleep...
+[MWNL] pnf_p7_slot_ind
+[MWNL]  NR_UL_indication
+[NFAPI PNF P7] p7_msg_sfn  : 0, p7_msg_slot: 3
+[NFAPI PNF P7] phy_sfn     : 0, phy_slot   : 6
+[NFAPI PNF P7] The current_sfn_slot_dec : 6 <= recv_sfn_slot_dec + timing_window: 33
+[NFAPI PNF] number of pdu is 0
+[NFAPI PNF P7] p7_msg_sfn  : 0, p7_msg_slot: 3
+[NFAPI PNF P7] phy_sfn     : 0, phy_slot   : 9
+[NFAPI PNF P7] The current_sfn_slot_dec : 9 <= recv_sfn_slot_dec + timing_window: 33
+[NFAPI PNF] number of pdu is 0
+[MWNL] pnf_p7_slot_ind
+[MWNL]  NR_UL_indication
+slot: 0, expected slot: 1
+[1;31m[PHY]   error, pull two msg, none is good
+[0m[1;31m[PHY]   order mistake
+[0m[MWNL] pnf_p7_slot_ind
+[MWNL]  NR_UL_indication
+[MAC]   [GNB]  the NFAPI_MODE_PNF in rx_func is about to send slot_ind sfn : 0, slot : 3
+[0m[NFAPI PNF P7] p7_msg_sfn  : 0, p7_msg_slot: 3
+[NFAPI PNF P7] phy_sfn     : 0, phy_slot   : 9
+[NFAPI PNF P7] The current_sfn_slot_dec : 9 <= recv_sfn_slot_dec + timing_window: 33
+[NFAPI PNF] number of pdu is 0
+[MWNL] pnf_p7_slot_ind
+[MWNL]  NR_UL_indication
+[NFAPI PNF P7] p7_msg_sfn  : 0, p7_msg_slot: 3
+[NFAPI PNF P7] phy_sfn     : 0, phy_slot   : 9
+[NFAPI PNF P7] The current_sfn_slot_dec : 9 <= recv_sfn_slot_dec + timing_window: 33
+[NFAPI PNF] number of pdu is 0
+[PNF] waiting for OAI to be started
+67035740204 [W] 3539982080: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+67035740235 [W] 3650680576: pnf_nr_read_dispatch_message: sctp_recvmsg: unhandled mode with flags 0x0
+67035740252 [W] 3650680576: pnf_nr_read_dispatch_message: Disconnected socket
+67035740237 [W] 3539982080: pnf_nr_read_dispatch_message: Disconnected socket
+67036740359 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67036740360 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67038740468 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67038740470 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67040740575 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67040740578 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67042740680 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67042740682 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67044740788 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67044740790 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67046740894 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67046740896 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67048741005 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67048741009 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67050741111 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67050741113 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67052741217 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67052741219 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67054741324 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67054741326 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67056741431 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67056741434 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67058741538 [E] 3539982080: pnf_connect: 67058741540 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67060741645 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67060741648 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67062741755 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67062741758 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67064741859 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67064741861 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67066741962 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67066741965 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67068742078 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67068742079 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67070742185 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67070742187 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67072742290 [E] 3539982080: pnf_connect: 67072742291 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67074742396 [E] 3539982080: pnf_connect: 67074742398 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67076742499 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67076742501 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67078742610 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67078742612 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67080742715 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67080742717 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67082742821 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67082742823 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67084742921 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67084742923 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67086743032 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67086743037 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67088743134 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67088743136 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67090743243 [E] 3650680576: pnf_connect: 67090743245 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67092743350 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67092743353 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67094743452 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67094743454 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67096743641 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67096743644 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67098743746 [E] 3650680576: pnf_connect: 67098743748 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67100743852 [E] 3539982080: pnf_connect: 67100743854 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67102743958 [E] 3650680576: pnf_connect: 67102743960 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67104744069 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67104744074 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67106744172 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67106744174 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67108744276 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67108744279 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67110744379 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67110744381 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67112744482 [E] 3650680576: pnf_connect: 67112744484 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67114744583 [E] 3650680576: pnf_connect: 67114744585 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67116744686 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67116744688 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67118744792 [E] 3539982080: pnf_connect: 67118744794 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67120744898 [E] 3650680576: pnf_connect: 67120744900 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67122745014 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67122745014 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67124745113 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67124745115 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67126745214 [E] 3650680576: pnf_connect: 67126745216 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67128745320 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67128745323 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67130745426 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67130745428 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67132745531 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67132745534 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67134745629 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67134745632 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67136745734 [E] 3650680576: pnf_connect: 67136745737 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67138745840 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67138745843 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67140745943 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67140745946 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67142746050 [E] 3539982080: pnf_connect: 67142746051 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67144746158 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67144746160 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67146746262 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67146746265 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67148746362 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67148746364 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67150746470 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67150746472 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67152746577 [E] 3539982080: pnf_connect: 67152746579 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67154746679 [E] 3539982080: pnf_connect: 67154746682 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67156746783 [E] 3650680576: pnf_connect: 67156746785 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67158746890 [E] 3539982080: pnf_connect: 67158746892 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67160746992 [E] 3539982080: pnf_connect: 67160746994 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67162747098 [E] 3539982080: pnf_connect: 67162747100 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67164747207 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67164747210 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67166747307 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67166747313 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67168747409 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67168747411 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67170747511 [E] 3650680576: pnf_connect: 67170747513 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67172747615 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67172747616 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67174747717 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67174747719 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67176747819 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67176747822 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67178747922 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67178747924 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67180748033 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67180748035 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67182748134 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67182748136 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67184748239 [E] 3539982080: pnf_connect: 67184748241 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67186748340 [E] 3650680576: pnf_connect: 67186748342 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67188748445 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67188748447 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67190748552 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67190748554 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67192748656 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67192748658 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67194748777 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67194748778 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67196748889 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67196748892 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67198749006 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67198749012 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67200749108 [E] 3539982080: pnf_connect: 67200749110 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67202749215 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67202749217 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67204749316 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67204749318 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67206749425 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67206749428 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67208749525 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67208749528 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67210749631 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67210749633 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67212749733 [E] 3539982080: pnf_connect: 67212749735 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67214749838 [E] 3650680576: pnf_connect: 67214749840 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67216749942 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67216749944 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67218750051 [E] 3650680576: pnf_connect: 67218750053 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67220750159 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67220750161 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67222750265 [E] 3539982080: pnf_connect: 67222750267 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67224750367 [E] 3650680576: pnf_connect: 67224750369 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67226750469 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67226750472 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67228750569 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67228750572 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67230750674 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67230750676 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67232750779 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67232750781 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67234750880 [E] 3650680576: pnf_connect: 67234750882 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67236750982 [E] 3650680576: pnf_connect: 67236750984 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67238751090 [E] 3650680576: pnf_connect: 67238751092 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67240751192 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67240751194 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67242751293 [E] 3650680576: pnf_connect: 67242751295 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67244751397 [E] 3539982080: pnf_connect: 67244751399 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67246751501 [E] 3539982080: pnf_connect: 67246751503 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67248751610 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67248751612 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67250751708 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67250751710 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67252751813 [E] 3539982080: pnf_connect: 67252751815 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67254751919 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67254751921 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67256752085 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67256752091 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67258752253 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67258752265 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67260752410 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67260752413 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67262752528 [E] 3539982080: pnf_connect: 67262752530 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67264752643 [E] 3539982080: pnf_connect: 67264752645 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67266752754 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67266752757 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67268752863 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67268752865 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67270752976 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67270752979 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67272753083 [E] 3650680576: pnf_connect: 67272753085 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+[1;31m[SCTP]   SCTP_ASSOC_CHANGE to SCTP_CANT_STR_ASSOC
+[0m[1;31m[SCTP]   sctp_recvmsg (fd 102, len -1 ): Connection timed out:110
 [0m[93m[NGAP]   Received unsuccessful result for SCTP association (3), instance 0, cnx_id 1
 [0m[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 0
-[0m
+[0m67274753185 [E] 3650680576: pnf_connect: 67274753187 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67276753285 [E] 3650680576: pnf_connect: 67276753288 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67278753391 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67278753393 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67280753496 [E] 3539982080: pnf_connect: 67280753498 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67282753602 [E] 3650680576: pnf_connect: 67282753604 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67284753708 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67284753712 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67286753812 [E] 3539982080: pnf_connect: 67286753814 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67288753915 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67288753918 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67290754021 [E] 3539982080: pnf_connect: 67290754023 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67292754125 [E] 3539982080: pnf_connect: 67292754127 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67294754228 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67294754231 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67296754333 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67296754335 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67298754436 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67298754438 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67300754541 [E] 3539982080: pnf_connect: 67300754543 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67302754645 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67302754648 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67304754747 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67304754749 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67306754849 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67306754852 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67308754953 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67308754955 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67310755056 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67310755059 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67312755155 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67312755157 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67314755259 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67314755262 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67316755359 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67316755361 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67318755462 [E] 3650680576: pnf_connect: 67318755463 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67320755567 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67320755569 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67322755670 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67322755672 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67324755768 [E] 3650680576: pnf_connect: 67324755770 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67326755873 [E] 3650680576: pnf_connect: 67326755875 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67328755977 [E] 3650680576: pnf_connect: 67328755978 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67330756102 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67330756106 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67332756204 [E] 3650680576: pnf_connect: 67332756206 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67334756311 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67334756313 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67336756413 [E] 3650680576: pnf_connect: 67336756414 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67338756514 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67338756516 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67340756618 [E] 3650680576: pnf_connect: 67340756621 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67342756723 [E] 3539982080: pnf_connect: 67342756725 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67344756829 [E] 3539982080: pnf_connect: 67344756831 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67346756931 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67346756934 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67348757040 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67348757043 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67350757142 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67350757144 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67352757245 [E] 3539982080: pnf_connect: 67352757247 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67354757349 [E] 3539982080: pnf_connect: 67354757351 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67356757453 [E] 3650680576: pnf_connect: 67356757455 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67358757555 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67358757557 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67360757654 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67360757656 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67362757758 [E] 3539982080: pnf_connect: 67362757760 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67364757863 [E] 3539982080: pnf_connect: 67364757864 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67366757970 [E] 3539982080: pnf_connect: 67366757972 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67368758078 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67368758080 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67370758182 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67370758184 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67372758294 [E] 3650680576: pnf_connect: 67372758296 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67374758399 [E] 3650680576: pnf_connect: 67374758402 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67376758505 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67376758507 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67378758608 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67378758610 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67380758710 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67380758713 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67382758814 [E] 3650680576: pnf_connect: 67382758816 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67384758919 [E] 3650680576: pnf_connect: 67384758921 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67386759031 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67386759034 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67388759130 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67388759133 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67390759246 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67390759248 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67392759356 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67392759358 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67394759460 [E] 3539982080: pnf_connect: 67394759462 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67396759648 [E] 3650680576: pnf_connect: 67396759651 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67398759751 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67398759753 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67400759851 [E] 3650680576: pnf_connect: 67400759853 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67402759954 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67402759957 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67404760066 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67404760066 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67406760167 [E] 3650680576: pnf_connect: 67406760170 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67408760271 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67408760273 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67410760379 [E] 3539982080: pnf_connect: 67410760381 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67412760485 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67412760487 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67414760596 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67414760598 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67416760699 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67416760701 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67418760801 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67418760803 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67420760905 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67420760908 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67422761016 [E] 3650680576: pnf_connect: 67422761018 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67424761121 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67424761123 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67426761220 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67426761223 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67428761323 [E] 3650680576: pnf_connect: 67428761325 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67430761428 [E] 3650680576: pnf_connect: 67430761431 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67432761531 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67432761533 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67434761635 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67434761638 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67436761739 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67436761741 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67438761842 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67438761844 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67440761947 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67440761950 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67442762055 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67442762057 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67444762159 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67444762161 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67446762263 [E] 3650680576: pnf_connect: 67446762265 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67448762365 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67448762367 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67450762476 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67450762479 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67452762582 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67452762585 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67454762685 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67454762687 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67456762795 [E] 3650680576: pnf_connect: 67456762797 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67458762898 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67458762901 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67460763005 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67460763010 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67462763107 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67462763110 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67464763212 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67464763214 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67466763317 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67466763320 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67468763421 [E] 3539982080: pnf_connect: 67468763423 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67470763529 [E] 3539982080: pnf_connect: 67470763531 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67472763634 [E] 3539982080: pnf_connect: 67472763636 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67474763739 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67474763741 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67476763844 [E] 3539982080: pnf_connect: 67476763846 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67478763947 [E] 3539982080: pnf_connect: 67478763949 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67480764056 [E] 3539982080: pnf_connect: 67480764058 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67482764161 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67482764164 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67484764264 [E] 3539982080: pnf_connect: 67484764265 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67486764367 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67486764369 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67488764463 [E] 3539982080: pnf_connect: 67488764465 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67490764567 [E] 3539982080: pnf_connect: 67490764569 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67492764672 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67492764674 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67494764773 [E] 3539982080: pnf_connect: 67494764775 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67496764877 [E] 3539982080: pnf_connect: 67496764879 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67498764990 [E] 3650680576: pnf_connect: 67498764992 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67500765097 [E] 3650680576: pnf_connect: 67500765100 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67502765201 [E] 3650680576: pnf_connect: 67502765203 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67504765305 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67504765307 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67506765408 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67506765411 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67508765509 [E] 3539982080: pnf_connect: 67508765511 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67510765621 [E] 3650680576: pnf_connect: 67510765623 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67512765729 [E] 3539982080: pnf_connect: 67512765731 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67514765833 [E] 3539982080: pnf_connect: 67514765835 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67516765937 [E] 3539982080: pnf_connect: 67516765939 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67518766045 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67518766049 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67520766148 [E] 3650680576: pnf_connect: 67520766151 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67522766253 [E] 3539982080: pnf_connect: 67522766254 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67524766358 [E] 3539982080: pnf_connect: 67524766360 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67526766461 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67526766463 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67528766561 [E] 3539982080: pnf_connect: 67528766563 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67530766662 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67530766664 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67532766765 [E] 3539982080: pnf_connect: 67532766768 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67534766871 [E] 3539982080: pnf_connect: 67534766872 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67536766975 [E] 3539982080: pnf_connect: 67536766977 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67538767084 [E] 3539982080: pnf_connect: 67538767086 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67540767197 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67540767199 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67542767300 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67542767302 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67544767405 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67544767408 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67546767511 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67546767513 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67548767618 [E] 3539982080: pnf_connect: 67548767620 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67550767723 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67550767726 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67552767827 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67552767829 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67554767930 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67554767933 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67556768040 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67556768042 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67558768142 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67558768143 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67560768251 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67560768252 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67562768354 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67562768356 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67564768456 [E] 3539982080: pnf_connect: 67564768458 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67566768563 [E] 3539982080: pnf_connect: 67566768564 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67568768666 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67568768668 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67570768771 [E] 3539982080: pnf_connect: 67570768773 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67572768878 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67572768880 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67574768980 [E] 3650680576: pnf_connect: 67574768982 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67576769092 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67576769094 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67578769200 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67578769203 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67580769302 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67580769305 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67582769400 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67582769403 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67584769503 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67584769506 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67586769605 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67586769608 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67588769708 [E] 3539982080: pnf_connect: 67588769710 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67590769814 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67590769816 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67592769919 [E] 3539982080: pnf_connect: 67592769921 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67594770027 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67594770030 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67596770133 [E] 3539982080: pnf_connect: 67596770135 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67598770239 [E] 3539982080: pnf_connect: 67598770241 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67600770345 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67600770348 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67602770451 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67602770453 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67604770553 [E] 3539982080: pnf_connect: 67604770555 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67606770656 [E] 3539982080: pnf_connect: 67606770658 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67608770760 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67608770762 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67610770865 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67610770867 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67612770970 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67612770972 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67614771078 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67614771081 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67616771181 [E] 3539982080: pnf_connect: 67616771183 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67618771284 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67618771286 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67620771392 [E] 3650680576: pnf_connect: 67620771394 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67622771498 [E] 3539982080: pnf_connect: 67622771500 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67624771602 [E] 3539982080: pnf_connect: 67624771604 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67626771705 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67626771707 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67628771807 [E] 3650680576: pnf_connect: 67628771809 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67630771912 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67630771915 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67632772024 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67632772028 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67634772129 [E] 3539982080: pnf_connect: 67634772131 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67636772231 [E] 3539982080: pnf_connect: 67636772233 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67638772336 [E] 3539982080: pnf_connect: 67638772338 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67640772440 [E] 3539982080: pnf_connect: 67640772442 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67642772533 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67642772536 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67644772634 [E] 3539982080: pnf_connect: 67644772636 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67646772737 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67646772739 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67648772841 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67648772844 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67650772945 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67650772948 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67652773057 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67652773059 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67654773159 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67654773160 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67656773263 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67656773265 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67658773364 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67658773367 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67660773466 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67660773468 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67662773567 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67662773570 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67664773669 [E] 3650680576: pnf_connect: 67664773672 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67666773769 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67666773772 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67668773870 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67668773873 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67670773974 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67670773976 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67672774079 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67672774081 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67674774183 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67674774186 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67676774286 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67676774287 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67678774387 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67678774391 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67680774491 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67680774494 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67682774592 [E] 3539982080: pnf_connect: 67682774594 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67684774697 [E] 3650680576: pnf_connect: 67684774699 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67686774801 [E] 3650680576: pnf_connect: 67686774803 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67688774903 [E] 3650680576: pnf_connect: 67688774904 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67690775020 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67690775020 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67692775124 [E] 3539982080: pnf_connect: 67692775126 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67694775228 [E] 3539982080: pnf_connect: 67694775230 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67696775419 [E] 3539982080: pnf_connect: 67696775421 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67698775524 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67698775527 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67700775626 [E] 3650680576: pnf_connect: 67700775628 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67702775727 [E] 3539982080: pnf_connect: 67702775729 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67704775830 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67704775833 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67706775936 [E] 3539982080: pnf_connect: 67706775938 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67708776044 [E] 3539982080: pnf_connect: 67708776046 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67710776159 [E] 3650680576: pnf_connect: 67710776161 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67712776263 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67712776265 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67714776366 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67714776368 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67716776467 [E] 3650680576: pnf_connect: 67716776469 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67718776569 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67718776572 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67720776674 [E] 3539982080: pnf_connect: 67720776676 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67722776779 [E] 3650680576: pnf_connect: 67722776781 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67724776885 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67724776887 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67726776988 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67726776990 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67728777093 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67728777096 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67730777199 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67730777201 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67732777302 [E] 3650680576: pnf_connect: 67732777304 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67734777406 [E] 3650680576: pnf_connect: 67734777408 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67736777510 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67736777512 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67738777613 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67738777615 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67740777719 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67740777721 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67742777819 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67742777821 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67744777919 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67744777922 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67746778031 [E] 3650680576: pnf_connect: 67746778033 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67748778136 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67748778139 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67750778240 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67750778242 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67752778357 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67752778360 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67754778463 [E] 3650680576: pnf_connect: 67754778466 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67756778566 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67756778568 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67758778671 [E] 3650680576: pnf_connect: 67758778673 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67760778778 [E] 3650680576: pnf_connect: 67760778780 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67762778882 [E] 3650680576: pnf_connect: 67762778884 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67764778989 [E] 3539982080: pnf_connect: 67764778990 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67766779092 [E] 3539982080: pnf_connect: 67766779094 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67768779194 [E] 3539982080: pnf_connect: 67768779196 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67770779301 [E] 3539982080: pnf_connect: 67770779303 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67772779410 [E] 3539982080: pnf_connect: 67772779412 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67774779515 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67774779518 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67776779619 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67776779622 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67778779717 [E] 3650680576: pnf_connect: 67778779718 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67780779822 [E] 3650680576: pnf_connect: 67780779824 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67782779926 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67782779928 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67784780034 [E] 3650680576: pnf_connect: 67784780037 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67786780140 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67786780143 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67788780247 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67788780249 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67790780353 [E] 3650680576: pnf_connect: 67790780355 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67792780457 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67792780459 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67794780568 [E] 3650680576: pnf_connect: 67794780570 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67796780673 [E] 3650680576: pnf_connect: 67796780675 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67798780779 [E] 3539982080: pnf_connect: 67798780781 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67800780884 [E] 3650680576: pnf_connect: 67800780886 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67802780987 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67802780990 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67804781102 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67804781105 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67806781210 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67806781212 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67808781311 [E] 3539982080: pnf_connect: 67808781313 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67810781418 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67810781420 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67812781523 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67812781526 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67814781626 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67814781628 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67816781728 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67816781731 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67818781832 [E] 3650680576: pnf_connect: 67818781833 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67820781935 [E] 3650680576: pnf_connect: 67820781937 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67822782050 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67822782055 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67824782154 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67824782157 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67826782256 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67826782259 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67828782359 [E] 3650680576: pnf_connect: 67828782361 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67830782465 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67830782468 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67832782572 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67832782574 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67834782675 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67834782678 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67836782789 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67836782791 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67838782889 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67838782892 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67840782990 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67840782993 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67842783094 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67842783096 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67844783191 [E] 3650680576: pnf_connect: 67844783193 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67846783294 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67846783296 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67848783402 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67848783405 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67850783502 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67850783505 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67852783604 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67852783607 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67854783708 [E] 3650680576: pnf_connect: 67854783710 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67856783813 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67856783815 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67858783915 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67858783918 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67860784026 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67860784029 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67862784123 [E] 3539982080: pnf_connect: 67862784125 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67864784225 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67864784227 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67866784328 [E] 3539982080: pnf_connect: 67866784330 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67868784431 [E] 3650680576: pnf_connect: 67868784433 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67870784535 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67870784538 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67872784637 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67872784640 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67874784737 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67874784740 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67876784836 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67876784840 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67878784934 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67878784936 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67880785040 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67880785044 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67882785140 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67882785143 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67884785240 [E] 3650680576: pnf_connect: 67884785242 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67886785344 [E] 3650680576: pnf_connect: 67886785345 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67888785447 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67888785450 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67890785550 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67890785552 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67892785653 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67892785656 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67894785759 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67894785761 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67896785864 [E] 3650680576: pnf_connect: 67896785866 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67898785965 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67898785967 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67900786077 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67900786078 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67902786180 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67902786182 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67904786280 [E] 3539982080: pnf_connect: 67904786282 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67906786384 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67906786387 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67908786484 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67908786486 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67910786586 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67910786589 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67912786687 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67912786690 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67914786788 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67914786791 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67916786890 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67916786892 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67918786994 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67918786996 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67920787111 [E] 3539982080: pnf_connect: 67920787113 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67922787214 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67922787216 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67924787313 [E] 3539982080: pnf_connect: 67924787315 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67926787418 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67926787421 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67928787522 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67928787525 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67930787628 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67930787629 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67932787734 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67932787737 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67934787839 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67934787842 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67936787941 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67936787944 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67938788049 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67938788052 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67940788156 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67940788158 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67942788261 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67942788264 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67944788369 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67944788371 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67946788471 [E] 3650680576: pnf_connect: 67946788473 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67948788574 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67948788576 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67950788677 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67950788680 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67952788775 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67952788777 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67954788879 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67954788881 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67956788982 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67956788984 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67958789084 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67958789087 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67960789182 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67960789184 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67962789293 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67962789295 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67964789394 [E] 3539982080: pnf_connect: 67964789397 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67966789498 [E] 3650680576: pnf_connect: 67966789500 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67968789599 [E] 3650680576: pnf_connect: 67968789601 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67970789703 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67970789706 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67972789807 [E] 3650680576: pnf_connect: 67972789810 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67974789912 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67974789914 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67976790022 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67976790023 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67978790125 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67978790127 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67980790228 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67980790231 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67982790328 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67982790330 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67984790429 [E] 3539982080: pnf_connect: 67984790431 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+67986790532 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67986790534 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67988790636 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67988790638 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67990790743 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67990790746 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67992790849 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67992790852 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67994790948 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67994790951 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67996791141 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67996791145 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67998791241 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+67998791243 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68000791342 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68000791345 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68002791448 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68002791450 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68004791560 [E] 3539982080: pnf_connect: 68004791562 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68006791662 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68006791664 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68008791761 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68008791763 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68010791865 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68010791868 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68012791968 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68012791970 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68014792078 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68014792080 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68016792182 [E] 3539982080: pnf_connect: 68016792184 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68018792284 [E] 3539982080: pnf_connect: 68018792286 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68020792386 [E] 3650680576: pnf_connect: 68020792387 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68022792489 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68022792491 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68024792592 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68024792595 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68026792695 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68026792697 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68028792798 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68028792800 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68030792902 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68030792904 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68032793010 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68032793014 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68034793107 [E] 3539982080: pnf_connect: 68034793109 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68036793210 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68036793213 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68038793310 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68038793312 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68040793414 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68040793416 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68042793516 [E] 3539982080: pnf_connect: 68042793517 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68044793617 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68044793619 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68046793727 [E] 3539982080: pnf_connect: 68046793729 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68048793830 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68048793833 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68050793934 [E] 3539982080: pnf_connect: 68050793936 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68052794041 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68052794046 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68054794144 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68054794147 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68056794242 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68056794244 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68058794347 [E] 3539982080: pnf_connect: 68058794349 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68060794451 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68060794454 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68062794552 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68062794554 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68064794662 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68064794665 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68066794774 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68066794775 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68068794874 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68068794877 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68070794976 [E] 3539982080: pnf_connect: 68070794978 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68072795080 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68072795082 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68074795184 [E] 3539982080: pnf_connect: 68074795186 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68076795288 [E] 3539982080: pnf_connect: 68076795290 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68078795392 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68078795395 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68080795494 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68080795496 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68082795595 [E] 3650680576: pnf_connect: 68082795597 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68084795696 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68084795699 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68086795800 [E] 3650680576: pnf_connect: 68086795802 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68088795906 [E] 3539982080: pnf_connect: 68088795908 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68090796028 [E] 3650680576: pnf_connect: 68090796030 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68092796131 [E] 3650680576: pnf_connect: 68092796133 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68094796236 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68094796238 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68096796337 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68096796339 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68098796440 [E] 3539982080: pnf_connect: 68098796442 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68100796546 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68100796549 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68102796651 [E] 3539982080: pnf_connect: 68102796653 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68104796756 [E] 3650680576: pnf_connect: 68104796757 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68106796865 [E] 3650680576: pnf_connect: 68106796868 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68108796969 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68108796972 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68110797076 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68110797079 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68112797184 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68112797187 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68114797291 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68114797293 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68116797395 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68116797397 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68118797498 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68118797501 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68120797601 [E] 3650680576: pnf_connect: 68120797603 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68122797703 [E] 3650680576: pnf_connect: 68122797705 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68124797805 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68124797807 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68126797910 [E] 3539982080: pnf_connect: 68126797912 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68128798020 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68128798021 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68130798121 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68130798123 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68132798225 [E] 3650680576: pnf_connect: 68132798227 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68134798328 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68134798330 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68136798433 [E] 3650680576: pnf_connect: 68136798435 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68138798537 [E] 3650680576: pnf_connect: 68138798539 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68140798641 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68140798643 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68142798745 [E] 3539982080: pnf_connect: 68142798747 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68144798845 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68144798847 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68146798949 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68146798951 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68148799057 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68148799060 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68150799160 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68150799163 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68152799262 [E] 3539982080: pnf_connect: 68152799264 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68154799369 [E] 3539982080: pnf_connect: 68154799370 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68156799471 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68156799474 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68158799574 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68158799576 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68160799678 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68160799680 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68162799778 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68162799780 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68164799878 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68164799881 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68166799979 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68166799981 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68168800084 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68168800086 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68170800190 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68170800192 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68172800288 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68172800291 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68174800400 [E] 3650680576: pnf_connect: 68174800402 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68176800504 [E] 3650680576: pnf_connect: 68176800506 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68178800609 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68178800611 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68180800714 [E] 3650680576: pnf_connect: 68180800716 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68182800818 [E] 3650680576: pnf_connect: 68182800821 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68184800925 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68184800928 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68186801035 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68186801039 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68188801135 [E] 3650680576: pnf_connect: 68188801137 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68190801242 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68190801244 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68192801344 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68192801347 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68194801451 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68194801454 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68196801560 [E] 3650680576: pnf_connect: 68196801561 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68198801664 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68198801666 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68200801769 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68200801771 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68202801873 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68202801875 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68204801975 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68204801977 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68206802078 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68206802080 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68208802183 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68208802185 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68210802285 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68210802288 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68212802383 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68212802386 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68214802483 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68214802485 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68216802592 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68216802595 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68218802695 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68218802698 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68220802799 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68220802801 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68222802903 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68222802905 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68224803007 [E] 3539982080: pnf_connect: 68224803009 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68226803110 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68226803113 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68228803213 [E] 3650680576: pnf_connect: 68228803215 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68230803318 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68230803321 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68232803426 [E] 3650680576: pnf_connect: 68232803428 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68234803530 [E] 3650680576: pnf_connect: 68234803532 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68236803634 [E] 3650680576: pnf_connect: 68236803635 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68238803737 [E] 3539982080: pnf_connect: 68238803738 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68240803837 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68240803839 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68242803940 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68242803942 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68244804049 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68244804050 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68246804150 [E] 3650680576: pnf_connect: 68246804152 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68248804253 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68248804255 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68250804351 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68250804353 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68252804452 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68252804455 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68254804553 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68254804556 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68256804658 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68256804660 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68258804763 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68258804765 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68260804869 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68260804870 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68262804974 [E] 3539982080: pnf_connect: 68262804976 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68264805080 [E] 3539982080: pnf_connect: 68264805082 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68266805186 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68266805188 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68268805291 [E] 3650680576: pnf_connect: 68268805293 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68270805398 [E] 3650680576: pnf_connect: 68270805400 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68272805502 [E] 3539982080: pnf_connect: 68272805503 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68274805604 [E] 3539982080: pnf_connect: 68274805606 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68276805707 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68276805710 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68278805806 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68278805809 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68280805910 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68280805912 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68282806017 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68282806020 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68284806118 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68284806121 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68286806223 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68286806225 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68288806326 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68288806329 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68290806431 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68290806433 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68292806538 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68292806540 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68294806640 [E] 3539982080: pnf_connect: 68294806642 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68296806832 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68296806834 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68298806935 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68298806938 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68300807037 [E] 3650680576: pnf_connect: 68300807039 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68302807141 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68302807144 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68304807242 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68304807244 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68306807344 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68306807347 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68308807447 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68308807450 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68310807554 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68310807557 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68312807659 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68312807661 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68314807763 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68314807766 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68316807868 [E] 3539982080: pnf_connect: 68316807870 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68318807968 [E] 3539982080: pnf_connect: 68318807970 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68320808074 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68320808077 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68322808177 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68322808180 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68324808280 [E] 3650680576: pnf_connect: 68324808282 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68326808383 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68326808386 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68328808487 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68328808489 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68330808593 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68330808595 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68332808694 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68332808696 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68334808797 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68334808799 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68336808897 [E] 3650680576: pnf_connect: 68336808899 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68338808996 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68338808999 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68340809100 [E] 3650680576: pnf_connect: 68340809102 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68342809202 [E] 3650680576: pnf_connect: 68342809204 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68344809305 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68344809308 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68346809408 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68346809411 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68348809513 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68348809515 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68350809619 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68350809622 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68352809724 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68352809726 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68354809829 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68354809832 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68356809937 [E] 3650680576: pnf_connect: 68356809939 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68358810054 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68358810057 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68360810175 [E] 3650680576: pnf_connect: 68360810177 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
+68362810284 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68362810287 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68364810381 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68364810383 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68366810493 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68366810495 [E] 3539982080: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+68368810605 [E] 3539982080: pnf_connect: 68368810607 [E] 3650680576: pnf_connect: After connect (address:127.0.0.1 port:62324) errno: 111
+After connect (address:127.0.0.1 port:62324) errno: 111
