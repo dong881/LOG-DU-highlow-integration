@@ -318,24 +318,24 @@ DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
 DEBUG  -->  DU_APP : MAC VNF config sent
 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
 INFO  -->  LWR_MAC : Calling MacProcVnfCfgReq
-INFO   --> RLC_DL : Starting SNSSAI Throughput timer
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 INFO  -->  LWR_MAC : phystate :  0 in msgType : 6
+INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
-INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+[NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
+[NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
-DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
-DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
-[NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
-[NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
 [NFAPI VNF INTF]  ->  P5 socket created...
+DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
 [NFAPI VNF INTF]  ->  VNF Setting the SCTP_INITMSG
-DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
 [NFAPI VNF INTF]  ->  IPV4 binding to port 62324
+DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
+DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
 [NFAPI VNF INTF]  ->  bind succeeded...
 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
 [NFAPI VNF INTF]  ->  listen succeeded...
@@ -344,8 +344,8 @@ INFO   --> RLC_DL : Starting UE Throughput timer
 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
@@ -355,8 +355,8 @@ DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
-INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
+INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
 DEBUG   -->  DU_APP : Completed sending Configs
@@ -364,8 +364,8 @@ DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
 DEBUG  -->  MAC : SAP Not yet bound
 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
-DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
+DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
@@ -381,22 +381,22 @@ CmInetSctpConnectx() Failed test: error(115), port(0x78cb),		   sockFd->fd(5)
 
 INFO   -->  SCTP : Polling started at DU
 
-CmInetSctpConnectx() Failed test: error(115), port(0x8e45),		   sockFd->fd(6)
+DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [14]
 
-DEBUG   -->  DU_APP : Sending EGTP config request
-DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [57]
-
-DEBUG   -->  EGTP : EGTP configuration successful
 DEBUG   -->  SCTP : Assoc change notification received
 INFO   -->  Event : COMMUNICATION UP in du
 DEBUG   -->  SCTP : Forwarding received message to duApp
-DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [59]
+CmInetSctpConnectx() Failed test: error(115), port(0x8e45),		   sockFd->fd(6)
 
-INFO   -->  F1AP : Building F1 Setup Request
+DEBUG   -->  DU_APP : Sending EGTP config request
+DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [16]
 
 DEBUG   -->  SCTP : Assoc change notification received
 INFO   -->  Event : COMMUNICATION UP in du
-DEBUG   -->  SCTP : Forwarding received message to duApp<F1AP-PDU>
+INFO   -->  F1AP : Building F1 Setup Request
+
+DEBUG   -->  SCTP : Forwarding received message to duApp
+DEBUG   -->  EGTP : EGTP configuration successful<F1AP-PDU>
     <initiatingMessage>
         <procedureCode>1</procedureCode>
         <criticality><reject/></criticality>
@@ -558,8 +558,6 @@ dat: 00 01 00 80 d4 00 00 05 00 4e 00 02 00 01 00 2a .........N.....*
      00 02 17 80 00 ab 00 01 00                      .........
      
 DEBUG   -->  SCTP : sending the message to CU
-DEBUG   -->  DU_APP : EGTP configuraton complete
-DEBUG   -->  DU_APP : Sending EGTP server open request
 INFO   -->  E2AP : Building E2 Setup Request
 <E2AP-PDU>
     <initiatingMessage>
@@ -569,8 +567,7 @@ INFO   -->  E2AP : Building E2 Setup Request
             <E2setupRequest>
                 <protocolIEs>
                     <E2setupRequestIEs>
-                        <id>
-DEBUG  -->  EGTP : Received EGTP open server request3</id>
+                        <id>3</id>
                         <criticality><reject/></criticality>
                         <value>
                             <GlobalE2node-ID>
@@ -593,16 +590,93 @@ DEBUG  -->  EGTP : Received EGTP open server request3</id>
     </initiatingMessage>
 </E2AP-PDU>
 
-DEBUG   -->  EGTP : Receiver socket[7] and Sender socket[8] open
 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
-
-DEBUG   -->  EGTP : Starting Socket Polling010100010309064ffffff962500001
+010100010309064ffffff962500001
 msg: qlen: 0001 mlen: 0020   00-->00 region: 00
 dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
      00 00 00 01                                     ....
      
 DEBUG   -->  SCTP : sending the message to ric
+DEBUG   -->  DU_APP : EGTP configuraton complete
+DEBUG   -->  DU_APP : Sending EGTP server open request
+DEBUG  -->  EGTP : Received EGTP open server request
+DEBUG   -->  EGTP : Receiver socket[7] and Sender socket[8] open
+DEBUG   -->  EGTP : Starting Socket Polling
 DEBUG   -->  DU_APP : EGTP server opened successfully
+DEBUG   -->  SCTP : Forwarding received message to duApp
+msg: qlen: 0001 mlen: 0054   00-->00 region: 00
+dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
+     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
+     00 00 00 10 00 01                               ......
+     
+INFO  -->  F1AP : Received F1AP message buffer
+msg: qlen: 0001 mlen: 0054   00-->00 region: 00
+dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
+     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
+     00 00 00 10 00 01                               ......
+     
+DEBUG   -->  F1AP : Received flat buffer to be decoded : 40103200304e020105240106ffffff80674e422d45757265636f6d2d43550301100040b4064ffffff96200001001
+<F1AP-PDU>
+    <successfulOutcome>
+        <procedureCode>1</procedureCode>
+        <criticality><reject/></criticality>
+        <value>
+            <F1SetupResponse>
+                <protocolIEs>
+                    <F1SetupResponseIEs>
+                        <id>78</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <TransactionID>1</TransactionID>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>82</id>
+                        <criticality><ignore/></criticality>
+                        <value>
+                            <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+                        </value>
+                    </F1SetupResponseIEs>
+                    <F1SetupResponseIEs>
+                        <id>3</id>
+                        <criticality><reject/></criticality>
+                        <value>
+                            <Cells-to-be-Activated-List>
+                                <ProtocolIE-SingleContainer>
+                                    <id>4</id>
+                                    <criticality><reject/></criticality>
+                                    <value>
+                                        <Cells-to-be-Activated-List-Item>
+                                            <nRCGI>
+                                                <pLMN-Identity>64 96 02</pLMN-Identity>
+                                                <nRCellIdentity>
+                                                    000000000000000000000000000000000001
+                                                </nRCellIdentity>
+                                            </nRCGI>
+                                            <nRPCI>1</nRPCI>
+                                        </Cells-to-be-Activated-List-Item>
+                                    </value>
+                                </ProtocolIE-SingleContainer>
+                            </Cells-to-be-Activated-List>
+                        </value>
+                    </F1SetupResponseIEs>
+                </protocolIEs>
+            </F1SetupResponse>
+        </value>
+    </successfulOutcome>
+</F1AP-PDU>
+
+INFO   -->  F1AP : F1 Setup Response received
+INFO   -->  DU_APP : F1 Setup Response received
+INFO   -->  DU_APP : F1 Setup Response received
+DEBUG  -->  DU-APP : MAC CELL config sent
+INFO   -->  DU_APP : F1 Setup Response received
+INFO  -->  SCH : Cell init completed for cellId:1
+INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
+[MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
+
 DEBUG   -->  SCTP : Forwarding received message to duApp
 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
@@ -647,14 +721,7 @@ dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
      00 13 40 03 00 00 00                            ..@....
      
-DEBUG   -->  SCTP : Forwarding received message to duApp
 DEBUG   -->  E2AP : Received E2AP message buffer
-msg: qlen: 0001 mlen: 0054   00-->00 region: 00
-dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
-     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
-     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
-     00 00 00 10 00 01                               ......
-     
 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
@@ -836,83 +903,16 @@ dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
      00 19 00 04 03 64 96 02 00 1a 00 04 03 64 96 02 .....d.......d..
      
 DEBUG   -->  SCTP : sending the message to ric
-INFO  -->  F1AP : Received F1AP message buffer
-msg: qlen: 0001 mlen: 0054   00-->00 region: 00
-dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
-     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
-     55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
-     00 00 00 10 00 01                               ......
-     
-DEBUG   -->  F1AP : Received flat buffer to be decoded : 40103200304e020105240106ffffff80674e422d45757265636f6d2d43550301100040b4064ffffff96200001001
-<F1AP-PDU>
-    <successfulOutcome>
-        <procedureCode>1</procedureCode>
-        <criticality><reject/></criticality>
-        <value>
-            <F1SetupResponse>
-                <protocolIEs>
-                    <F1SetupResponseIEs>
-                        <id>78</id>
-                        <criticality><reject/></criticality>
-                        <value>
-                            <TransactionID>1</TransactionID>
-                        </value>
-                    </F1SetupResponseIEs>
-                    <F1SetupResponseIEs>
-                        <id>82</id>
-                        <criticality><ignore/></criticality>
-                        <value>
-                            <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
-                        </value>
-                    </F1SetupResponseIEs>
-                    <F1SetupResponseIEs>
-                        <id>3</id>
-                        <criticality><reject/></criticality>
-                        <value>
-                            <Cells-to-be-Activated-List>
-                                <ProtocolIE-SingleContainer>
-                                    <id>4</id>
-                                    <criticality><reject/></criticality>
-                                    <value>
-                                        <Cells-to-be-Activated-List-Item>
-                                            <nRCGI>
-                                                <pLMN-Identity>64 96 02</pLMN-Identity>
-                                                <nRCellIdentity>
-                                                    000000000000000000000000000000000001
-                                                </nRCellIdentity>
-                                            </nRCGI>
-                                            <nRPCI>1</nRPCI>
-                                        </Cells-to-be-Activated-List-Item>
-                                    </value>
-                                </ProtocolIE-SingleContainer>
-                            </Cells-to-be-Activated-List>
-                        </value>
-                    </F1SetupResponseIEs>
-                </protocolIEs>
-            </F1SetupResponse>
-        </value>
-    </successfulOutcome>
-</F1AP-PDU>
-
-INFO   -->  F1AP : F1 Setup Response received
-INFO   -->  DU_APP : F1 Setup Response received
-INFO   -->  DU_APP : F1 Setup Response received
-DEBUG  -->  DU-APP : MAC CELL config sent
-INFO   -->  DU_APP : F1 Setup Response received
-INFO  -->  SCH : Cell init completed for cellId:1
-INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
-[MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
-
 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-[NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:58109 
-[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f7e14000b20
+[NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:33304 
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7fb1a8000b20
 [NFAPI VNF]  ->  pnf connection indication idx:0
-[NFAPI VNF INTF]  ->  VNF Association ID = 62
+[NFAPI VNF INTF]  ->  VNF Association ID = 19
 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
 [NFAPI VNF INTF]  ->  VNF In Streams = 5
 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 74, flags 0x80
 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
 [NFAPI VNF]  ->  pnf param response idx:0 error:0
 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
@@ -921,17 +921,17 @@ INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
 NFAPI	->	DJP:Hard coded num phy rf to 2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
 [NFAPI VNF]  ->  pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
-[NFAPI VNF]  ->  pnf start response idx:0 config:0x55b979012210 user_data:0x55b979010dc0 p7_vnf[config:0x55b979011540 thread_started:0]
+[NFAPI VNF]  ->  pnf start response idx:0 config:0x565442b77210 user_data:0x565442b75dc0 p7_vnf[config:0x565442b76540 thread_started:0]
 [NFAPI VNF]  ->  P7 thread is running
 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 354, flags 0x80
 [NFAPI VNF]  ->  Received PARAM_RESPONSE
 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
@@ -982,7 +982,7 @@ NFAPI	->	[VNF]Timing window tag : 286 Timing window:30
 [NFAPI P7] ->  VNF P7 bind succeeded...
 
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 9, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 9, flags 0x80
 [NFAPI VNF]  ->  Received CONFIG_RESPONSE
 INFO  -->  LWR_MAC : phystate :  0 in msgType : 3
 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
@@ -991,20 +991,20 @@ DEBUG  -->  LWR_MAC: PHY has moved to Configured state
 [NFAPI VNF]  ->  Received NFAPI_CONFIG_RESP idx:0 phy_id:1
 [NFAPI VNF]  ->  Calling oai_enb_init()
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:58109 assoc:62 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:33304 assoc:19 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  NR Received START_RESPONSE
-[NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55b979011540 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
+[NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x565442b76540 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
 
 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-[NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:37163 
-[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f7e140011b0
+[NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:44083 
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7fb1a80011b0
 [NFAPI VNF]  ->  pnf connection indication idx:1
-[NFAPI VNF INTF]  ->  VNF Association ID = 64
+[NFAPI VNF INTF]  ->  VNF Association ID = 21
 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
 [NFAPI VNF INTF]  ->  VNF In Streams = 5
 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:37163 assoc:64 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:44083 assoc:21 on stream 0, PPID 704643072, length 74, flags 0x80
 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
 [NFAPI VNF]  ->  pnf param response idx:1 error:0
 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
@@ -1013,17 +1013,17 @@ DEBUG  -->  LWR_MAC: PHY has moved to Configured state
 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
 NFAPI	->	DJP:Hard coded num phy rf to 2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:37163 assoc:64 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:44083 assoc:21 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
 [NFAPI VNF]  ->  pnf config response idx:1 resp[header[phy_id:0 message_id:103 message_length:12]]
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:37163 assoc:64 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:44083 assoc:21 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
-[NFAPI VNF]  ->  pnf start response idx:1 config:0x55b979012210 user_data:0x55b979010dc0 p7_vnf[config:0x55b979011540 thread_started:1]
+[NFAPI VNF]  ->  pnf start response idx:1 config:0x565442b77210 user_data:0x565442b75dc0 p7_vnf[config:0x565442b76540 thread_started:1]
 [NFAPI VNF]  ->  P7 thread has been running
 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:37163 assoc:64 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:44083 assoc:21 on stream 0, PPID 704643072, length 354, flags 0x80
 [NFAPI VNF]  ->  Received PARAM_RESPONSE
 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
@@ -1102,7 +1102,7 @@ P7 msg sent with result 27
 [MWNL] vnf_handle_nr_slot_indication
 VNF SFN/Slot 0.9 
 [MWNL]  ->  The slot_ind sfn : 0, slot : 9
-[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 9, prev_slot = 8, setup_time = 8
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 9, prev_slot = 8, setup_time = 7
 [MWNL] ORAN_OAI_procSlotInd
 MWNL  -->  MAC : Slot Indication received. [0 : 0]
 
@@ -1122,9 +1122,6 @@ DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
 P7 is about to send msg
 P7 msg sent with result 27
 
-[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:37163 assoc:0 on stream 0, PPID 0, length 354, flags 0x0
-[NFAPI VNF]  ->  pnf disconnection indication idx:1
-[NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 185.85.0.0:377 assoc:0 on stream 0, PPID 0, length 32383, flags 0x0
-[NFAPI VNF]  ->  pnf disconnection indication idx:0
+DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [0]
+
+INFO   -->  SCTP : Shutdown Event notification received in du
