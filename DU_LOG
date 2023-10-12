@@ -313,47 +313,47 @@ INFO    --> DU_APP: readVnfCfg() Conpleted
 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
 ****** Received initial vnf configs at DU APP ******
 
 DEBUG  -->  DU_APP : MAC VNF config sent
 INFO  -->  LWR_MAC : Calling MacProcVnfCfgReq
 INFO  -->  LWR_MAC : phystate :  0 in msgType : 6
-INFO   --> RLC_DL : Starting SNSSAI Throughput timer
 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
-DEBUG   -->  DU_APP : RLC UL Cfg Status 0
 [NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
 [NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
-DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
 [NFAPI VNF INTF]  ->  P5 socket created...
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
 [NFAPI VNF INTF]  ->  VNF Setting the SCTP_INITMSG
 [NFAPI VNF INTF]  ->  IPV4 binding to port 62324
+[NFAPI VNF INTF]  ->  bind succeeded...
+INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+[NFAPI VNF INTF]  ->  listen succeeded...
+DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
+DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
-[NFAPI VNF INTF]  ->  bind succeeded...
 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
-[NFAPI VNF INTF]  ->  listen succeeded...
 INFO   --> RLC_DL : Starting UE Throughput timer
 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
-DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
+DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
-DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
@@ -381,7 +381,7 @@ CmInetSctpConnectx() Failed test: error(115), port(0x78cb),		   sockFd->fd(5)
 
 INFO   -->  SCTP : Polling started at DU
 
-DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [82]
+DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [107]
 
 DEBUG   -->  SCTP : Assoc change notification received
 INFO   -->  Event : COMMUNICATION UP in du
@@ -389,13 +389,13 @@ DEBUG   -->  SCTP : Forwarding received message to duApp
 CmInetSctpConnectx() Failed test: error(115), port(0x8e45),		   sockFd->fd(6)
 
 DEBUG   -->  DU_APP : Sending EGTP config request
-DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [84]
+DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [109]
 
-DEBUG   -->  SCTP : Assoc change notification received
 INFO   -->  F1AP : Building F1 Setup Request
 
-DEBUG   -->  EGTP : EGTP configuration successful
+DEBUG   -->  SCTP : Assoc change notification received
 INFO   -->  Event : COMMUNICATION UP in du
+DEBUG   -->  EGTP : EGTP configuration successful
 DEBUG   -->  SCTP : Forwarding received message to duApp<F1AP-PDU>
     <initiatingMessage>
         <procedureCode>1</procedureCode>
@@ -611,9 +611,14 @@ dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
      00 00 00 10 00 01                               ......
      
 INFO  -->  F1AP : Received F1AP message buffer
+DEBUG   -->  SCTP : Forwarding received message to duApp
 msg: qlen: 0001 mlen: 0054   00-->00 region: 00
-dat: 40 01 00 32 00 00 03 00 4e 00 02 00 01 00 52 40 @..2....N.....R@
-     10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+dat: 40 01 00 32 00 00 03 00 4e 00 02 
+msg: qlen: 0001 mlen: 0018   00-->00 region: 00
+dat: 20 00 01 00 0e 01 00 00 52 00 40 01 00 04 @00 07 .00 13 41 08 .00 2 ..............A...N......
+     R00 10                   @   
+     10                      ..06 
+     80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
      55 00 03 00 11 00 00 00 04 00 0b 40 64 96 02 00 U..........@d...
      00 00 00 10 00 01                               ......
      
@@ -673,15 +678,6 @@ INFO   -->  DU_APP : F1 Setup Response received
 INFO   -->  DU_APP : F1 Setup Response received
 DEBUG  -->  DU-APP : MAC CELL config sent
 INFO   -->  DU_APP : F1 Setup Response received
-INFO  -->  SCH : Cell init completed for cellId:1
-INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
-[MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
-
-DEBUG   -->  SCTP : Forwarding received message to duApp
-msg: qlen: 0001 mlen: 0018   00-->00 region: 00
-dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
-     00 10                                           ..
-     
 DEBUG   -->  E2AP : Received E2AP message buffer
 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
@@ -704,7 +700,8 @@ DEBUG   -->  E2AP : Received flat buffer to be decoded : 2010e00104070134180010
                                 <ric-ID>
                                     00000000000000000001
                                 </ric-ID>
-                            </GlobalRIC-ID>
+                        
+INFO  -->  SCH : Cell init completed for cellId:1    </GlobalRIC-ID>
                         </value>
                     </E2setupResponseIEs>
                 </protocolIEs>
@@ -715,6 +712,9 @@ DEBUG   -->  E2AP : Received flat buffer to be decoded : 2010e00104070134180010
 
 DEBUG   -->  E2AP : Store E2 setup response Params
 INFO   -->  E2AP : E2 Setup Response received
+INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
+[MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
+
 DEBUG   -->  SCTP : Forwarding received message to duApp
 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
@@ -904,15 +904,15 @@ dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
      
 DEBUG   -->  SCTP : sending the message to ric
 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-[NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:57265 
-[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f88ac000b20
+[NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:38334 
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f5af4000b20
 [NFAPI VNF]  ->  pnf connection indication idx:0
-[NFAPI VNF INTF]  ->  VNF Association ID = 87
+[NFAPI VNF INTF]  ->  VNF Association ID = 112
 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
 [NFAPI VNF INTF]  ->  VNF In Streams = 5
 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 74, flags 0x80
 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
 [NFAPI VNF]  ->  pnf param response idx:0 error:0
 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
@@ -921,32 +921,32 @@ DEBUG   -->  SCTP : sending the message to ric
 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
 NFAPI	->	DJP:Hard coded num phy rf to 2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
 [NFAPI VNF]  ->  pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
->  pnf start response idx:0 config:0x55859c9ffeb0 user_data:0x55859c9fea60 p7_vnf[config:0x55859c9ff1e0 thread_started:0]
+>  pnf start response idx:0 config:0x55ffab2a4d90 user_data:0x55ffab2a3940 p7_vnf[config:0x55ffab2a40c0 thread_started:0]
 [NFAPI VNF]  ->  P7 thread is running
 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 354, flags 0x80
 [NFAPI VNF]  ->  Received PARAM_RESPONSE
 [NFAPI VNF]  ->  vnf_nr_p7_start_thread()
 [NFAPI P7] ->  Initialising VNF P7 port:50611
-[NFAPI P7] ->  VNF P7 socket created...
-[NFAPI P7] ->  VNF P7 setsockopt succeeded...
 
-[NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2[NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
-
+[NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
 [NFAPI VNF]  ->  PNF P7 Port: 32123
-[NFAPI VNF]  ->  The PNF has been running, set FALG to 0[NFAPI P7] ->  VNF P7 bind succeeded...
+[NFAPI VNF]  ->  The PNF has been running, set FALG to 0
+[NFAPI VNF]  ->  The PNF has been running, set FALG to 1
+INFO  -->  LWR_MAC : phystate :  0 in msgType : 2[NFAPI P7] ->  VNF P7 socket created...
+[NFAPI P7] ->  VNF P7 setsockopt succeeded...
+[NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
+[NFAPI P7] ->  VNF P7 bind succeeded...
 [NFAPI P7] ->  I am here ^^...
 
-[NFAPI VNF]  ->  The PNF has been running, set FALG to 1
-INFO  -->  LWR_MAC : phystate :  0 in msgType : 2
 INFO  -->  LWR_MAC: Process Config Request Event
 DEBUG  -->  LWR_MAC: MIB PDU 600
 [NFAPI VNF]  ->  Received NFAPI_PARAM_RESP idx:0 phy_id:1
@@ -983,7 +983,7 @@ NFAPI	->	[VNF]Timing window tag : 286 Timing window:30
 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
 [NFAPI VNF]  ->  Sent NFAPI_VNF_CONFIG_REQ
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 9, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 9, flags 0x80
 [NFAPI VNF]  ->  Received CONFIG_RESPONSE
 INFO  -->  LWR_MAC : phystate :  0 in msgType : 3
 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
@@ -992,20 +992,20 @@ DEBUG  -->  LWR_MAC: PHY has moved to Configured state
 [NFAPI VNF]  ->  Received NFAPI_CONFIG_RESP idx:0 phy_id:1
 [NFAPI VNF]  ->  Calling oai_enb_init()
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:57265 assoc:87 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:38334 assoc:112 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  NR Received START_RESPONSE
-[NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55859c9ff1e0 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
+[NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55ffab2a40c0 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
 
 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-[NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:46693 
-[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f88ac0011b0
+[NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:43388 
+[NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f5af40011b0
 [NFAPI VNF]  ->  pnf connection indication idx:1
-[NFAPI VNF INTF]  ->  VNF Association ID = 89
+[NFAPI VNF INTF]  ->  VNF Association ID = 114
 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
 [NFAPI VNF INTF]  ->  VNF In Streams = 5
 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:46693 assoc:89 on stream 0, PPID 704643072, length 74, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:43388 assoc:114 on stream 0, PPID 704643072, length 74, flags 0x80
 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
 [NFAPI VNF]  ->  pnf param response idx:1 error:0
 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
@@ -1014,17 +1014,17 @@ DEBUG  -->  LWR_MAC: PHY has moved to Configured state
 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
 NFAPI	->	DJP:Hard coded num phy rf to 2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:46693 assoc:89 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:43388 assoc:114 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
 [NFAPI VNF]  ->  pnf config response idx:1 resp[header[phy_id:0 message_id:103 message_length:12]]
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:46693 assoc:89 on stream 0, PPID 704643072, length 12, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:43388 assoc:114 on stream 0, PPID 704643072, length 12, flags 0x80
 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
->  pnf start response idx:1 config:0x55859c9ffeb0 user_data:0x55859c9fea60 p7_vnf[config:0x55859c9ff1e0 thread_started:1]
+>  pnf start response idx:1 config:0x55ffab2a4d90 user_data:0x55ffab2a3940 p7_vnf[config:0x55ffab2a40c0 thread_started:1]
 [NFAPI VNF]  ->  P7 thread has been running
 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:2
 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:46693 assoc:89 on stream 0, PPID 704643072, length 354, flags 0x80
+[NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:43388 assoc:114 on stream 0, PPID 704643072, length 354, flags 0x80
 [NFAPI VNF]  ->  Received PARAM_RESPONSE
 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
@@ -1033,7 +1033,7 @@ VNF SFN/Slot 0.6
 [NFAPI P7] ->  I am here ^^...
 [NFAPI P7] ->  I am here Q_Q...
 [MWNL]  ->  The slot_ind sfn : 0, slot : 6
-[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 6, prev_slot = 0, setup_time = 7
+[NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 6, prev_slot = 0, setup_time = 11
 [MWNL] ORAN_OAI_procSlotInd
 
 INFO  -->  LWR_MAC: PHY has moved to running stateMWNL  -->  MAC : Slot Indication received. [0 : 0]
@@ -1041,4 +1041,4 @@ INFO  -->  LWR_MAC: PHY has moved to running stateMWNL  -->  MAC : Slot Indicati
 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
 DEBUG  -->  LWR_MAC: Processing UCI Indication
 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
-DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at 
+DEBUG  --> LWR_MAC : No CRC PDUs in CRC.i
