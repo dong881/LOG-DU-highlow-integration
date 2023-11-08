@@ -705,3 +705,17 @@
 十一 08 14:23:34 [1;31m[F1AP]   ----------------- ASN1 ENCODER PRINT END----------------- 
 十一 08 14:23:34 [0m[F1AP]   Sending ITTI message to SCTP Task
 十一 08 14:23:34 [0m[SCTP]   Successfully sent 54 bytes on stream 0 for assoc_id 3
+十一 08 14:28:57 [0m[SCTP]   Found data for descriptor 94
+十一 08 14:28:57 [0m[SCTP]   Received notification for sd 94, type 32769
+十一 08 14:28:57 [0m[SCTP]   Client association changed: 4
+十一 08 14:28:57 [0m[1;31m[SCTP]   SCTP_ASSOC_CHANGE to SCTP_CANT_STR_ASSOC
+十一 08 14:28:57 [0m[SCTP]   Found data for descriptor 94
+十一 08 14:28:57 [0m[SCTP]   Received not connected for sd 94
+十一 08 14:28:57 [0m[1;31m[SCTP]   sctp_recvmsg (fd 94, len -1 ): Connection timed out:110
+十一 08 14:28:57 [0m[93m[NGAP]   Received unsuccessful result for SCTP association (3), instance 0, cnx_id 1
+十一 08 14:28:57 [0m[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 0
+十一 08 14:31:27 [0m[SCTP]   Found data for descriptor 96
+十一 08 14:31:27 [0m[SCTP]   Received notification for sd 96, type 32773
+十一 08 14:31:27 [0m[93m[SCTP]   Received SCTP SHUTDOWN EVENT
+十一 08 14:31:27 [0m[F1AP]   CU Task Received SCTP_NEW_ASSOCIATION_RESP for instance 0
+十一 08 14:31:27 [0m[93m[F1AP]   Received unsuccessful result for SCTP association (1), instance 0, cnx_id 0

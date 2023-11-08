@@ -1014,3 +1014,9 @@
 十一 08 14:23:54 [NFAPI VNF]  ->  Received PARAM_RESPONSE
 十一 08 14:23:54 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
 十一 08 14:23:54 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+十一 08 14:31:26 [NFAPI VNF]  ->  PNF P7 Port: 32123
+十一 08 14:31:26 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 08 14:31:26 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:44096 assoc:0 on stream 0, PPID 0, length 354, flags 0x0
+十一 08 14:31:26 [NFAPI VNF]  ->  pnf disconnection indication idx:1
+十一 08 14:31:26 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 08 14:31:26 [NFAPI VNF]  ->  Received message fd:9 from 68.86.0.0:16472 assoc:0 on stream 0, PPID 0, length 16767, flags 0x0

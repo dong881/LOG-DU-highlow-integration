@@ -842,3 +842,7 @@
 十一 08 14:23:56 [PHY]   RU 0 Setting N_TA_offset to 600 samples (factor 1.500000, UL Freq 3600120, N_RB 106, mu 1)
 十一 08 14:23:56 [0m[PHY]   Signaling main thread that RU 0 is ready, sl_ahead 6
 十一 08 14:23:56 [0mwaiting for sync (ru_thread,-1/0x563b6c7342b4,0x563b6d4e5700,0x563b6d33a7e0)
+十一 08 14:29:34 [1;31m[SCTP]   SCTP_ASSOC_CHANGE to SCTP_CANT_STR_ASSOC
+十一 08 14:29:34 [0m[1;31m[SCTP]   sctp_recvmsg (fd 101, len -1 ): Connection timed out:110
+十一 08 14:29:34 [0m[93m[NGAP]   Received unsuccessful result for SCTP association (3), instance 0, cnx_id 1
+十一 08 14:29:34 [0m[GNB_APP]   [gNB 0] Received NGAP_REGISTER_GNB_CNF: associated AMF 0

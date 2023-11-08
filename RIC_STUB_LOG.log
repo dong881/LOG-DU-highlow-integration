@@ -256,3 +256,5 @@
 十一 08 14:23:34     </initiatingMessage>
 十一 08 14:23:34 </E2AP-PDU>
 十一 08 14:23:34 
+十一 08 14:31:27 INFO  -->  E2AP : RIC Indication Acknowledged
+十一 08 14:31:27 INFO   -->  SCTP : Shutdown Event notification received
