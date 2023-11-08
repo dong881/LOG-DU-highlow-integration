@@ -1,260 +1,260 @@
-十一 08 14:23:26 
-十一 08 14:23:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3701
-十一 08 14:23:26 
-十一 08 14:23:26 INFO  --> RIC : Starting RIC_STUB
-十一 08 14:23:26 INFO  --> RIC : Reading RIC configurations
-十一 08 14:23:34 INFO   -->  SCTP : Connecting
-十一 08 14:23:34 INFO   -->  SCTP : Connection established
-十一 08 14:23:34 INFO  -->  SCTP : Polling started at RIC
-十一 08 14:23:34 
-十一 08 14:23:34 INFO  -->  E2AP : Received E2AP message buffer
-十一 08 14:23:34 msg: qlen: 0001 mlen: 0020   00-->00 region: 01
-十一 08 14:23:34 dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
-十一 08 14:23:34      00 00 00 01                                     ....
-十一 08 14:23:34      
-十一 08 14:23:34 DEBUG  -->  E2AP : Received flat buffer to be decoded : 010100010309064ffffff962500001
-十一 08 14:23:34 <E2AP-PDU>
-十一 08 14:23:34     <initiatingMessage>
-十一 08 14:23:34         <procedureCode>1</procedureCode>
-十一 08 14:23:34         <criticality><reject/></criticality>
-十一 08 14:23:34         <value>
-十一 08 14:23:34             <E2setupRequest>
-十一 08 14:23:34                 <protocolIEs>
-十一 08 14:23:34                     <E2setupRequestIEs>
-十一 08 14:23:34                         <id>3</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <GlobalE2node-ID>
-十一 08 14:23:34                                 <gNB>
-十一 08 14:23:34                                     <global-gNB-ID>
-十一 08 14:23:34                                         <plmn-id>64 96 02</plmn-id>
-十一 08 14:23:34                                         <gnb-id>
-十一 08 14:23:34                                             <gnb-ID>
-十一 08 14:23:34                                                 00000000000000000000000000000001
-十一 08 14:23:34                                             </gnb-ID>
-十一 08 14:23:34                                         </gnb-id>
-十一 08 14:23:34                                     </global-gNB-ID>
-十一 08 14:23:34                                 </gNB>
-十一 08 14:23:34                             </GlobalE2node-ID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </E2setupRequestIEs>
-十一 08 14:23:34                 </protocolIEs>
-十一 08 14:23:34             </E2setupRequest>
-十一 08 14:23:34         </value>
-十一 08 14:23:34     </initiatingMessage>
-十一 08 14:23:34 </E2AP-PDU>
-十一 08 14:23:34 
-十一 08 14:23:34 INFO  -->  E2AP : E2 setup request received
-十一 08 14:23:34 INFO   -->  E2AP : Building E2 Setup Response
-十一 08 14:23:34 <E2AP-PDU>
-十一 08 14:23:34     <successfulOutcome>
-十一 08 14:23:34         <procedureCode>1</procedureCode>
-十一 08 14:23:34         <criticality><reject/></criticality>
-十一 08 14:23:34         <value>
-十一 08 14:23:34             <E2setupResponse>
-十一 08 14:23:34                 <protocolIEs>
-十一 08 14:23:34                     <E2setupResponseIEs>
-十一 08 14:23:34                         <id>4</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <GlobalRIC-ID>
-十一 08 14:23:34                                 <pLMN-Identity>13 41 08</pLMN-Identity>
-十一 08 14:23:34                                 <ric-ID>
-十一 08 14:23:34                                     00000000000000000001
-十一 08 14:23:34                                 </ric-ID>
-十一 08 14:23:34                             </GlobalRIC-ID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </E2setupResponseIEs>
-十一 08 14:23:34                 </protocolIEs>
-十一 08 14:23:34             </E2setupResponse>
-十一 08 14:23:34         </value>
-十一 08 14:23:34     </successfulOutcome>
-十一 08 14:23:34 </E2AP-PDU>
-十一 08 14:23:34 
-十一 08 14:23:34 DEBUG  -->  E2AP : Created APER encoded buffer for E2SetupResponse
-十一 08 14:23:34 2010e00104070134180010
-十一 08 14:23:34 msg: qlen: 0001 mlen: 0018   00-->00 region: 01
-十一 08 14:23:34 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
-十一 08 14:23:34      00 10                                           ..
-十一 08 14:23:34      
-十一 08 14:23:34 INFO   -->  E2AP : Building RIC Subscription Request
-十一 08 14:23:34 <E2AP-PDU>
-十一 08 14:23:34     <initiatingMessage>
-十一 08 14:23:34         <procedureCode>8</procedureCode>
-十一 08 14:23:34         <criticality><reject/></criticality>
-十一 08 14:23:34         <value>
-十一 08 14:23:34             <RICsubscriptionRequest>
-十一 08 14:23:34                 <protocolIEs>
-十一 08 14:23:34                     <RICsubscriptionRequest-IEs>
-十一 08 14:23:34                         <id>29</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICrequestID>
-十一 08 14:23:34                                 <ricRequestorID>1</ricRequestorID>
-十一 08 14:23:34                                 <ricInstanceID>1</ricInstanceID>
-十一 08 14:23:34                             </RICrequestID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionRequest-IEs>
-十一 08 14:23:34                     <RICsubscriptionRequest-IEs>
-十一 08 14:23:34                         <id>5</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RANfunctionID>1</RANfunctionID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionRequest-IEs>
-十一 08 14:23:34                     <RICsubscriptionRequest-IEs>
-十一 08 14:23:34                         <id>30</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICsubscriptionDetails>
-十一 08 14:23:34                                 <ricEventTriggerDefinition>13 41 08</ricEventTriggerDefinition>
-十一 08 14:23:34                                 <ricAction-ToBeSetup-List>
-十一 08 14:23:34                                     <ProtocolIE-SingleContainerE2>
-十一 08 14:23:34                                         <id>19</id>
-十一 08 14:23:34                                         <criticality><ignore/></criticality>
-十一 08 14:23:34                                         <value>
-十一 08 14:23:34                                             <RICaction-ToBeSetup-Item>
-十一 08 14:23:34                                                 <ricActionID>0</ricActionID>
-十一 08 14:23:34                                                 <ricActionType><report/></ricActionType>
-十一 08 14:23:34                                             </RICaction-ToBeSetup-Item>
-十一 08 14:23:34                                         </value>
-十一 08 14:23:34                                     </ProtocolIE-SingleContainerE2>
-十一 08 14:23:34                                 </ricAction-ToBeSetup-List>
-十一 08 14:23:34                             </RICsubscriptionDetails>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionRequest-IEs>
-十一 08 14:23:34                 </protocolIEs>
-十一 08 14:23:34             </RICsubscriptionRequest>
-十一 08 14:23:34         </value>
-十一 08 14:23:34     </initiatingMessage>
-十一 08 14:23:34 </E2AP-PDU>
-十一 08 14:23:34 
-十一 08 14:23:34 DEBUG  -->  E2AP : Created APER encoded buffer for RicSubscriptionRequest
-十一 08 14:23:34 0802300301d050010105020101e0d03134180013403000
-十一 08 14:23:34 msg: qlen: 0001 mlen: 0039   00-->00 region: 01
-十一 08 14:23:34 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
-十一 08 14:23:34      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
-十一 08 14:23:34      00 13 40 03 00 00 00                            ..@....
-十一 08 14:23:34      
-十一 08 14:23:34 INFO  -->  E2AP : Received E2AP message buffer
-十一 08 14:23:34 msg: qlen: 0001 mlen: 0033   00-->00 region: 01
-十一 08 14:23:34 dat: 20 08 00 1d 00 00 03 00 1d 00 05 00 00 01 00 01  ...............
-十一 08 14:23:34      00 05 00 02 00 01 00 11 00 07 00 00 0e 00 02 00 ................
-十一 08 14:23:34      01                                              .
-十一 08 14:23:34      
-十一 08 14:23:34 DEBUG  -->  E2AP : Received flat buffer to be decoded : 20801d00301d05001010502010110700e0201
-十一 08 14:23:34 <E2AP-PDU>
-十一 08 14:23:34     <successfulOutcome>
-十一 08 14:23:34         <procedureCode>8</procedureCode>
-十一 08 14:23:34         <criticality><reject/></criticality>
-十一 08 14:23:34         <value>
-十一 08 14:23:34             <RICsubscriptionResponse>
-十一 08 14:23:34                 <protocolIEs>
-十一 08 14:23:34                     <RICsubscriptionResponse-IEs>
-十一 08 14:23:34                         <id>29</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICrequestID>
-十一 08 14:23:34                                 <ricRequestorID>1</ricRequestorID>
-十一 08 14:23:34                                 <ricInstanceID>1</ricInstanceID>
-十一 08 14:23:34                             </RICrequestID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionResponse-IEs>
-十一 08 14:23:34                     <RICsubscriptionResponse-IEs>
-十一 08 14:23:34                         <id>5</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RANfunctionID>1</RANfunctionID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionResponse-IEs>
-十一 08 14:23:34                     <RICsubscriptionResponse-IEs>
-十一 08 14:23:34                         <id>17</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICaction-Admitted-List>
-十一 08 14:23:34                                 <ProtocolIE-SingleContainerE2>
-十一 08 14:23:34                                     <id>14</id>
-十一 08 14:23:34                                     <criticality><reject/></criticality>
-十一 08 14:23:34                                     <value>
-十一 08 14:23:34                                         <RICaction-Admitted-Item>
-十一 08 14:23:34                                             <ricActionID>1</ricActionID>
-十一 08 14:23:34                                         </RICaction-Admitted-Item>
-十一 08 14:23:34                                     </value>
-十一 08 14:23:34                                 </ProtocolIE-SingleContainerE2>
-十一 08 14:23:34                             </RICaction-Admitted-List>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICsubscriptionResponse-IEs>
-十一 08 14:23:34                 </protocolIEs>
-十一 08 14:23:34             </RICsubscriptionResponse>
-十一 08 14:23:34         </value>
-十一 08 14:23:34     </successfulOutcome>
-十一 08 14:23:34 </E2AP-PDU>
-十一 08 14:23:34 
-十一 08 14:23:34 INFO  -->  E2AP : RICsubscriptionResponse Msg Acknowledged
-十一 08 14:23:34 INFO  -->  E2AP : Received E2AP message buffer
-十一 08 14:23:34 msg: qlen: 0001 mlen: 0048   00-->00 region: 01
-十一 08 14:23:34 dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
-十一 08 14:23:34      00 05 00 02 00 01 00 0f 00 01 00 00 1c 00 01 00 ................
-十一 08 14:23:34      00 19 00 04 03 64 96 02 00 1a 00 04 03 64 96 02 .....d.......d..
-十一 08 14:23:34      
-十一 08 14:23:34 DEBUG  -->  E2AP : Received flat buffer to be decoded : 0502c00601d05001010502010f01001c01001904364ffffff96201a04364ffffff962
-十一 08 14:23:34 <E2AP-PDU>
-十一 08 14:23:34     <initiatingMessage>
-十一 08 14:23:34         <procedureCode>5</procedureCode>
-十一 08 14:23:34         <criticality><reject/></criticality>
-十一 08 14:23:34         <value>
-十一 08 14:23:34             <RICindication>
-十一 08 14:23:34                 <protocolIEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>29</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICrequestID>
-十一 08 14:23:34                                 <ricRequestorID>1</ricRequestorID>
-十一 08 14:23:34                                 <ricInstanceID>1</ricInstanceID>
-十一 08 14:23:34                             </RICrequestID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>5</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RANfunctionID>1</RANfunctionID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>15</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICactionID>0</RICactionID>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>28</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICindicationType><report/></RICindicationType>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>25</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICindicationHeader>64 96 02</RICindicationHeader>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                     <RICindication-IEs>
-十一 08 14:23:34                         <id>26</id>
-十一 08 14:23:34                         <criticality><reject/></criticality>
-十一 08 14:23:34                         <value>
-十一 08 14:23:34                             <RICindicationMessage>64 96 02</RICindicationMessage>
-十一 08 14:23:34                         </value>
-十一 08 14:23:34                     </RICindication-IEs>
-十一 08 14:23:34                 </protocolIEs>
-十一 08 14:23:34             </RICindication>
-十一 08 14:23:34         </value>
-十一 08 14:23:34     </initiatingMessage>
-十一 08 14:23:34 </E2AP-PDU>
-十一 08 14:23:34 
-十一 08 14:31:27 INFO  -->  E2AP : RIC Indication Acknowledged
-十一 08 14:31:27 INFO   -->  SCTP : Shutdown Event notification received
+十一 08 21:23:07 
+十一 08 21:23:07 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3701
+十一 08 21:23:07 
+十一 08 21:23:07 INFO  --> RIC : Starting RIC_STUB
+十一 08 21:23:07 INFO  --> RIC : Reading RIC configurations
+十一 08 21:23:12 INFO   -->  SCTP : Connecting
+十一 08 21:23:12 INFO   -->  SCTP : Connection established
+十一 08 21:23:12 INFO  -->  SCTP : Polling started at RIC
+十一 08 21:23:12 
+十一 08 21:23:12 INFO  -->  E2AP : Received E2AP message buffer
+十一 08 21:23:12 msg: qlen: 0001 mlen: 0020   00-->00 region: 01
+十一 08 21:23:12 dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
+十一 08 21:23:12      00 00 00 01                                     ....
+十一 08 21:23:12      
+十一 08 21:23:12 DEBUG  -->  E2AP : Received flat buffer to be decoded : 010100010309064ffffff962500001
+十一 08 21:23:12 <E2AP-PDU>
+十一 08 21:23:12     <initiatingMessage>
+十一 08 21:23:12         <procedureCode>1</procedureCode>
+十一 08 21:23:12         <criticality><reject/></criticality>
+十一 08 21:23:12         <value>
+十一 08 21:23:12             <E2setupRequest>
+十一 08 21:23:12                 <protocolIEs>
+十一 08 21:23:12                     <E2setupRequestIEs>
+十一 08 21:23:12                         <id>3</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <GlobalE2node-ID>
+十一 08 21:23:12                                 <gNB>
+十一 08 21:23:12                                     <global-gNB-ID>
+十一 08 21:23:12                                         <plmn-id>64 96 02</plmn-id>
+十一 08 21:23:12                                         <gnb-id>
+十一 08 21:23:12                                             <gnb-ID>
+十一 08 21:23:12                                                 00000000000000000000000000000001
+十一 08 21:23:12                                             </gnb-ID>
+十一 08 21:23:12                                         </gnb-id>
+十一 08 21:23:12                                     </global-gNB-ID>
+十一 08 21:23:12                                 </gNB>
+十一 08 21:23:12                             </GlobalE2node-ID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </E2setupRequestIEs>
+十一 08 21:23:12                 </protocolIEs>
+十一 08 21:23:12             </E2setupRequest>
+十一 08 21:23:12         </value>
+十一 08 21:23:12     </initiatingMessage>
+十一 08 21:23:12 </E2AP-PDU>
+十一 08 21:23:12 
+十一 08 21:23:12 INFO  -->  E2AP : E2 setup request received
+十一 08 21:23:12 INFO   -->  E2AP : Building E2 Setup Response
+十一 08 21:23:12 <E2AP-PDU>
+十一 08 21:23:12     <successfulOutcome>
+十一 08 21:23:12         <procedureCode>1</procedureCode>
+十一 08 21:23:12         <criticality><reject/></criticality>
+十一 08 21:23:12         <value>
+十一 08 21:23:12             <E2setupResponse>
+十一 08 21:23:12                 <protocolIEs>
+十一 08 21:23:12                     <E2setupResponseIEs>
+十一 08 21:23:12                         <id>4</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <GlobalRIC-ID>
+十一 08 21:23:12                                 <pLMN-Identity>13 41 08</pLMN-Identity>
+十一 08 21:23:12                                 <ric-ID>
+十一 08 21:23:12                                     00000000000000000001
+十一 08 21:23:12                                 </ric-ID>
+十一 08 21:23:12                             </GlobalRIC-ID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </E2setupResponseIEs>
+十一 08 21:23:12                 </protocolIEs>
+十一 08 21:23:12             </E2setupResponse>
+十一 08 21:23:12         </value>
+十一 08 21:23:12     </successfulOutcome>
+十一 08 21:23:12 </E2AP-PDU>
+十一 08 21:23:12 
+十一 08 21:23:12 DEBUG  -->  E2AP : Created APER encoded buffer for E2SetupResponse
+十一 08 21:23:12 2010e00104070134180010
+十一 08 21:23:12 msg: qlen: 0001 mlen: 0018   00-->00 region: 01
+十一 08 21:23:12 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
+十一 08 21:23:12      00 10                                           ..
+十一 08 21:23:12      
+十一 08 21:23:12 INFO   -->  E2AP : Building RIC Subscription Request
+十一 08 21:23:12 <E2AP-PDU>
+十一 08 21:23:12     <initiatingMessage>
+十一 08 21:23:12         <procedureCode>8</procedureCode>
+十一 08 21:23:12         <criticality><reject/></criticality>
+十一 08 21:23:12         <value>
+十一 08 21:23:12             <RICsubscriptionRequest>
+十一 08 21:23:12                 <protocolIEs>
+十一 08 21:23:12                     <RICsubscriptionRequest-IEs>
+十一 08 21:23:12                         <id>29</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICrequestID>
+十一 08 21:23:12                                 <ricRequestorID>1</ricRequestorID>
+十一 08 21:23:12                                 <ricInstanceID>1</ricInstanceID>
+十一 08 21:23:12                             </RICrequestID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionRequest-IEs>
+十一 08 21:23:12                     <RICsubscriptionRequest-IEs>
+十一 08 21:23:12                         <id>5</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RANfunctionID>1</RANfunctionID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionRequest-IEs>
+十一 08 21:23:12                     <RICsubscriptionRequest-IEs>
+十一 08 21:23:12                         <id>30</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICsubscriptionDetails>
+十一 08 21:23:12                                 <ricEventTriggerDefinition>13 41 08</ricEventTriggerDefinition>
+十一 08 21:23:12                                 <ricAction-ToBeSetup-List>
+十一 08 21:23:12                                     <ProtocolIE-SingleContainerE2>
+十一 08 21:23:12                                         <id>19</id>
+十一 08 21:23:12                                         <criticality><ignore/></criticality>
+十一 08 21:23:12                                         <value>
+十一 08 21:23:12                                             <RICaction-ToBeSetup-Item>
+十一 08 21:23:12                                                 <ricActionID>0</ricActionID>
+十一 08 21:23:12                                                 <ricActionType><report/></ricActionType>
+十一 08 21:23:12                                             </RICaction-ToBeSetup-Item>
+十一 08 21:23:12                                         </value>
+十一 08 21:23:12                                     </ProtocolIE-SingleContainerE2>
+十一 08 21:23:12                                 </ricAction-ToBeSetup-List>
+十一 08 21:23:12                             </RICsubscriptionDetails>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionRequest-IEs>
+十一 08 21:23:12                 </protocolIEs>
+十一 08 21:23:12             </RICsubscriptionRequest>
+十一 08 21:23:12         </value>
+十一 08 21:23:12     </initiatingMessage>
+十一 08 21:23:12 </E2AP-PDU>
+十一 08 21:23:12 
+十一 08 21:23:12 DEBUG  -->  E2AP : Created APER encoded buffer for RicSubscriptionRequest
+十一 08 21:23:12 0802300301d050010105020101e0d03134180013403000
+十一 08 21:23:12 msg: qlen: 0001 mlen: 0039   00-->00 region: 01
+十一 08 21:23:12 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
+十一 08 21:23:12      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
+十一 08 21:23:12      00 13 40 03 00 00 00                            ..@....
+十一 08 21:23:12      
+十一 08 21:23:12 INFO  -->  E2AP : Received E2AP message buffer
+十一 08 21:23:12 msg: qlen: 0001 mlen: 0033   00-->00 region: 01
+十一 08 21:23:12 dat: 20 08 00 1d 00 00 03 00 1d 00 05 00 00 01 00 01  ...............
+十一 08 21:23:12      00 05 00 02 00 01 00 11 00 07 00 00 0e 00 02 00 ................
+十一 08 21:23:12      01                                              .
+十一 08 21:23:12      
+十一 08 21:23:12 DEBUG  -->  E2AP : Received flat buffer to be decoded : 20801d00301d05001010502010110700e0201
+十一 08 21:23:12 <E2AP-PDU>
+十一 08 21:23:12     <successfulOutcome>
+十一 08 21:23:12         <procedureCode>8</procedureCode>
+十一 08 21:23:12         <criticality><reject/></criticality>
+十一 08 21:23:12         <value>
+十一 08 21:23:12             <RICsubscriptionResponse>
+十一 08 21:23:12                 <protocolIEs>
+十一 08 21:23:12                     <RICsubscriptionResponse-IEs>
+十一 08 21:23:12                         <id>29</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICrequestID>
+十一 08 21:23:12                                 <ricRequestorID>1</ricRequestorID>
+十一 08 21:23:12                                 <ricInstanceID>1</ricInstanceID>
+十一 08 21:23:12                             </RICrequestID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionResponse-IEs>
+十一 08 21:23:12                     <RICsubscriptionResponse-IEs>
+十一 08 21:23:12                         <id>5</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RANfunctionID>1</RANfunctionID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionResponse-IEs>
+十一 08 21:23:12                     <RICsubscriptionResponse-IEs>
+十一 08 21:23:12                         <id>17</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICaction-Admitted-List>
+十一 08 21:23:12                                 <ProtocolIE-SingleContainerE2>
+十一 08 21:23:12                                     <id>14</id>
+十一 08 21:23:12                                     <criticality><reject/></criticality>
+十一 08 21:23:12                                     <value>
+十一 08 21:23:12                                         <RICaction-Admitted-Item>
+十一 08 21:23:12                                             <ricActionID>1</ricActionID>
+十一 08 21:23:12                                         </RICaction-Admitted-Item>
+十一 08 21:23:12                                     </value>
+十一 08 21:23:12                                 </ProtocolIE-SingleContainerE2>
+十一 08 21:23:12                             </RICaction-Admitted-List>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICsubscriptionResponse-IEs>
+十一 08 21:23:12                 </protocolIEs>
+十一 08 21:23:12             </RICsubscriptionResponse>
+十一 08 21:23:12         </value>
+十一 08 21:23:12     </successfulOutcome>
+十一 08 21:23:12 </E2AP-PDU>
+十一 08 21:23:12 
+十一 08 21:23:12 INFO  -->  E2AP : RICsubscriptionResponse Msg Acknowledged
+十一 08 21:23:12 INFO  -->  E2AP : Received E2AP message buffer
+十一 08 21:23:12 msg: qlen: 0001 mlen: 0048   00-->00 region: 01
+十一 08 21:23:12 dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
+十一 08 21:23:12      00 05 00 02 00 01 00 0f 00 01 00 00 1c 00 01 00 ................
+十一 08 21:23:12      00 19 00 04 03 64 96 02 00 1a 00 04 03 64 96 02 .....d.......d..
+十一 08 21:23:12      
+十一 08 21:23:12 DEBUG  -->  E2AP : Received flat buffer to be decoded : 0502c00601d05001010502010f01001c01001904364ffffff96201a04364ffffff962
+十一 08 21:23:12 <E2AP-PDU>
+十一 08 21:23:12     <initiatingMessage>
+十一 08 21:23:12         <procedureCode>5</procedureCode>
+十一 08 21:23:12         <criticality><reject/></criticality>
+十一 08 21:23:12         <value>
+十一 08 21:23:12             <RICindication>
+十一 08 21:23:12                 <protocolIEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>29</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICrequestID>
+十一 08 21:23:12                                 <ricRequestorID>1</ricRequestorID>
+十一 08 21:23:12                                 <ricInstanceID>1</ricInstanceID>
+十一 08 21:23:12                             </RICrequestID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>5</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RANfunctionID>1</RANfunctionID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>15</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICactionID>0</RICactionID>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>28</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICindicationType><report/></RICindicationType>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>25</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICindicationHeader>64 96 02</RICindicationHeader>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                     <RICindication-IEs>
+十一 08 21:23:12                         <id>26</id>
+十一 08 21:23:12                         <criticality><reject/></criticality>
+十一 08 21:23:12                         <value>
+十一 08 21:23:12                             <RICindicationMessage>64 96 02</RICindicationMessage>
+十一 08 21:23:12                         </value>
+十一 08 21:23:12                     </RICindication-IEs>
+十一 08 21:23:12                 </protocolIEs>
+十一 08 21:23:12             </RICindication>
+十一 08 21:23:12         </value>
+十一 08 21:23:12     </initiatingMessage>
+十一 08 21:23:12 </E2AP-PDU>
+十一 08 21:23:12 
+十一 08 21:24:57 INFO  -->  E2AP : RIC Indication Acknowledged
+十一 08 21:24:57 INFO   -->  SCTP : Shutdown Event notification received
