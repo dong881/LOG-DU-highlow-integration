@@ -1,1143 +1,1110 @@
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3701
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 98
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 Set priority 99
-十一 15 14:23:59 
-十一 15 14:23:59 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
-十一 15 14:23:59 
-十一 15 14:23:59 INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  EGTP : Initializing
-十一 15 14:23:59 INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG  -->  SCTP : Initializing
-十一 15 14:23:59 INFO   -->  DU_APP : SCTP TAPA task created and registered to 5 sys task
-十一 15 14:23:59 INFO   -->  DU_APP : RLC DL and MAC TAPA task created and registered to    3 sys task
-十一 15 14:23:59 INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
-十一 15 14:23:59 INFO   -->  DU_APP : LWR MAC TAPA task created and registered to 6 sys task<MIB>
-十一 15 14:23:59     <systemFrameNumber>
-十一 15 14:23:59         000000
-十一 15 14:23:59     </systemFrameNumber>
-十一 15 14:23:59     <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
-十一 15 14:23:59     <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
-十一 15 14:23:59     <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
-十一 15 14:23:59     <pdcch-ConfigSIB1>
-十一 15 14:23:59         <controlResourceSetZero>0</controlResourceSetZero>
-十一 15 14:23:59         <searchSpaceZero>0</searchSpaceZero>
-十一 15 14:23:59     </pdcch-ConfigSIB1>
-十一 15 14:23:59     <cellBarred><notBarred/></cellBarred>
-十一 15 14:23:59     <intraFreqReselection><notAllowed/></intraFreqReselection>
-十一 15 14:23:59     <spare>
-十一 15 14:23:59         0
-十一 15 14:23:59     </spare>
-十一 15 14:23:59 </MIB>
-十一 15 14:23:59 
-十一 15 14:23:59 encbufSize:3
-十一 15 14:23:59 0	0	c	
-十一 15 14:23:59 <SIB1>
-十一 15 14:23:59     <cellAccessRelatedInfo>
-十一 15 14:23:59         <plmn-IdentityList>
-十一 15 14:23:59             <PLMN-IdentityInfo>
-十一 15 14:23:59                 <plmn-IdentityList>
-十一 15 14:23:59                     <PLMN-IdentitY>
-十一 15 14:23:59                         <mcc>
-十一 15 14:23:59                             <MCC-MNC-Digit>4</MCC-MNC-Digit>
-十一 15 14:23:59                             <MCC-MNC-Digit>6</MCC-MNC-Digit>
-十一 15 14:23:59                             <MCC-MNC-Digit>6</MCC-MNC-Digit>
-十一 15 14:23:59                         </mcc>
-十一 15 14:23:59                         <mnc>
-十一 15 14:23:59                             <MCC-MNC-Digit>9</MCC-MNC-Digit>
-十一 15 14:23:59                             <MCC-MNC-Digit>2</MCC-MNC-Digit>
-十一 15 14:23:59                             <MCC-MNC-Digit>0</MCC-MNC-Digit>
-十一 15 14:23:59                         </mnc>
-十一 15 14:23:59                     </PLMN-IdentitY>
-十一 15 14:23:59                 </plmn-IdentityList>
-十一 15 14:23:59                 <trackingAreaCode>
-十一 15 14:23:59                     000000010000000000000000
-十一 15 14:23:59                 </trackingAreaCode>
-十一 15 14:23:59                 <ranac>1</ranac>
-十一 15 14:23:59                 <cellIdentity>
-十一 15 14:23:59                     000000000000000000000000000000000001
-十一 15 14:23:59                 </cellIdentity>
-十一 15 14:23:59                 <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
-十一 15 14:23:59             </PLMN-IdentityInfo>
-十一 15 14:23:59         </plmn-IdentityList>
-十一 15 14:23:59     </cellAccessRelatedInfo>
-十一 15 14:23:59     <connEstFailureControl>
-十一 15 14:23:59         <connEstFailCount><n3/></connEstFailCount>
-十一 15 14:23:59         <connEstFailOffsetValidity><s120/></connEstFailOffsetValidity>
-十一 15 14:23:59     </connEstFailureControl>
-十一 15 14:23:59     <si-SchedulingInfo>
-十一 15 14:23:59         <schedulingInfoList>
-十一 15 14:23:59             <SchedulingInfo>
-十一 15 14:23:59                 <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
-十一 15 14:23:59                 <si-Periodicity><rf8/></si-Periodicity>
-十一 15 14:23:59                 <sib-MappingInfo>
-十一 15 14:23:59                     <SIB-TypeInfo>
-十一 15 14:23:59                         <type><sibType2/></type>
-十一 15 14:23:59                         <valueTag>10</valueTag>
-十一 15 14:23:59                     </SIB-TypeInfo>
-十一 15 14:23:59                 </sib-MappingInfo>
-十一 15 14:23:59             </SchedulingInfo>
-十一 15 14:23:59         </schedulingInfoList>
-十一 15 14:23:59         <si-WindowLength><s5/></si-WindowLength>
-十一 15 14:23:59     </si-SchedulingInfo>
-十一 15 14:23:59     <servingCellConfigCommon>
-十一 15 14:23:59         <downlinkConfigCommon>
-十一 15 14:23:59             <frequencyInfoDL>
-十一 15 14:23:59                 <frequencyBandList>
-十一 15 14:23:59                     <NR-MultiBandInfo>
-十一 15 14:23:59                         <freqBandIndicatorNR>66</freqBandIndicatorNR>
-十一 15 14:23:59                     </NR-MultiBandInfo>
-十一 15 14:23:59                 </frequencyBandList>
-十一 15 14:23:59                 <offsetToPointA>24</offsetToPointA>
-十一 15 14:23:59                 <scs-SpecificCarrierList>
-十一 15 14:23:59                     <SCS-SpecificCarrier>
-十一 15 14:23:59                         <offsetToCarrier>0</offsetToCarrier>
-十一 15 14:23:59                         <subcarrierSpacing><kHz30/></subcarrierSpacing>
-十一 15 14:23:59                         <carrierBandwidth>20</carrierBandwidth>
-十一 15 14:23:59                     </SCS-SpecificCarrier>
-十一 15 14:23:59                 </scs-SpecificCarrierList>
-十一 15 14:23:59             </frequencyInfoDL>
-十一 15 14:23:59             <initialDownlinkBWP>
-十一 15 14:23:59                 <genericParameters>
-十一 15 14:23:59                     <locationAndBandwidth>28875</locationAndBandwidth>
-十一 15 14:23:59                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
-十一 15 14:23:59                 </genericParameters>
-十一 15 14:23:59                 <pdcch-ConfigCommon>
-十一 15 14:23:59                     <setup>
-十一 15 14:23:59                         <controlResourceSetZero>0</controlResourceSetZero>
-十一 15 14:23:59                         <searchSpaceZero>0</searchSpaceZero>
-十一 15 14:23:59                         <commonSearchSpaceList>
-十一 15 14:23:59                             <SearchSpace>
-十一 15 14:23:59                                 <searchSpaceId>1</searchSpaceId>
-十一 15 14:23:59                                 <controlResourceSetId>0</controlResourceSetId>
-十一 15 14:23:59                                 <monitoringSlotPeriodicityAndOffset>
-十一 15 14:23:59                                     <sl1></sl1>
-十一 15 14:23:59                                 </monitoringSlotPeriodicityAndOffset>
-十一 15 14:23:59                                 <monitoringSymbolsWithinSlot>
-十一 15 14:23:59                                     10000000000000
-十一 15 14:23:59                                 </monitoringSymbolsWithinSlot>
-十一 15 14:23:59                                 <nrofCandidates>
-十一 15 14:23:59                                     <aggregationLevel1><n8/></aggregationLevel1>
-十一 15 14:23:59                                     <aggregationLevel2><n4/></aggregationLevel2>
-十一 15 14:23:59                                     <aggregationLevel4><n2/></aggregationLevel4>
-十一 15 14:23:59                                     <aggregationLevel8><n1/></aggregationLevel8>
-十一 15 14:23:59                                     <aggregationLevel16><n0/></aggregationLevel16>
-十一 15 14:23:59                                 </nrofCandidates>
-十一 15 14:23:59                                 <searchSpaceType>
-十一 15 14:23:59                                     <common>
-十一 15 14:23:59                                         <dci-Format0-0-AndFormat1-0>
-十一 15 14:23:59                                         </dci-Format0-0-AndFormat1-0>
-十一 15 14:23:59                                     </common>
-十一 15 14:23:59                                 </searchSpaceType>
-十一 15 14:23:59                             </SearchSpace>
-十一 15 14:23:59                         </commonSearchSpaceList>
-十一 15 14:23:59                         <searchSpaceSIB1>1</searchSpaceSIB1>
-十一 15 14:23:59                         <pagingSearchSpace>1</pagingSearchSpace>
-十一 15 14:23:59                         <ra-SearchSpace>1</ra-SearchSpace>
-十一 15 14:23:59                     </setup>
-十一 15 14:23:59                 </pdcch-ConfigCommon>
-十一 15 14:23:59                 <pdsch-ConfigCommon>
-十一 15 14:23:59                     <setup>
-十一 15 14:23:59                         <pdsch-TimeDomainAllocationList>
-十一 15 14:23:59                             <PDSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                                 <k0>0</k0>
-十一 15 14:23:59                                 <mappingType><typeA/></mappingType>
-十一 15 14:23:59                                 <startSymbolAndLength>66</startSymbolAndLength>
-十一 15 14:23:59                             </PDSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                             <PDSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                                 <k0>1</k0>
-十一 15 14:23:59                                 <mappingType><typeA/></mappingType>
-十一 15 14:23:59                                 <startSymbolAndLength>66</startSymbolAndLength>
-十一 15 14:23:59                             </PDSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                         </pdsch-TimeDomainAllocationList>
-十一 15 14:23:59                     </setup>
-十一 15 14:23:59                 </pdsch-ConfigCommon>
-十一 15 14:23:59             </initialDownlinkBWP>
-十一 15 14:23:59             <bcch-Config>
-十一 15 14:23:59                 <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
-十一 15 14:23:59             </bcch-Config>
-十一 15 14:23:59             <pcch-Config>
-十一 15 14:23:59                 <defaultPagingCycle><rf256/></defaultPagingCycle>
-十一 15 14:23:59                 <nAndPagingFrameOffset>
-十一 15 14:23:59                     <oneT></oneT>
-十一 15 14:23:59                 </nAndPagingFrameOffset>
-十一 15 14:23:59                 <ns><four/></ns>
-十一 15 14:23:59             </pcch-Config>
-十一 15 14:23:59         </downlinkConfigCommon>
-十一 15 14:23:59         <uplinkConfigCommon>
-十一 15 14:23:59             <frequencyInfoUL>
-十一 15 14:23:59                 <scs-SpecificCarrierList>
-十一 15 14:23:59                     <SCS-SpecificCarrier>
-十一 15 14:23:59                         <offsetToCarrier>0</offsetToCarrier>
-十一 15 14:23:59                         <subcarrierSpacing><kHz30/></subcarrierSpacing>
-十一 15 14:23:59                         <carrierBandwidth>20</carrierBandwidth>
-十一 15 14:23:59                     </SCS-SpecificCarrier>
-十一 15 14:23:59                 </scs-SpecificCarrierList>
-十一 15 14:23:59                 <p-Max>23</p-Max>
-十一 15 14:23:59             </frequencyInfoUL>
-十一 15 14:23:59             <initialUplinkBWP>
-十一 15 14:23:59                 <genericParameters>
-十一 15 14:23:59                     <locationAndBandwidth>28875</locationAndBandwidth>
-十一 15 14:23:59                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
-十一 15 14:23:59                 </genericParameters>
-十一 15 14:23:59                 <rach-ConfigCommon>
-十一 15 14:23:59                     <setup>
-十一 15 14:23:59                         <rach-ConfigGeneric>
-十一 15 14:23:59                             <prach-ConfigurationIndex>88</prach-ConfigurationIndex>
-十一 15 14:23:59                             <msg1-FDM><one/></msg1-FDM>
-十一 15 14:23:59                             <msg1-FrequencyStart>82</msg1-FrequencyStart>
-十一 15 14:23:59                             <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
-十一 15 14:23:59                             <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
-十一 15 14:23:59                             <preambleTransMax><n200/></preambleTransMax>
-十一 15 14:23:59                             <powerRampingStep><dB2/></powerRampingStep>
-十一 15 14:23:59                             <ra-ResponseWindow><sl10/></ra-ResponseWindow>
-十一 15 14:23:59                         </rach-ConfigGeneric>
-十一 15 14:23:59                         <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
-十一 15 14:23:59                         <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
-十一 15 14:23:59                             <one><n8/></one>
-十一 15 14:23:59                         </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
-十一 15 14:23:59                         <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
-十一 15 14:23:59                         <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
-十一 15 14:23:59                         <prach-RootSequenceIndex>
-十一 15 14:23:59                             <l139>0</l139>
-十一 15 14:23:59                         </prach-RootSequenceIndex>
-十一 15 14:23:59                         <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
-十一 15 14:23:59                         <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
-十一 15 14:23:59                     </setup>
-十一 15 14:23:59                 </rach-ConfigCommon>
-十一 15 14:23:59                 <pusch-ConfigCommon>
-十一 15 14:23:59                     <setup>
-十一 15 14:23:59                         <pusch-TimeDomainAllocationList>
-十一 15 14:23:59                             <PUSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                                 <k2>4</k2>
-十一 15 14:23:59                                 <mappingType><typeA/></mappingType>
-十一 15 14:23:59                                 <startSymbolAndLength>66</startSymbolAndLength>
-十一 15 14:23:59                             </PUSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                             <PUSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                                 <k2>5</k2>
-十一 15 14:23:59                                 <mappingType><typeA/></mappingType>
-十一 15 14:23:59                                 <startSymbolAndLength>66</startSymbolAndLength>
-十一 15 14:23:59                             </PUSCH-TimeDomainResourceAllocation>
-十一 15 14:23:59                         </pusch-TimeDomainAllocationList>
-十一 15 14:23:59                         <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
-十一 15 14:23:59                         <p0-NominalWithGrant>-70</p0-NominalWithGrant>
-十一 15 14:23:59                     </setup>
-十一 15 14:23:59                 </pusch-ConfigCommon>
-十一 15 14:23:59                 <pucch-ConfigCommon>
-十一 15 14:23:59                     <setup>
-十一 15 14:23:59                         <pucch-ResourceCommon>0</pucch-ResourceCommon>
-十一 15 14:23:59                         <pucch-GroupHopping><neither/></pucch-GroupHopping>
-十一 15 14:23:59                         <p0-nominal>-74</p0-nominal>
-十一 15 14:23:59                     </setup>
-十一 15 14:23:59                 </pucch-ConfigCommon>
-十一 15 14:23:59             </initialUplinkBWP>
-十一 15 14:23:59             <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
-十一 15 14:23:59         </uplinkConfigCommon>
-十一 15 14:23:59         <ssb-PositionsInBurst>
-十一 15 14:23:59             <inOneGroup>
-十一 15 14:23:59                 11000000
-十一 15 14:23:59             </inOneGroup>
-十一 15 14:23:59         </ssb-PositionsInBurst>
-十一 15 14:23:59         <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
-十一 15 14:23:59         <tdd-UL-DL-ConfigurationCommon>
-十一 15 14:23:59             <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
-十一 15 14:23:59             <pattern1>
-十一 15 14:23:59                 <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
-十一 15 14:23:59                 <nrofDownlinkSlots>7</nrofDownlinkSlots>
-十一 15 14:23:59                 <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
-十一 15 14:23:59                 <nrofUplinkSlots>2</nrofUplinkSlots>
-十一 15 14:23:59                 <nrofUplinkSymbols>1</nrofUplinkSymbols>
-十一 15 14:23:59             </pattern1>
-十一 15 14:23:59         </tdd-UL-DL-ConfigurationCommon>
-十一 15 14:23:59         <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
-十一 15 14:23:59     </servingCellConfigCommon>
-十一 15 14:23:59 </SIB1>
-十一 15 14:23:59 
-十一 15 14:23:59 encbufSize: 98
-十一 15 14:23:59 70	0	30	ffffff91	ffffff9b	24	0	1	0	0	1	0	0	0	0	1a	40	0	4	5	2	42	0	41	0	18	0	0	0	20	0	13	60	70	ffffffcb	35	ffffffd8	1	ffffffb8	20	10	0	78	ffffff88	40	10	41	ffffffa3	1	a	a	13	30	8	0	0	0	20	0	13	ffffffd5	ffffffc0	70	ffffffcb	36	ffffffa0	58	0	0	52	40	ffffff80	ffffffa6	7c	ffffffc7	ffffff9f	ffffff80	0	24	ffffffe3	11	a	2a	11	ffffff84	ffffffa8	0	ffffff80	ffffffec	4	16	0	7	ffffffc0	0	2	17	ffffff80	
-十一 15 14:23:59 <BCCH-BCH-Message>
-十一 15 14:23:59     <message>
-十一 15 14:23:59         <mib>
-十一 15 14:23:59             <systemFrameNumber>
-十一 15 14:23:59                 000000
-十一 15 14:23:59             </systemFrameNumber>
-十一 15 14:23:59             <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
-十一 15 14:23:59             <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
-十一 15 14:23:59             <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
-十一 15 14:23:59             <pdcch-ConfigSIB1>
-十一 15 14:23:59                 <controlResourceSetZero>0</controlResourceSetZero>
-十一 15 14:23:59                 <searchSpaceZero>0</searchSpaceZero>
-十一 15 14:23:59             </pdcch-ConfigSIB1>
-十一 15 14:23:59             <cellBarred><notBarred/></cellBarred>
-十一 15 14:23:59             <intraFreqReselection><notAllowed/></intraFreqReselection>
-十一 15 14:23:59             <spare>
-十一 15 14:23:59                 0
-十一 15 14:23:59             </spare>
-十一 15 14:23:59         </mib>
-十一 15 14:23:59     </message>
-十一 15 14:23:59 </BCCH-BCH-Message>
-十一 15 14:23:59 
-十一 15 14:23:59 encbufSize:3
-十一 15 14:23:59 0	0	6	
-十一 15 14:23:59 
-十一 15 14:23:59 INFO    --> DU_APP: readVnfCfg() Conpleted
-十一 15 14:23:59 ******************FINISH VNF_CFG_REQ **************************
-十一 15 14:23:59 ****** Received initial configs at DU APP ******
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
-十一 15 14:23:59 ****** Received initial vnf configs at DU APP ******
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
-十一 15 14:23:59 DEBUG  -->  DU_APP : MAC VNF config sent
-十一 15 14:23:59 INFO  -->  LWR_MAC : Calling MacProcVnfCfgReq
-十一 15 14:23:59 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
-十一 15 14:23:59 INFO  -->  LWR_MAC : phystate :  0 in msgType : 6
-十一 15 14:23:59 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
-十一 15 14:23:59 INFO   --> RLC_DL : Starting UE Throughput timer
-十一 15 14:23:59 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  P5 socket created...
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  VNF Setting the SCTP_INITMSG
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  IPV4 binding to port 62324
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  bind succeeded...
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
-十一 15 14:23:59 [NFAPI VNF INTF]  ->  listen succeeded...
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
-十一 15 14:23:59 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
-十一 15 14:23:59 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
-十一 15 14:23:59 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
-十一 15 14:23:59 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
-十一 15 14:23:59 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
-十一 15 14:23:59 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
-十一 15 14:23:59 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
-十一 15 14:23:59 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
-十一 15 14:23:59 DEBUG   -->  DU_APP : Completed sending Configs
-十一 15 14:23:59 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
-十一 15 14:23:59 DEBUG  -->  MAC : SAP Not yet bound
-十一 15 14:23:59 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
-十一 15 14:23:59 DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
-十一 15 14:23:59 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
-十一 15 14:23:59 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
-十一 15 14:23:59 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
-十一 15 14:23:59 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
-十一 15 14:23:59 DEBUG   -->  DU_APP : MAC Sch Cfg sent
-十一 15 14:23:59 Received Scheduler gen config at MAC
-十一 15 14:23:59 INFO   -->  SCH : Received scheduler gen config
-十一 15 14:23:59 DEBUG  -->  SCH : Entered SchInstCfg()
-十一 15 14:23:59 INFO   -->  SCH : Scheduler gen config done
-十一 15 14:23:59 DEBUG  -->  Sending Scheduler config confirm to DU APP
-十一 15 14:23:59 DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
-十一 15 14:23:59 INFO   -->  DU_APP : Configuring all Layer is complete
-十一 15 14:23:59 CmInetSctpConnectx() Failed test: error(115), port(0x78cb),		   sockFd->fd(5)
-十一 15 14:23:59 
-十一 15 14:23:59 INFO   -->  SCTP : Polling started at DU
-十一 15 14:23:59 
-十一 15 14:23:59 CmInetSctpConnectx() Failed test: error(115), port(0x8e45),		   sockFd->fd(6)
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [33]
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  DU_APP : Sending EGTP config request
-十一 15 14:23:59 DEBUG   -->  SCTP : Assoc change notification received
-十一 15 14:23:59 INFO   -->  Event : COMMUNICATION UP in du
-十一 15 14:23:59 DEBUG   -->  SCTP : Forwarding received message to duApp
-十一 15 14:23:59 DEBUG   -->  EGTP : EGTP configuration successful
-十一 15 14:23:59 DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [35]
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  SCTP : Assoc change notification received
-十一 15 14:23:59 INFO   -->  F1AP : Building F1 Setup Request
-十一 15 14:23:59 <F1AP-PDU>
-十一 15 14:23:59     <initiatingMessage>
-十一 15 14:23:59         <procedureCode>1</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59 INFO   -->  Event : COMMUNICATION UP in du
-十一 15 14:23:59 DEBUG   -->  SCTP : Forwarding received message to duApp
-十一 15 14:23:59             <F1SetupRequest>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <F1SetupRequestIEs>
-十一 15 14:23:59                         <id>78</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <TransactionID>1</TransactionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupRequestIEs>
-十一 15 14:23:59                     <F1SetupRequestIEs>
-十一 15 14:23:59                         <id>42</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GNB-DU-ID>1</GNB-DU-ID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupRequestIEs>
-十一 15 14:23:59                     <F1SetupRequestIEs>
-十一 15 14:23:59                         <id>45</id>
-十一 15 14:23:59                         <criticality><ignore/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GNB-DU-Name>ORAN_OAM_DU</GNB-DU-Name>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupRequestIEs>
-十一 15 14:23:59                     <F1SetupRequestIEs>
-十一 15 14:23:59                         <id>44</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GNB-DU-Served-Cells-List>
-十一 15 14:23:59                                 <ProtocolIE-SingleContainer>
-十一 15 14:23:59                                     <id>43</id>
-十一 15 14:23:59                                     <criticality><reject/></criticality>
-十一 15 14:23:59                                     <value>
-十一 15 14:23:59                                         <GNB-DU-Served-Cells-Item>
-十一 15 14:23:59                                             <served-Cell-Information>
-十一 15 14:23:59                                                 <nRCGI>
-十一 15 14:23:59                                                     <pLMN-Identity>64 96 02</pLMN-Identity>
-十一 15 14:23:59                                                     <nRCellIdentity>
-十一 15 14:23:59                                                         000000000000000000000000000000000001
-十一 15 14:23:59                                                     </nRCellIdentity>
-十一 15 14:23:59                                                 </nRCGI>
-十一 15 14:23:59                                                 <nRPCI>1</nRPCI>
-十一 15 14:23:59                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
-十一 15 14:23:59                                                 <servedPLMNs>
-十一 15 14:23:59                                                     <ServedPLMNs-Item>
-十一 15 14:23:59                                                         <pLMN-Identity>64 96 02</pLMN-Identity>
-十一 15 14:23:59                                                         <iE-Extensions>
-十一 15 14:23:59                                                             <ServedPLMNs-ItemExtIEs>
-十一 15 14:23:59                                                                 <id>131</id>
-十一 15 14:23:59                                                                 <criticality><ignore/></criticality>
-十一 15 14:23:59                                                                 <extensionValue>
-十一 15 14:23:59                                                                     <SliceSupportList>
-十一 15 14:23:59                                                                         <SliceSupportItem>
-十一 15 14:23:59                                                                             <sNSSAI>
-十一 15 14:23:59                                                                                 <sST>01</sST>
-十一 15 14:23:59                                                                                 <sD>02 03 04</sD>
-十一 15 14:23:59                                                                             </sNSSAI>
-十一 15 14:23:59                                                                         </SliceSupportItem>
-十一 15 14:23:59                                                                         <SliceSupportItem>
-十一 15 14:23:59                                                                             <sNSSAI>
-十一 15 14:23:59                                                                                 <sST>05</sST>
-十一 15 14:23:59                                                                                 <sD>06 07 08</sD>
-十一 15 14:23:59                                                                             </sNSSAI>
-十一 15 14:23:59                                                                         </SliceSupportItem>
-十一 15 14:23:59                                                                     </SliceSupportList>
-十一 15 14:23:59                                                                 </extensionValue>
-十一 15 14:23:59                                                             </ServedPLMNs-ItemExtIEs>
-十一 15 14:23:59                                                         </iE-Extensions>
-十一 15 14:23:59                                                     </ServedPLMNs-Item>
-十一 15 14:23:59                                                 </servedPLMNs>
-十一 15 14:23:59                                                 <nR-Mode-Info>
-十一 15 14:23:59                                                     <fDD>
-十一 15 14:23:59                                                         <uL-NRFreqInfo>
-十一 15 14:23:59                                                             <nRARFCN>350000</nRARFCN>
-十一 15 14:23:59                                                             <freqBandListNr>
-十一 15 14:23:59                                                                 <FreqBandNrItem>
-十一 15 14:23:59                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
-十一 15 14:23:59                                                                     <supportedSULBandList>
-十一 15 14:23:59                                                                     </supportedSULBandList>
-十一 15 14:23:59                                                                 </FreqBandNrItem>
-十一 15 14:23:59                                                             </freqBandListNr>
-十一 15 14:23:59                                                         </uL-NRFreqInfo>
-十一 15 14:23:59                                                         <dL-NRFreqInfo>
-十一 15 14:23:59                                                             <nRARFCN>430000</nRARFCN>
-十一 15 14:23:59                                                             <freqBandListNr>
-十一 15 14:23:59                                                                 <FreqBandNrItem>
-十一 15 14:23:59                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
-十一 15 14:23:59                                                                     <supportedSULBandList>
-十一 15 14:23:59                                                                     </supportedSULBandList>
-十一 15 14:23:59                                                                 </FreqBandNrItem>
-十一 15 14:23:59                                                             </freqBandListNr>
-十一 15 14:23:59                                                         </dL-NRFreqInfo>
-十一 15 14:23:59                                                         <uL-Transmission-Bandwidth>
-十一 15 14:23:59                                                             <nRSCS><scs60/></nRSCS>
-十一 15 14:23:59                                                             <nRNRB><nrb106/></nRNRB>
-十一 15 14:23:59                                                         </uL-Transmission-Bandwidth>
-十一 15 14:23:59                                                         <dL-Transmission-Bandwidth>
-十一 15 14:23:59                                                             <nRSCS><scs60/></nRSCS>
-十一 15 14:23:59                                                             <nRNRB><nrb106/></nRNRB>
-十一 15 14:23:59                                                         </dL-Transmission-Bandwidth>
-十一 15 14:23:59                                                     </fDD>
-十一 15 14:23:59                                                 </nR-Mode-Info>
-十一 15 14:23:59                                                 <measurementTimingConfiguration>00</measurementTimingConfiguration>
-十一 15 14:23:59                                             </served-Cell-Information>
-十一 15 14:23:59                                             <gNB-DU-System-Information>
-十一 15 14:23:59                                                 <mIB-message>00 00 0C</mIB-message>
-十一 15 14:23:59                                                 <sIB1-message>
-十一 15 14:23:59                                                     70 00 30 91 9B 24 00 01 00 00 01 00 00 00 00 1A 
-十一 15 14:23:59                                                     40 00 04 05 02 42 00 41 00 18 00 00 00 20 00 13 
-十一 15 14:23:59                                                     60 70 CB 35 D8 01 B8 20 10 00 78 88 40 10 41 A3 
-十一 15 14:23:59                                                     01 0A 0A 13 30 08 00 00 00 20 00 13 D5 C0 70 CB 
-十一 15 14:23:59                                                     36 A0 58 00 00 52 40 80 A6 7C C7 9F 80 00 24 E3 
-十一 15 14:23:59                                                     11 0A 2A 11 84 A8 00 80 EC 04 16 00 07 C0 00 02 
-十一 15 14:23:59                                                     17 80
-十一 15 14:23:59                                                 </sIB1-message>
-十一 15 14:23:59                                             </gNB-DU-System-Information>
-十一 15 14:23:59                                         </GNB-DU-Served-Cells-Item>
-十一 15 14:23:59                                     </value>
-十一 15 14:23:59                                 </ProtocolIE-SingleContainer>
-十一 15 14:23:59                             </GNB-DU-Served-Cells-List>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupRequestIEs>
-十一 15 14:23:59                     <F1SetupRequestIEs>
-十一 15 14:23:59                         <id>171</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RRC-Version>
-十一 15 14:23:59                                 <latest-RRC-Version>
-十一 15 14:23:59                                     000
-十一 15 14:23:59                                 </latest-RRC-Version>
-十一 15 14:23:59                             </RRC-Version>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupRequestIEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </F1SetupRequest>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </initiatingMessage>
-十一 15 14:23:59 </F1AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
-十一 15 14:23:59 010ffffff80ffffffd400504e020102a020102d40d504f52414e5f4f414d5f445502c0ffffff80ffffffaa0002b0ffffff80ffffffa348064ffffff96200001001001864ffffff962000ffffff8340c01402023440ffffffa0678105573000410406ffffff8fffffffb000410478ffffffe0100300c6270030ffffff91ffffff9b240100100001a40045242041018000200136070ffffffcb35ffffffd81ffffffb82010078ffffff88401041ffffffa31aa1330800020013ffffffd5ffffffc070ffffffcb36ffffffa058005240ffffff80ffffffa67cffffffc7ffffff9fffffff80024ffffffe311a2a11ffffff84ffffffa80ffffff80ffffffec41607ffffffc00217ffffff800ffffffab010
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0217   00-->00 region: 00
-十一 15 14:23:59 dat: 00 01 00 80 d4 00 00 05 00 4e 00 02 00 01 00 2a .........N.....*
-十一 15 14:23:59      00 02 00 01 00 2d 40 0d 05 00 4f 52 41 4e 5f 4f .....-@...ORAN_O
-十一 15 14:23:59      41 4d 5f 44 55 00 2c 00 80 aa 00 00 00 2b 00 80 AM_DU.,......+..
-十一 15 14:23:59      a3 48 00 64 96 02 00 00 00 00 10 00 01 00 00 01 .H.d............
-十一 15 14:23:59      08 64 96 02 00 00 00 83 40 0c 00 01 40 20 02 03 .d......@...@ ..
-十一 15 14:23:59      04 40 a0 06 07 08 01 00 05 57 30 00 00 41 00 40 .@.......W0..A.@
-十一 15 14:23:59      06 8f b0 00 00 41 00 47 08 e0 01 00 00 03 00 00 .....A.G........
-十一 15 14:23:59      0c 62 70 00 30 91 9b 24 00 01 00 00 01 00 00 00 .bp.0..$........
-十一 15 14:23:59      00 1a 40 00 04 05 02 42 00 41 00 18 00 00 00 20 ..@....B.A..... 
-十一 15 14:23:59      00 13 60 70 cb 35 d8 01 b8 20 10 00 78 88 40 10 ..`p.5... ..x.@.
-十一 15 14:23:59      41 a3 01 0a 0a 13 30 08 00 00 00 20 00 13 d5 c0 A.....0.... ....
-十一 15 14:23:59      70 cb 36 a0 58 00 00 52 40 80 a6 7c c7 9f 80 00 p.6.X..R@..|....
-十一 15 14:23:59      24 e3 11 0a 2a 11 84 a8 00 80 ec 04 16 00 07 c0 $...*...........
-十一 15 14:23:59      00 02 17 80 00 ab 00 01 00                      .........
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  SCTP : sending the message to CU
-十一 15 14:23:59 DEBUG   -->  DU_APP : EGTP configuraton complete
-十一 15 14:23:59 DEBUG   -->  DU_APP : Sending EGTP server open request
-十一 15 14:23:59 INFO   -->  E2AP : Building E2 Setup Request
-十一 15 14:23:59 <E2AP-PDU>
-十一 15 14:23:59     <initiatingMessage>
-十一 15 14:23:59         <procedureCode>1</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <E2setupRequest>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <E2setupRequestIEs>
-十一 15 14:23:59                         <id>3</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GlobalE2node-ID>
-十一 15 14:23:59                                 <gNB>
-十一 15 14:23:59                                     <global-gNB-ID>
-十一 15 14:23:59                                         <plmn-id>64 96 02</plmn-id>
-十一 15 14:23:59                                         <gnb-id>
-十一 15 14:23:59                                             <gnb-ID>
-十一 15 14:23:59                                                 00000000000000000000000000000001
-十一 15 14:23:59                                             </gnb-ID>
-十一 15 14:23:59                                         </gnb-id>
-十一 15 14:23:59                                     </global-gNB-ID>
-十一 15 14:23:59                                 </gNB>
-十一 15 14:23:59                             </GlobalE2node-ID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </E2setupRequestIEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </E2setupRequest>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </initiatingMessage>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG  -->  EGTP : Received EGTP open server request
-十一 15 14:23:59 DEBUG   -->  EGTP : Receiver socket[7] and Sender socket[8] open</E2AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  EGTP : Starting Socket Polling
-十一 15 14:23:59 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
-十一 15 14:23:59 010100010309064ffffff962500001
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0020   00-->00 region: 00
-十一 15 14:23:59 dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
-十一 15 14:23:59      00 00 00 01                                     ....
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  SCTP : sending the message to ric
-十一 15 14:23:59 DEBUG   -->  DU_APP : EGTP server opened successfully
-十一 15 14:23:59 DEBUG   -->  SCTP : Forwarding received message to duApp
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0073   00-->00 region: 00
-十一 15 14:23:59 dat: 40 01 00 45 00 00 03 00 4e 00 02 00 01 00 52 40 @..E....N.....R@
-十一 15 14:23:59      10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
-十一 15 14:23:59      55 00 03 00 24 00 00 00 04 00 1e 60 64 96 02 00 U...$......`d...
-十一 15 14:23:59      00 00 00 10 00 01 00 00 00 76 00 0d 00 00 09 00 .........v......
-十一 15 14:23:59      40 01 00 90 00 a0 94 40 00                      @......@.
-十一 15 14:23:59      
-十一 15 14:23:59 INFO  -->  F1AP : Received F1AP message buffer
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0073   00-->00 region: 00
-十一 15 14:23:59 dat: 40 01 00 45 00 00 03 00 4e 00 02 00 01 00 52 40 @..E....N.....R@
-十一 15 14:23:59      10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
-十一 15 14:23:59      55 00 03 00 24 00 00 00 04 00 1e 60 64 96 02 00 U...$......`d...
-十一 15 14:23:59      00 00 00 10 00 01 00 00 00 76 00 0d 00 00 09 00 .........v......
-十一 15 14:23:59      40 01 00 90 00 a0 94 40 00                      @......@.
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  F1AP : Received flat buffer to be decoded : 40104500304e020105240106ffffff80674e422d45757265636f6d2d435503024000401e60
-十一 15 14:23:59 DEBUG   -->  SCTP : Forwarding received message to duApp
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
-十一 15 14:23:59 dat: 20 01 00 640e ffffff962000000 1000 01001 00 0004 7600 007 d00 013 041 908 000 401 0.ffffff90.0.ffffffa0.ffffff94.40.0......A..
-十一 15 14:23:59      00 10                                           ..
-十一 15 14:23:59      
-十一 15 14:23:59 <F1AP-PDU>
-十一 15 14:23:59     <successfulOutcome>
-十一 15 14:23:59         <procedureCode>1</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <F1SetupResponse>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <F1SetupResponseIEs>
-十一 15 14:23:59                         <id>78</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <TransactionID>1</TransactionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupResponseIEs>
-十一 15 14:23:59                     <F1SetupResponseIEs>
-十一 15 14:23:59                         <id>82</id>
-十一 15 14:23:59                         <criticality><ignore/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupResponseIEs>
-十一 15 14:23:59                     <F1SetupResponseIEs>
-十一 15 14:23:59                         <id>3</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <Cells-to-be-Activated-List>
-十一 15 14:23:59                                 <ProtocolIE-SingleContainer>
-十一 15 14:23:59                                     <id>4</id>
-十一 15 14:23:59                                     <criticality><reject/></criticality>
-十一 15 14:23:59                                     <value>
-十一 15 14:23:59                                         <Cells-to-be-Activated-List-Item>
-十一 15 14:23:59                                             <nRCGI>
-十一 15 14:23:59                                                 <pLMN-Identity>64 96 02</pLMN-Identity>
-十一 15 14:23:59                                                 <nRCellIdentity>
-十一 15 14:23:59                                                     000000000000000000000000000000000001
-十一 15 14:23:59                                                 </nRCellIdentity>
-十一 15 14:23:59                                             </nRCGI>
-十一 15 14:23:59                                             <nRPCI>1</nRPCI>
-十一 15 14:23:59                                             <iE-Extensions>
-十一 15 14:23:59                                                 <Cells-to-be-Activated-List-ItemExtIEs>
-十一 15 14:23:59                                                     <id>118</id>
-十一 15 14:23:59                                                     <criticality><reject/></criticality>
-十一 15 14:23:59                                                     <extensionValue>
-十一 15 14:23:59                                                         <GNB-CUSystemInformation>
-十一 15 14:23:59                                                             <sibtypetobeupdatedlist>
-十一 15 14:23:59                                                                 <SibtypetobeupdatedListItem>
-十一 15 14:23:59                                                                     <sIBtype>2</sIBtype>
-十一 15 14:23:59                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
-十一 15 14:23:59                                                                     <valueTag>0</valueTag>
-十一 15 14:23:59                                                                 </SibtypetobeupdatedListItem>
-十一 15 14:23:59                                                             </sibtypetobeupdatedlist>
-十一 15 14:23:59                                                         </GNB-CUSystemInformation>
-十一 15 14:23:59                                                     </extensionValue>
-十一 15 14:23:59                                                 </Cells-to-be-Activated-List-ItemExtIEs>
-十一 15 14:23:59                                             </iE-Extensions>
-十一 15 14:23:59                                         </Cells-to-be-Activated-List-Item>
-十一 15 14:23:59                                     </value>
-十一 15 14:23:59                                 </ProtocolIE-SingleContainer>
-十一 15 14:23:59                             </Cells-to-be-Activated-List>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </F1SetupResponseIEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </F1SetupResponse>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </successfulOutcome>
-十一 15 14:23:59 </F1AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 INFO   -->  F1AP : F1 Setup Response received
-十一 15 14:23:59 INFO   -->  DU_APP : F1 Setup Response received
-十一 15 14:23:59 INFO   -->  DU_APP : F1 Setup Response received
-十一 15 14:23:59 DEBUG  -->  DU-APP : MAC CELL config sent
-十一 15 14:23:59 INFO   -->  DU_APP : F1 Setup Response received
-十一 15 14:23:59 DEBUG   -->  E2AP : Received E2AP message buffer
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
-十一 15 14:23:59 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
-十一 15 14:23:59      00 10                                           ..
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  E2AP : Received flat buffer to be decoded : 2010e00104070134180010
-十一 15 14:23:59 <E2AP-PDU>
-十一 15 14:23:59     <successfulOutcome>
-十一 15 14:23:59         <procedureCode>1</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <E2setupResponse>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <E2setupResponseIEs>
-十一 15 14:23:59                         <id>4</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <GlobalRIC-ID>
-十一 15 14:23:59                                 <pLMN-Identity>13 41 08</pLMN-Identity>
-十一 15 14:23:59                                 <ric-ID>
-十一 15 14:23:59                                     00000000000000000001
-十一 15 14:23:59                                 </ric-ID>
-十一 15 14:23:59                             </GlobalRIC-ID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </E2setupResponseIEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </E2setupResponse>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </successfulOutcome>
-十一 15 14:23:59 </E2AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  E2AP : Store E2 setup response Params
-十一 15 14:23:59 INFO   -->  E2AP : E2 Setup Response received
-十一 15 14:23:59 INFO  -->  SCH : Cell init completed for cellId:1
-十一 15 14:23:59 DEBUG   -->  SCTP : Forwarding received message to duApp
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
-十一 15 14:23:59 dat: 00 
-十一 15 14:23:59 INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
-十一 15 14:23:59 [MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
-十一 15 14:23:59 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
-十一 15 14:23:59      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
-十一 15 14:23:59      00 13 40 03 00 00 00                            ..@....
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  E2AP : Received E2AP message buffer
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
-十一 15 14:23:59 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
-十一 15 14:23:59      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
-十一 15 14:23:59      00 13 40 03 00 00 00                            ..@....
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  E2AP : Received flat buffer to be decoded : 0802300301d050010105020101e0d03134180013403000
-十一 15 14:23:59 <E2AP-PDU>
-十一 15 14:23:59     <initiatingMessage>
-十一 15 14:23:59         <procedureCode>8</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <RICsubscriptionRequest>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <RICsubscriptionRequest-IEs>
-十一 15 14:23:59                         <id>29</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICrequestID>
-十一 15 14:23:59                                 <ricRequestorID>1</ricRequestorID>
-十一 15 14:23:59                                 <ricInstanceID>1</ricInstanceID>
-十一 15 14:23:59                             </RICrequestID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionRequest-IEs>
-十一 15 14:23:59                     <RICsubscriptionRequest-IEs>
-十一 15 14:23:59                         <id>5</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RANfunctionID>1</RANfunctionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionRequest-IEs>
-十一 15 14:23:59                     <RICsubscriptionRequest-IEs>
-十一 15 14:23:59                         <id>30</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICsubscriptionDetails>
-十一 15 14:23:59                                 <ricEventTriggerDefinition>13 41 08</ricEventTriggerDefinition>
-十一 15 14:23:59                                 <ricAction-ToBeSetup-List>
-十一 15 14:23:59                                     <ProtocolIE-SingleContainerE2>
-十一 15 14:23:59                                         <id>19</id>
-十一 15 14:23:59                                         <criticality><ignore/></criticality>
-十一 15 14:23:59                                         <value>
-十一 15 14:23:59                                             <RICaction-ToBeSetup-Item>
-十一 15 14:23:59                                                 <ricActionID>0</ricActionID>
-十一 15 14:23:59                                                 <ricActionType><report/></ricActionType>
-十一 15 14:23:59                                             </RICaction-ToBeSetup-Item>
-十一 15 14:23:59                                         </value>
-十一 15 14:23:59                                     </ProtocolIE-SingleContainerE2>
-十一 15 14:23:59                                 </ricAction-ToBeSetup-List>
-十一 15 14:23:59                             </RICsubscriptionDetails>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionRequest-IEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </RICsubscriptionRequest>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </initiatingMessage>
-十一 15 14:23:59 </E2AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 INFO   -->  E2AP : RIC Subscription request received
-十一 15 14:23:59 INFO   -->  E2AP : Building RIC Subscription Response
-十一 15 14:23:59 <E2AP-PDU>
-十一 15 14:23:59     <successfulOutcome>
-十一 15 14:23:59         <procedureCode>8</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <RICsubscriptionResponse>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <RICsubscriptionResponse-IEs>
-十一 15 14:23:59                         <id>29</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICrequestID>
-十一 15 14:23:59                                 <ricRequestorID>1</ricRequestorID>
-十一 15 14:23:59                                 <ricInstanceID>1</ricInstanceID>
-十一 15 14:23:59                             </RICrequestID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionResponse-IEs>
-十一 15 14:23:59                     <RICsubscriptionResponse-IEs>
-十一 15 14:23:59                         <id>5</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RANfunctionID>1</RANfunctionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionResponse-IEs>
-十一 15 14:23:59                     <RICsubscriptionResponse-IEs>
-十一 15 14:23:59                         <id>17</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICaction-Admitted-List>
-十一 15 14:23:59                                 <ProtocolIE-SingleContainerE2>
-十一 15 14:23:59                                     <id>14</id>
-十一 15 14:23:59                                     <criticality><reject/></criticality>
-十一 15 14:23:59                                     <value>
-十一 15 14:23:59                                         <RICaction-Admitted-Item>
-十一 15 14:23:59                                             <ricActionID>1</ricActionID>
-十一 15 14:23:59                                         </RICaction-Admitted-Item>
-十一 15 14:23:59                                     </value>
-十一 15 14:23:59                                 </ProtocolIE-SingleContainerE2>
-十一 15 14:23:59                             </RICaction-Admitted-List>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICsubscriptionResponse-IEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </RICsubscriptionResponse>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </successfulOutcome>
-十一 15 14:23:59 </E2AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG   -->  E2AP : Created APER encoded buffer for RIC subscription response 
-十一 15 14:23:59 20801d00301d05001010502010110700e0201
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0033   00-->00 region: 00
-十一 15 14:23:59 dat: 20 08 00 1d 00 00 03 00 1d 00 05 00 00 01 00 01  ...............
-十一 15 14:23:59      00 05 00 02 00 01 00 11 00 07 00 00 0e 00 02 00 ................
-十一 15 14:23:59      01                                              .
-十一 15 14:23:59      
-十一 15 14:23:59 DEBUG   -->  SCTP : sending the message to ric
-十一 15 14:23:59 INFO   -->  E2AP : Building RIC Indication Message
-十一 15 14:23:59 <E2AP-PDU>
-十一 15 14:23:59     <initiatingMessage>
-十一 15 14:23:59         <procedureCode>5</procedureCode>
-十一 15 14:23:59         <criticality><reject/></criticality>
-十一 15 14:23:59         <value>
-十一 15 14:23:59             <RICindication>
-十一 15 14:23:59                 <protocolIEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>29</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICrequestID>
-十一 15 14:23:59                                 <ricRequestorID>1</ricRequestorID>
-十一 15 14:23:59                                 <ricInstanceID>1</ricInstanceID>
-十一 15 14:23:59                             </RICrequestID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>5</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RANfunctionID>1</RANfunctionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>15</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICactionID>0</RICactionID>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>28</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICindicationType><report/></RICindicationType>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>25</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICindicationHeader>64 96 02</RICindicationHeader>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                     <RICindication-IEs>
-十一 15 14:23:59                         <id>26</id>
-十一 15 14:23:59                         <criticality><reject/></criticality>
-十一 15 14:23:59                         <value>
-十一 15 14:23:59                             <RICindicationMessage>64 96 02</RICindicationMessage>
-十一 15 14:23:59                         </value>
-十一 15 14:23:59                     </RICindication-IEs>
-十一 15 14:23:59                 </protocolIEs>
-十一 15 14:23:59             </RICindication>
-十一 15 14:23:59         </value>
-十一 15 14:23:59     </initiatingMessage>
-十一 15 14:23:59 </E2AP-PDU>
-十一 15 14:23:59 
-十一 15 14:23:59 DEBUG  -->  E2AP : Created APER encoded buffer for RIC Indication Message 
-十一 15 14:23:59 0502c00601d05001010502010f01001c01001904364ffffff96201a04364ffffff962
-十一 15 14:23:59 msg: qlen: 0001 mlen: 0048   00-->00 region: 00
-十一 15 14:23:59 dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
-十一 15 14:23:59      00 05 00 02 00 01 00 0f 00 01 00 00 1c 00 01 00 ................
-十一 15 14:23:59      00 19 00 04 03 64 96 02 00 1a 00 04 03 64 96 02 .....d.......d..
-十一 15 14:23:59      
-十一 15 14:24:02 DEBUG   -->  SCTP : sending the message to ric
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:41805 
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7efe94000b20
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf connection indication idx:0
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Association ID = 38
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF In Streams = 5
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 74, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf param response idx:0 error:0
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
-十一 15 14:24:02 [NFAPI VNF]  ->  Adding phy p5_idx:0 phy_id:1
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) (RF0) 0
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
-十一 15 14:24:02 NFAPI	->	DJP:Hard coded num phy rf to 2
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 12, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 12, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf start response idx:0 config:0x55bd24d940f0 user_data:0x55bd24d92ca0 p7_vnf[config:0x55bd24d93420 thread_started:0]
-十一 15 14:24:02 [NFAPI VNF]  ->  P7 thread is running
-十一 15 14:24:02 Calling sched_setscheduler(79)
-十一 15 14:24:02 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 354, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PARAM_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
-十一 15 14:24:02 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
-十一 15 14:24:02 [NFAPI VNF]  ->  PNF P7 Port: 32123
-十一 15 14:24:02 [NFAPI VNF]  ->  The PNF has been running, set FALG to 0
-十一 15 14:24:02 [NFAPI VNF]  ->  The PNF has been running, set FALG to 1
-十一 15 14:24:02 INFO  -->  LWR_MAC : phystate :  0 in msgType : 2
-十一 15 14:24:02 INFO  -->  LWR_MAC: Process Config Request Event
-十一 15 14:24:02 DEBUG  -->  LWR_MAC: MIB PDU 600
-十一 15 14:24:02 [NFAPI VNF]  ->  Received NFAPI_PARAM_RESP idx:0 phy_id:1
-十一 15 14:24:02 [NFAPI VNF]  ->  p5_idx : 0 phy_idx : 1 pnf p7 127.0.0.2:32123 timing 30 10 0 10
-十一 15 14:24:02 [NFAPI VNF]  ->  Send NFAPI_CONFIG_REQUEST
-十一 15 14:24:02 [NFAPI VNF]  ->  DJP local_port:50611
-十一 15 14:24:02 [NFAPI VNF]  ->  DJP local_addr:127.0.0.1
-十一 15 14:24:02 NFAPI	->	[VNF]Timing window tag : 286 Timing window:30
-十一 15 14:24:02 [NFAPI P5]  ->  Number of TLVs in ORAN_OAI 25
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1001 with value 20 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1002 with value 2169080 and length 4
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1004 with value 106 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1005 with value 1 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1006 with value 20 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1007 with value 1769080 and length 4
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1009 with value 106 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x100a with value 1 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x100c with value 1 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1010 with value 1 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1012 with value 30 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1029 with value 88 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
-十一 15 14:24:02 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
-十一 15 14:24:02 [NFAPI VNF]  ->  Sent NFAPI_VNF_CONFIG_REQ
-十一 15 14:24:02 [NFAPI VNF]  ->  vnf_nr_p7_start_thread()
-十一 15 14:24:02 [NFAPI P7] ->  Initialising VNF P7 port:50611
-十一 15 14:24:02 [NFAPI P7] ->  VNF P7 socket created...
-十一 15 14:24:02 [NFAPI P7] ->  VNF P7 setsockopt succeeded...
-十一 15 14:24:02 [NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
-十一 15 14:24:02 [NFAPI P7] ->  VNF P7 bind succeeded...
-十一 15 14:24:02 
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 9, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received CONFIG_RESPONSE
-十一 15 14:24:02 INFO  -->  LWR_MAC : phystate :  0 in msgType : 3
-十一 15 14:24:02 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
-十一 15 14:24:02 DEBUG  -->  LWR_MAC: PHY has moved to Configured state 
-十一 15 14:24:02 
-十一 15 14:24:02 [NFAPI VNF]  ->  Received NFAPI_CONFIG_RESP idx:0 phy_id:1
-十一 15 14:24:02 [NFAPI VNF]  ->  Calling oai_enb_init()
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:41805 assoc:38 on stream 0, PPID 704643072, length 12, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  NR Received START_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55bd24d93420 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
-十一 15 14:24:02 
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:60766 
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7efe940011b0
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf connection indication idx:1
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Association ID = 40
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF In Streams = 5
-十一 15 14:24:02 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:60766 assoc:40 on stream 0, PPID 704643072, length 74, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf param response idx:1 error:0
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
-十一 15 14:24:02 [NFAPI VNF]  ->  Adding phy p5_idx:1 phy_id:2
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) (RF0) 0
-十一 15 14:24:02 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
-十一 15 14:24:02 NFAPI	->	DJP:Hard coded num phy rf to 2
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:60766 assoc:40 on stream 0, PPID 704643072, length 12, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf config response idx:1 resp[header[phy_id:0 message_id:103 message_length:12]]
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:60766 assoc:40 on stream 0, PPID 704643072, length 12, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  pnf start response idx:1 config:0x55bd24d940f0 user_data:0x55bd24d92ca0 p7_vnf[config:0x55bd24d93420 thread_started:1]
-十一 15 14:24:02 [NFAPI VNF]  ->  P7 thread has been running
-十一 15 14:24:02 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:2
-十一 15 14:24:02 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
-十一 15 14:24:02 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:60766 assoc:40 on stream 0, PPID 704643072, length 354, flags 0x80
-十一 15 14:24:02 [NFAPI VNF]  ->  Received PARAM_RESPONSE
-十一 15 14:24:02 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
-十一 15 14:24:02 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
-十一 15 14:24:09 [NFAPI VNF]  ->  PNF P7 Port: 32123[MWNL] vnf_handle_nr_slot_indication
-十一 15 14:24:09 VNF SFN/Slot 0.6 
-十一 15 14:24:09 [MWNL]  ->  The slot_ind sfn : 0, slot : 6
-十一 15 14:24:09 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 6, prev_slot = 0, setup_time = 7
-十一 15 14:24:09 [MWNL] ORAN_OAI_procSlotInd
-十一 15 14:24:09 
-十一 15 14:24:09 INFO  -->  LWR_MAC: PHY has moved to running stateMWNL  -->  MAC : Slot Indication received. [0 : 0]
-十一 15 14:24:09 
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
-十一 15 14:24:09 DEBUG  -->  LWR_MAC: Processing UCI Indication
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
-十一 15 14:24:09 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
-十一 15 14:24:09 [MWNL] sendSlotIndMacToSch
-十一 15 14:24:09 [MWNL] macProcSlotInd
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillDlTtiReq
-十一 15 14:24:09 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
-十一 15 14:24:09 [MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlTtiReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlDciReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_sendTxDataReq
-十一 15 14:24:09 [MWNL] nfapi_vnf_p7_nr_dl_config_req
-十一 15 14:24:09 P7 is about to send msg
-十一 15 14:24:09 P7 msg sent with result 27
-十一 15 14:24:09 
-十一 15 14:24:09 INFO   -->  DU APP : 5G-NR Cell 1 is UP
-十一 15 14:24:09 DEBUG  -->  DU_APP : Sending Slice Cfg Request to MAC 
-十一 15 14:24:09 INFO  -->  MAC : Received Slice Cfg request from DU APP
-十一 15 14:24:09 INFO  -->  SCH : Received Slice Cfg request from MAC
-十一 15 14:24:09 INFO  -->  DU_APP : Slice Configuration is done sucessfully [MWNL] vnf_handle_nr_slot_indication
-十一 15 14:24:09 VNF SFN/Slot 0.7 
-十一 15 14:24:09 [MWNL]  ->  The slot_ind sfn : 0, slot : 7
-十一 15 14:24:09 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 7, prev_slot = 6, setup_time = 7
-十一 15 14:24:09 [MWNL] ORAN_OAI_procSlotInd
-十一 15 14:24:09 MWNL  -->  MAC : Slot Indication received. [0 : 0]
-十一 15 14:24:09 
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
-十一 15 14:24:09 DEBUG  -->  LWR_MAC: Processing UCI Indication
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
-十一 15 14:24:09 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
-十一 15 14:24:09 [MWNL] sendSlotIndMacToSch
-十一 15 14:24:09 [MWNL] macProcSlotInd
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillDlTtiReq
-十一 15 14:24:09 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
-十一 15 14:24:09 [MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlTtiReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlDciReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_sendTxDataReq
-十一 15 14:24:09 [MWNL] nfapi_vnf_p7_nr_dl_config_req
-十一 15 14:24:09 P7 is about to send msg
-十一 15 14:24:09 P7 msg sent with result 27
-十一 15 14:24:09 [MWNL] vnf_handle_nr_slot_indication
-十一 15 14:24:09 VNF SFN/Slot 0.8 
-十一 15 14:24:09 [MWNL]  ->  The slot_ind sfn : 0, slot : 8
-十一 15 14:24:09 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 8, prev_slot = 7, setup_time = 7
-十一 15 14:24:09 [MWNL] ORAN_OAI_procSlotInd
-十一 15 14:24:09 MWNL  -->  MAC : Slot Indication received. [0 : 0]
-十一 15 14:24:09 
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
-十一 15 14:24:09 DEBUG  -->  LWR_MAC: Processing UCI Indication
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
-十一 15 14:24:09 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
-十一 15 14:24:09 [MWNL] sendSlotIndMacToSch
-十一 15 14:24:09 [MWNL] macProcSlotInd
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillDlTtiReq
-十一 15 14:24:09 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
-十一 15 14:24:09 [MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlTtiReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlDciReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_sendTxDataReq
-十一 15 14:24:09 [MWNL] nfapi_vnf_p7_nr_dl_config_req
-十一 15 14:24:09 P7 is about to send msg
-十一 15 14:24:09 P7 msg sent with result 27
-十一 15 14:24:09 [MWNL] vnf_handle_nr_slot_indication
-十一 15 14:24:09 VNF SFN/Slot 0.9 
-十一 15 14:24:09 [MWNL]  ->  The slot_ind sfn : 0, slot : 9
-十一 15 14:24:09 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 9, prev_slot = 8, setup_time = 7
-十一 15 14:24:09 [MWNL] ORAN_OAI_procSlotInd
-十一 15 14:24:09 MWNL  -->  MAC : Slot Indication received. [0 : 0]
-十一 15 14:24:09 
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
-十一 15 14:24:09 DEBUG  -->  LWR_MAC: Processing UCI Indication
-十一 15 14:24:09 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
-十一 15 14:24:09 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
-十一 15 14:24:09 [MWNL] sendSlotIndMacToSch
-十一 15 14:24:09 [MWNL] macProcSlotInd
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillDlTtiReq
-十一 15 14:24:09 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 2
-十一 15 14:24:09 [MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 3
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlTtiReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_fillUlDciReq
-十一 15 14:24:09 [MWNL] ORAN_OAI_sendTxDataReq
-十一 15 14:24:09 [MWNL] nfapi_vnf_p7_nr_dl_config_req
-十一 15 14:24:09 P7 is about to send msg
-十一 15 14:24:09 P7 msg sent with result 27
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3701
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 98
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26 Set priority 99
+十一 22 22:22:26 
+十一 22 22:22:26 Creating thread here /home/gnb/OAIOSC/OSC_L2/src/mt/mt_ss.c 3596
+十一 22 22:22:26 
+十一 22 22:22:26  NTUST  --> In duAppInit: Register DU APP TAPA Task for DU
+十一 22 22:22:26 INFO   -->  DU_APP : DU APP created and registered    to 1 sys task
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  EGTP : Initializing
+十一 22 22:22:26 INFO   -->  DU_APP : EGTP created and registered     to 2 sys task
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG  -->  SCTP : Initializing
+十一 22 22:22:26 INFO   -->  DU_APP : SCTP TAPA task created and registered to 5 sys task
+十一 22 22:22:26 INFO   -->  DU_APP : RLC DL and MAC TAPA task created and registered to    3 sys task
+十一 22 22:22:26 INFO   -->  DU_APP : RLC UL TAPA task created and registered to    4 sys task
+十一 22 22:22:26 INFO   -->  DU_APP : LWR MAC TAPA task created and registered to 6 sys task<MIB>
+十一 22 22:22:26     <systemFrameNumber>
+十一 22 22:22:26         000000
+十一 22 22:22:26     </systemFrameNumber>
+十一 22 22:22:26     <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+十一 22 22:22:26     <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+十一 22 22:22:26     <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+十一 22 22:22:26     <pdcch-ConfigSIB1>
+十一 22 22:22:26         <controlResourceSetZero>0</controlResourceSetZero>
+十一 22 22:22:26         <searchSpaceZero>0</searchSpaceZero>
+十一 22 22:22:26     </pdcch-ConfigSIB1>
+十一 22 22:22:26     <cellBarred><notBarred/></cellBarred>
+十一 22 22:22:26     <intraFreqReselection><notAllowed/></intraFreqReselection>
+十一 22 22:22:26     <spare>
+十一 22 22:22:26         0
+十一 22 22:22:26     </spare>
+十一 22 22:22:26 </MIB>
+十一 22 22:22:26 
+十一 22 22:22:26 encbufSize:3
+十一 22 22:22:26 0	0	c	
+十一 22 22:22:26 <SIB1>
+十一 22 22:22:26     <cellAccessRelatedInfo>
+十一 22 22:22:26         <plmn-IdentityList>
+十一 22 22:22:26             <PLMN-IdentityInfo>
+十一 22 22:22:26                 <plmn-IdentityList>
+十一 22 22:22:26                     <PLMN-IdentitY>
+十一 22 22:22:26                         <mcc>
+十一 22 22:22:26                             <MCC-MNC-Digit>4</MCC-MNC-Digit>
+十一 22 22:22:26                             <MCC-MNC-Digit>6</MCC-MNC-Digit>
+十一 22 22:22:26                             <MCC-MNC-Digit>6</MCC-MNC-Digit>
+十一 22 22:22:26                         </mcc>
+十一 22 22:22:26                         <mnc>
+十一 22 22:22:26                             <MCC-MNC-Digit>9</MCC-MNC-Digit>
+十一 22 22:22:26                             <MCC-MNC-Digit>2</MCC-MNC-Digit>
+十一 22 22:22:26                             <MCC-MNC-Digit>0</MCC-MNC-Digit>
+十一 22 22:22:26                         </mnc>
+十一 22 22:22:26                     </PLMN-IdentitY>
+十一 22 22:22:26                 </plmn-IdentityList>
+十一 22 22:22:26                 <trackingAreaCode>
+十一 22 22:22:26                     000000010000000000000000
+十一 22 22:22:26                 </trackingAreaCode>
+十一 22 22:22:26                 <ranac>1</ranac>
+十一 22 22:22:26                 <cellIdentity>
+十一 22 22:22:26                     000000000000000000000000000000000001
+十一 22 22:22:26                 </cellIdentity>
+十一 22 22:22:26                 <cellReservedForOperatorUse><notReserved/></cellReservedForOperatorUse>
+十一 22 22:22:26             </PLMN-IdentityInfo>
+十一 22 22:22:26         </plmn-IdentityList>
+十一 22 22:22:26     </cellAccessRelatedInfo>
+十一 22 22:22:26     <connEstFailureControl>
+十一 22 22:22:26         <connEstFailCount><n3/></connEstFailCount>
+十一 22 22:22:26         <connEstFailOffsetValidity><s120/></connEstFailOffsetValidity>
+十一 22 22:22:26     </connEstFailureControl>
+十一 22 22:22:26     <si-SchedulingInfo>
+十一 22 22:22:26         <schedulingInfoList>
+十一 22 22:22:26             <SchedulingInfo>
+十一 22 22:22:26                 <si-BroadcastStatus><broadcasting/></si-BroadcastStatus>
+十一 22 22:22:26                 <si-Periodicity><rf8/></si-Periodicity>
+十一 22 22:22:26                 <sib-MappingInfo>
+十一 22 22:22:26                     <SIB-TypeInfo>
+十一 22 22:22:26                         <type><sibType2/></type>
+十一 22 22:22:26                         <valueTag>10</valueTag>
+十一 22 22:22:26                     </SIB-TypeInfo>
+十一 22 22:22:26                 </sib-MappingInfo>
+十一 22 22:22:26             </SchedulingInfo>
+十一 22 22:22:26         </schedulingInfoList>
+十一 22 22:22:26         <si-WindowLength><s5/></si-WindowLength>
+十一 22 22:22:26     </si-SchedulingInfo>
+十一 22 22:22:26     <servingCellConfigCommon>
+十一 22 22:22:26         <downlinkConfigCommon>
+十一 22 22:22:26             <frequencyInfoDL>
+十一 22 22:22:26                 <frequencyBandList>
+十一 22 22:22:26                     <NR-MultiBandInfo>
+十一 22 22:22:26                         <freqBandIndicatorNR>66</freqBandIndicatorNR>
+十一 22 22:22:26                     </NR-MultiBandInfo>
+十一 22 22:22:26                 </frequencyBandList>
+十一 22 22:22:26                 <offsetToPointA>24</offsetToPointA>
+十一 22 22:22:26                 <scs-SpecificCarrierList>
+十一 22 22:22:26                     <SCS-SpecificCarrier>
+十一 22 22:22:26                         <offsetToCarrier>0</offsetToCarrier>
+十一 22 22:22:26                         <subcarrierSpacing><kHz30/></subcarrierSpacing>
+十一 22 22:22:26                         <carrierBandwidth>20</carrierBandwidth>
+十一 22 22:22:26                     </SCS-SpecificCarrier>
+十一 22 22:22:26                 </scs-SpecificCarrierList>
+十一 22 22:22:26             </frequencyInfoDL>
+十一 22 22:22:26             <initialDownlinkBWP>
+十一 22 22:22:26                 <genericParameters>
+十一 22 22:22:26                     <locationAndBandwidth>28875</locationAndBandwidth>
+十一 22 22:22:26                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+十一 22 22:22:26                 </genericParameters>
+十一 22 22:22:26                 <pdcch-ConfigCommon>
+十一 22 22:22:26                     <setup>
+十一 22 22:22:26                         <controlResourceSetZero>0</controlResourceSetZero>
+十一 22 22:22:26                         <searchSpaceZero>0</searchSpaceZero>
+十一 22 22:22:26                         <commonSearchSpaceList>
+十一 22 22:22:26                             <SearchSpace>
+十一 22 22:22:26                                 <searchSpaceId>1</searchSpaceId>
+十一 22 22:22:26                                 <controlResourceSetId>0</controlResourceSetId>
+十一 22 22:22:26                                 <monitoringSlotPeriodicityAndOffset>
+十一 22 22:22:26                                     <sl1></sl1>
+十一 22 22:22:26                                 </monitoringSlotPeriodicityAndOffset>
+十一 22 22:22:26                                 <monitoringSymbolsWithinSlot>
+十一 22 22:22:26                                     10000000000000
+十一 22 22:22:26                                 </monitoringSymbolsWithinSlot>
+十一 22 22:22:26                                 <nrofCandidates>
+十一 22 22:22:26                                     <aggregationLevel1><n8/></aggregationLevel1>
+十一 22 22:22:26                                     <aggregationLevel2><n4/></aggregationLevel2>
+十一 22 22:22:26                                     <aggregationLevel4><n2/></aggregationLevel4>
+十一 22 22:22:26                                     <aggregationLevel8><n1/></aggregationLevel8>
+十一 22 22:22:26                                     <aggregationLevel16><n0/></aggregationLevel16>
+十一 22 22:22:26                                 </nrofCandidates>
+十一 22 22:22:26                                 <searchSpaceType>
+十一 22 22:22:26                                     <common>
+十一 22 22:22:26                                         <dci-Format0-0-AndFormat1-0>
+十一 22 22:22:26                                         </dci-Format0-0-AndFormat1-0>
+十一 22 22:22:26                                     </common>
+十一 22 22:22:26                                 </searchSpaceType>
+十一 22 22:22:26                             </SearchSpace>
+十一 22 22:22:26                         </commonSearchSpaceList>
+十一 22 22:22:26                         <searchSpaceSIB1>1</searchSpaceSIB1>
+十一 22 22:22:26                         <pagingSearchSpace>1</pagingSearchSpace>
+十一 22 22:22:26                         <ra-SearchSpace>1</ra-SearchSpace>
+十一 22 22:22:26                     </setup>
+十一 22 22:22:26                 </pdcch-ConfigCommon>
+十一 22 22:22:26                 <pdsch-ConfigCommon>
+十一 22 22:22:26                     <setup>
+十一 22 22:22:26                         <pdsch-TimeDomainAllocationList>
+十一 22 22:22:26                             <PDSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                                 <k0>0</k0>
+十一 22 22:22:26                                 <mappingType><typeA/></mappingType>
+十一 22 22:22:26                                 <startSymbolAndLength>66</startSymbolAndLength>
+十一 22 22:22:26                             </PDSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                             <PDSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                                 <k0>1</k0>
+十一 22 22:22:26                                 <mappingType><typeA/></mappingType>
+十一 22 22:22:26                                 <startSymbolAndLength>66</startSymbolAndLength>
+十一 22 22:22:26                             </PDSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                         </pdsch-TimeDomainAllocationList>
+十一 22 22:22:26                     </setup>
+十一 22 22:22:26                 </pdsch-ConfigCommon>
+十一 22 22:22:26             </initialDownlinkBWP>
+十一 22 22:22:26             <bcch-Config>
+十一 22 22:22:26                 <modificationPeriodCoeff><n16/></modificationPeriodCoeff>
+十一 22 22:22:26             </bcch-Config>
+十一 22 22:22:26             <pcch-Config>
+十一 22 22:22:26                 <defaultPagingCycle><rf256/></defaultPagingCycle>
+十一 22 22:22:26                 <nAndPagingFrameOffset>
+十一 22 22:22:26                     <oneT></oneT>
+十一 22 22:22:26                 </nAndPagingFrameOffset>
+十一 22 22:22:26                 <ns><four/></ns>
+十一 22 22:22:26             </pcch-Config>
+十一 22 22:22:26         </downlinkConfigCommon>
+十一 22 22:22:26         <uplinkConfigCommon>
+十一 22 22:22:26             <frequencyInfoUL>
+十一 22 22:22:26                 <scs-SpecificCarrierList>
+十一 22 22:22:26                     <SCS-SpecificCarrier>
+十一 22 22:22:26                         <offsetToCarrier>0</offsetToCarrier>
+十一 22 22:22:26                         <subcarrierSpacing><kHz30/></subcarrierSpacing>
+十一 22 22:22:26                         <carrierBandwidth>20</carrierBandwidth>
+十一 22 22:22:26                     </SCS-SpecificCarrier>
+十一 22 22:22:26                 </scs-SpecificCarrierList>
+十一 22 22:22:26                 <p-Max>23</p-Max>
+十一 22 22:22:26             </frequencyInfoUL>
+十一 22 22:22:26             <initialUplinkBWP>
+十一 22 22:22:26                 <genericParameters>
+十一 22 22:22:26                     <locationAndBandwidth>28875</locationAndBandwidth>
+十一 22 22:22:26                     <subcarrierSpacing><kHz30/></subcarrierSpacing>
+十一 22 22:22:26                 </genericParameters>
+十一 22 22:22:26                 <rach-ConfigCommon>
+十一 22 22:22:26                     <setup>
+十一 22 22:22:26                         <rach-ConfigGeneric>
+十一 22 22:22:26                             <prach-ConfigurationIndex>88</prach-ConfigurationIndex>
+十一 22 22:22:26                             <msg1-FDM><one/></msg1-FDM>
+十一 22 22:22:26                             <msg1-FrequencyStart>82</msg1-FrequencyStart>
+十一 22 22:22:26                             <zeroCorrelationZoneConfig>4</zeroCorrelationZoneConfig>
+十一 22 22:22:26                             <preambleReceivedTargetPower>-74</preambleReceivedTargetPower>
+十一 22 22:22:26                             <preambleTransMax><n200/></preambleTransMax>
+十一 22 22:22:26                             <powerRampingStep><dB2/></powerRampingStep>
+十一 22 22:22:26                             <ra-ResponseWindow><sl10/></ra-ResponseWindow>
+十一 22 22:22:26                         </rach-ConfigGeneric>
+十一 22 22:22:26                         <totalNumberOfRA-Preambles>63</totalNumberOfRA-Preambles>
+十一 22 22:22:26                         <ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+十一 22 22:22:26                             <one><n8/></one>
+十一 22 22:22:26                         </ssb-perRACH-OccasionAndCB-PreamblesPerSSB>
+十一 22 22:22:26                         <ra-ContentionResolutionTimer><sf64/></ra-ContentionResolutionTimer>
+十一 22 22:22:26                         <rsrp-ThresholdSSB>31</rsrp-ThresholdSSB>
+十一 22 22:22:26                         <prach-RootSequenceIndex>
+十一 22 22:22:26                             <l139>0</l139>
+十一 22 22:22:26                         </prach-RootSequenceIndex>
+十一 22 22:22:26                         <msg1-SubcarrierSpacing><kHz30/></msg1-SubcarrierSpacing>
+十一 22 22:22:26                         <restrictedSetConfig><unrestrictedSet/></restrictedSetConfig>
+十一 22 22:22:26                     </setup>
+十一 22 22:22:26                 </rach-ConfigCommon>
+十一 22 22:22:26                 <pusch-ConfigCommon>
+十一 22 22:22:26                     <setup>
+十一 22 22:22:26                         <pusch-TimeDomainAllocationList>
+十一 22 22:22:26                             <PUSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                                 <k2>4</k2>
+十一 22 22:22:26                                 <mappingType><typeA/></mappingType>
+十一 22 22:22:26                                 <startSymbolAndLength>66</startSymbolAndLength>
+十一 22 22:22:26                             </PUSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                             <PUSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                                 <k2>5</k2>
+十一 22 22:22:26                                 <mappingType><typeA/></mappingType>
+十一 22 22:22:26                                 <startSymbolAndLength>66</startSymbolAndLength>
+十一 22 22:22:26                             </PUSCH-TimeDomainResourceAllocation>
+十一 22 22:22:26                         </pusch-TimeDomainAllocationList>
+十一 22 22:22:26                         <msg3-DeltaPreamble>0</msg3-DeltaPreamble>
+十一 22 22:22:26                         <p0-NominalWithGrant>-70</p0-NominalWithGrant>
+十一 22 22:22:26                     </setup>
+十一 22 22:22:26                 </pusch-ConfigCommon>
+十一 22 22:22:26                 <pucch-ConfigCommon>
+十一 22 22:22:26                     <setup>
+十一 22 22:22:26                         <pucch-ResourceCommon>0</pucch-ResourceCommon>
+十一 22 22:22:26                         <pucch-GroupHopping><neither/></pucch-GroupHopping>
+十一 22 22:22:26                         <p0-nominal>-74</p0-nominal>
+十一 22 22:22:26                     </setup>
+十一 22 22:22:26                 </pucch-ConfigCommon>
+十一 22 22:22:26             </initialUplinkBWP>
+十一 22 22:22:26             <timeAlignmentTimerCommon><infinity/></timeAlignmentTimerCommon>
+十一 22 22:22:26         </uplinkConfigCommon>
+十一 22 22:22:26         <ssb-PositionsInBurst>
+十一 22 22:22:26             <inOneGroup>
+十一 22 22:22:26                 11000000
+十一 22 22:22:26             </inOneGroup>
+十一 22 22:22:26         </ssb-PositionsInBurst>
+十一 22 22:22:26         <ssb-PeriodicityServingCell><ms20/></ssb-PeriodicityServingCell>
+十一 22 22:22:26         <tdd-UL-DL-ConfigurationCommon>
+十一 22 22:22:26             <referenceSubcarrierSpacing><kHz30/></referenceSubcarrierSpacing>
+十一 22 22:22:26             <pattern1>
+十一 22 22:22:26                 <dl-UL-TransmissionPeriodicity><ms5/></dl-UL-TransmissionPeriodicity>
+十一 22 22:22:26                 <nrofDownlinkSlots>7</nrofDownlinkSlots>
+十一 22 22:22:26                 <nrofDownlinkSymbols>12</nrofDownlinkSymbols>
+十一 22 22:22:26                 <nrofUplinkSlots>2</nrofUplinkSlots>
+十一 22 22:22:26                 <nrofUplinkSymbols>1</nrofUplinkSymbols>
+十一 22 22:22:26             </pattern1>
+十一 22 22:22:26         </tdd-UL-DL-ConfigurationCommon>
+十一 22 22:22:26         <ss-PBCH-BlockPower>0</ss-PBCH-BlockPower>
+十一 22 22:22:26     </servingCellConfigCommon>
+十一 22 22:22:26 </SIB1>
+十一 22 22:22:26 
+十一 22 22:22:26 encbufSize: 98
+十一 22 22:22:26 70	0	30	ffffff91	ffffff9b	24	0	1	0	0	1	0	0	0	0	1a	40	0	4	5	2	42	0	41	0	18	0	0	0	20	0	13	60	70	ffffffcb	35	ffffffd8	1	ffffffb8	20	10	0	78	ffffff88	40	10	41	ffffffa3	1	a	a	13	30	8	0	0	0	20	0	13	ffffffd5	ffffffc0	70	ffffffcb	36	ffffffa0	58	0	0	52	40	ffffff80	ffffffa6	7c	ffffffc7	ffffff9f	ffffff80	0	24	ffffffe3	11	a	2a	11	ffffff84	ffffffa8	0	ffffff80	ffffffec	4	16	0	7	ffffffc0	0	2	17	ffffff80	
+十一 22 22:22:26 <BCCH-BCH-Message>
+十一 22 22:22:26     <message>
+十一 22 22:22:26         <mib>
+十一 22 22:22:26             <systemFrameNumber>
+十一 22 22:22:26                 000000
+十一 22 22:22:26             </systemFrameNumber>
+十一 22 22:22:26             <subCarrierSpacingCommon><scs15or60/></subCarrierSpacingCommon>
+十一 22 22:22:26             <ssb-SubcarrierOffset>0</ssb-SubcarrierOffset>
+十一 22 22:22:26             <dmrs-TypeA-Position><pos2/></dmrs-TypeA-Position>
+十一 22 22:22:26             <pdcch-ConfigSIB1>
+十一 22 22:22:26                 <controlResourceSetZero>0</controlResourceSetZero>
+十一 22 22:22:26                 <searchSpaceZero>0</searchSpaceZero>
+十一 22 22:22:26             </pdcch-ConfigSIB1>
+十一 22 22:22:26             <cellBarred><notBarred/></cellBarred>
+十一 22 22:22:26             <intraFreqReselection><notAllowed/></intraFreqReselection>
+十一 22 22:22:26             <spare>
+十一 22 22:22:26                 0
+十一 22 22:22:26             </spare>
+十一 22 22:22:26         </mib>
+十一 22 22:22:26     </message>
+十一 22 22:22:26 </BCCH-BCH-Message>
+十一 22 22:22:26 
+十一 22 22:22:26 encbufSize:3
+十一 22 22:22:26 0	0	6	
+十一 22 22:22:26 
+十一 22 22:22:26 INFO    --> DU_APP: readVnfCfg() Conpleted
+十一 22 22:22:26 ******************FINISH VNF_CFG_REQ **************************
+十一 22 22:22:26 ****** Received initial configs at DU APP ******
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL/UL Lower Sap Cfg Req sent for inst 0
+十一 22 22:22:26 ****** Received initial vnf configs at DU APP ******
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG  -->  DU_APP : MAC VNF config sent
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
+十一 22 22:22:26 INFO  -->  LWR_MAC : Calling MacProcVnfCfgReq
+十一 22 22:22:26 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+十一 22 22:22:26 INFO  -->  LWR_MAC : phystate :  0 in msgType : 6
+十一 22 22:22:26 INFO  --> LWR_MAC [NFAPI_TRACE_INFO] : lwr_mac_procVnfCfgStartEvt
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  nfapi_nr_vnf_start()
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  Starting P5 VNF connection on port 62324
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  P5 socket created...
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  VNF Setting the SCTP_INITMSG
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 1 
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  IPV4 binding to port 62324
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  bind succeeded...
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 186 
+十一 22 22:22:26 [NFAPI VNF INTF]  ->  listen succeeded...
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Status 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC UL Cfg Cfm received for the element 189 
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC Gen Cfg Req sent for inst 1
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC Kwu Upper Sap Cfg Req sent for inst 1
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC MAC Lower Sap Cfg Req sent for inst 1
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(1)
+十一 22 22:22:26 INFO   --> RLC_DL : Starting UE Throughput timer
+十一 22 22:22:26 INFO   --> RLC_DL : Starting SNSSAI Throughput timer
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(189)
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiRlcConfigReq elmId(186)
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 1 
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 189 
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Status 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : RLC DL Cfg Cfm received for the element 186 
+十一 22 22:22:26 DEBUG   -->  DU_APP : MAC Gen Cfg Req sent
+十一 22 22:22:26 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+十一 22 22:22:26 DEBUG  -->  DU_APP : MAC Rgu USap Cfg Req sent
+十一 22 22:22:26 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十一 22 22:22:26 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十一 22 22:22:26 INFO  -->  MAC : Received CfgReq for MAC layer, Entity = 235, Instance = 0
+十一 22 22:22:26 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 1 
+十一 22 22:22:26 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+十一 22 22:22:26 DEBUG   -->  DU_APP : MAC Cfg Cfm received for the element 186 
+十一 22 22:22:26 DEBUG   -->  DU_APP : Completed sending Configs
+十一 22 22:22:26 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 1 to bind MAC sap
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+十一 22 22:22:26 DEBUG  -->  MAC : SAP Not yet bound
+十一 22 22:22:26 DEBUG  -->  RLC UL : RlcLiRguBndCfm(suId(0), status(1)
+十一 22 22:22:26 DEBUG  -->  RLC UL : RlcLiRguBndCfm: For RGU SAP state=3
+十一 22 22:22:26 DEBUG   -->  DU_APP : BIND OF RLC DL TO MAC (RGU) SAP SUCCESSFUL
+十一 22 22:22:26 DEBUG   -->  DU_APP : Cntrl Req to RLC inst 0 to bind MAC sap
+十一 22 22:22:26 DEBUG  --> RLC : RlcMiLkwCntrlReq(elmId(186))
+十一 22 22:22:26 DEBUG   -->  DU_APP : BIND OF RLC UL TO MAC (RGU) SAP SUCCESSFUL
+十一 22 22:22:26 DEBUG   -->  DU_APP : MAC Sch Cfg sent
+十一 22 22:22:26 Received Scheduler gen config at MAC
+十一 22 22:22:26 INFO   -->  SCH : Received scheduler gen config
+十一 22 22:22:26 DEBUG  -->  SCH : Entered SchInstCfg()
+十一 22 22:22:26 INFO   -->  SCH : Scheduler gen config done
+十一 22 22:22:26 DEBUG  -->  Sending Scheduler config confirm to DU APP
+十一 22 22:22:26 DEBUG   -->  DU_APP : Received SCH CFG CFM at DU APP
+十一 22 22:22:26 INFO   -->  DU_APP : Configuring all Layer is complete
+十一 22 22:22:26 CmInetSctpConnectx() Failed test: error(115), port(0x9648),		   sockFd->fd(5)
+十一 22 22:22:26 
+十一 22 22:22:26 INFO   -->  SCTP : Polling started at DU
+十一 22 22:22:26 
+十一 22 22:22:26 CmInetSctpConnectx() Failed test: error(115), port(0x8e45),		   sockFd->fd(6)
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  SCTP : AssocId assigned to F1Params from PollParams [67]
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  DU_APP : Sending EGTP config request
+十一 22 22:22:26 DEBUG   -->  SCTP : Assoc change notification received
+十一 22 22:22:26 INFO   -->  Event : COMMUNICATION UP in du
+十一 22 22:22:26 DEBUG   -->  SCTP : Forwarding received message to duApp
+十一 22 22:22:26 DEBUG   -->  EGTP : EGTP configuration successful
+十一 22 22:22:26 DEBUG   -->  SCTP : AssocId assigned to ricParams from PollParams [69]
+十一 22 22:22:26 
+十一 22 22:22:26 INFO   -->  F1AP : Building F1 Setup Request
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  SCTP : Assoc change notification received
+十一 22 22:22:26 INFO   -->  Event : COMMUNICATION UP in du<F1AP-PDU>
+十一 22 22:22:26     <initiatingMessage>
+十一 22 22:22:26         <procedureCode>1</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  SCTP : Forwarding received message to duApp            <F1SetupRequest>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <F1SetupRequestIEs>
+十一 22 22:22:26                         <id>78</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <TransactionID>1</TransactionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupRequestIEs>
+十一 22 22:22:26                     <F1SetupRequestIEs>
+十一 22 22:22:26                         <id>42</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <GNB-DU-ID>1</GNB-DU-ID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupRequestIEs>
+十一 22 22:22:26                     <F1SetupRequestIEs>
+十一 22 22:22:26                         <id>45</id>
+十一 22 22:22:26                         <criticality><ignore/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <GNB-DU-Name>ORAN_OAM_DU</GNB-DU-Name>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupRequestIEs>
+十一 22 22:22:26                     <F1SetupRequestIEs>
+十一 22 22:22:26                         <id>44</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <GNB-DU-Served-Cells-List>
+十一 22 22:22:26                                 <ProtocolIE-SingleContainer>
+十一 22 22:22:26                                     <id>43</id>
+十一 22 22:22:26                                     <criticality><reject/></criticality>
+十一 22 22:22:26                                     <value>
+十一 22 22:22:26                                         <GNB-DU-Served-Cells-Item>
+十一 22 22:22:26                                             <served-Cell-Information>
+十一 22 22:22:26                                                 <nRCGI>
+十一 22 22:22:26                                                     <pLMN-Identity>64 96 02</pLMN-Identity>
+十一 22 22:22:26                                                     <nRCellIdentity>
+十一 22 22:22:26                                                         000000000000000000000000000000000001
+十一 22 22:22:26                                                     </nRCellIdentity>
+十一 22 22:22:26                                                 </nRCGI>
+十一 22 22:22:26                                                 <nRPCI>1</nRPCI>
+十一 22 22:22:26                                                 <fiveGS-TAC>00 00 01</fiveGS-TAC>
+十一 22 22:22:26                                                 <servedPLMNs>
+十一 22 22:22:26                                                     <ServedPLMNs-Item>
+十一 22 22:22:26                                                         <pLMN-Identity>64 96 02</pLMN-Identity>
+十一 22 22:22:26                                                         <iE-Extensions>
+十一 22 22:22:26                                                             <ServedPLMNs-ItemExtIEs>
+十一 22 22:22:26                                                                 <id>131</id>
+十一 22 22:22:26                                                                 <criticality><ignore/></criticality>
+十一 22 22:22:26                                                                 <extensionValue>
+十一 22 22:22:26                                                                     <SliceSupportList>
+十一 22 22:22:26                                                                         <SliceSupportItem>
+十一 22 22:22:26                                                                             <sNSSAI>
+十一 22 22:22:26                                                                                 <sST>01</sST>
+十一 22 22:22:26                                                                                 <sD>02 03 04</sD>
+十一 22 22:22:26                                                                             </sNSSAI>
+十一 22 22:22:26                                                                         </SliceSupportItem>
+十一 22 22:22:26                                                                         <SliceSupportItem>
+十一 22 22:22:26                                                                             <sNSSAI>
+十一 22 22:22:26                                                                                 <sST>05</sST>
+十一 22 22:22:26                                                                                 <sD>06 07 08</sD>
+十一 22 22:22:26                                                                             </sNSSAI>
+十一 22 22:22:26                                                                         </SliceSupportItem>
+十一 22 22:22:26                                                                     </SliceSupportList>
+十一 22 22:22:26                                                                 </extensionValue>
+十一 22 22:22:26                                                             </ServedPLMNs-ItemExtIEs>
+十一 22 22:22:26                                                         </iE-Extensions>
+十一 22 22:22:26                                                     </ServedPLMNs-Item>
+十一 22 22:22:26                                                 </servedPLMNs>
+十一 22 22:22:26                                                 <nR-Mode-Info>
+十一 22 22:22:26                                                     <fDD>
+十一 22 22:22:26                                                         <uL-NRFreqInfo>
+十一 22 22:22:26                                                             <nRARFCN>350000</nRARFCN>
+十一 22 22:22:26                                                             <freqBandListNr>
+十一 22 22:22:26                                                                 <FreqBandNrItem>
+十一 22 22:22:26                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
+十一 22 22:22:26                                                                     <supportedSULBandList>
+十一 22 22:22:26                                                                     </supportedSULBandList>
+十一 22 22:22:26                                                                 </FreqBandNrItem>
+十一 22 22:22:26                                                             </freqBandListNr>
+十一 22 22:22:26                                                         </uL-NRFreqInfo>
+十一 22 22:22:26                                                         <dL-NRFreqInfo>
+十一 22 22:22:26                                                             <nRARFCN>430000</nRARFCN>
+十一 22 22:22:26                                                             <freqBandListNr>
+十一 22 22:22:26                                                                 <FreqBandNrItem>
+十一 22 22:22:26                                                                     <freqBandIndicatorNr>66</freqBandIndicatorNr>
+十一 22 22:22:26                                                                     <supportedSULBandList>
+十一 22 22:22:26                                                                     </supportedSULBandList>
+十一 22 22:22:26                                                                 </FreqBandNrItem>
+十一 22 22:22:26                                                             </freqBandListNr>
+十一 22 22:22:26                                                         </dL-NRFreqInfo>
+十一 22 22:22:26                                                         <uL-Transmission-Bandwidth>
+十一 22 22:22:26                                                             <nRSCS><scs60/></nRSCS>
+十一 22 22:22:26                                                             <nRNRB><nrb106/></nRNRB>
+十一 22 22:22:26                                                         </uL-Transmission-Bandwidth>
+十一 22 22:22:26                                                         <dL-Transmission-Bandwidth>
+十一 22 22:22:26                                                             <nRSCS><scs60/></nRSCS>
+十一 22 22:22:26                                                             <nRNRB><nrb106/></nRNRB>
+十一 22 22:22:26                                                         </dL-Transmission-Bandwidth>
+十一 22 22:22:26                                                     </fDD>
+十一 22 22:22:26                                                 </nR-Mode-Info>
+十一 22 22:22:26                                                 <measurementTimingConfiguration>00</measurementTimingConfiguration>
+十一 22 22:22:26                                             </served-Cell-Information>
+十一 22 22:22:26                                             <gNB-DU-System-Information>
+十一 22 22:22:26                                                 <mIB-message>00 00 0C</mIB-message>
+十一 22 22:22:26                                                 <sIB1-message>
+十一 22 22:22:26                                                     70 00 30 91 9B 24 00 01 00 00 01 00 00 00 00 1A 
+十一 22 22:22:26                                                     40 00 04 05 02 42 00 41 00 18 00 00 00 20 00 13 
+十一 22 22:22:26                                                     60 70 CB 35 D8 01 B8 20 10 00 78 88 40 10 41 A3 
+十一 22 22:22:26                                                     01 0A 0A 13 30 08 00 00 00 20 00 13 D5 C0 70 CB 
+十一 22 22:22:26                                                     36 A0 58 00 00 52 40 80 A6 7C C7 9F 80 00 24 E3 
+十一 22 22:22:26                                                     11 0A 2A 11 84 A8 00 80 EC 04 16 00 07 C0 00 02 
+十一 22 22:22:26                                                     17 80
+十一 22 22:22:26                                                 </sIB1-message>
+十一 22 22:22:26                                             </gNB-DU-System-Information>
+十一 22 22:22:26                                         </GNB-DU-Served-Cells-Item>
+十一 22 22:22:26                                     </value>
+十一 22 22:22:26                                 </ProtocolIE-SingleContainer>
+十一 22 22:22:26                             </GNB-DU-Served-Cells-List>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupRequestIEs>
+十一 22 22:22:26                     <F1SetupRequestIEs>
+十一 22 22:22:26                         <id>171</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RRC-Version>
+十一 22 22:22:26                                 <latest-RRC-Version>
+十一 22 22:22:26                                     000
+十一 22 22:22:26                                 </latest-RRC-Version>
+十一 22 22:22:26                             </RRC-Version>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupRequestIEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </F1SetupRequest>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </initiatingMessage>
+十一 22 22:22:26 </F1AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  F1AP : Created APER encoded buffer for F1SetupRequest
+十一 22 22:22:26 010ffffff80ffffffd400504e020102a020102d40d504f52414e5f4f414d5f445502c0ffffff80ffffffaa0002b0ffffff80ffffffa348064ffffff96200001001001864ffffff962000ffffff8340c01402023440ffffffa0678105573000410406ffffff8fffffffb000410478ffffffe0100300c6270030ffffff91ffffff9b240100100001a40045242041018000200136070ffffffcb35ffffffd81ffffffb82010078ffffff88401041ffffffa31aa1330800020013ffffffd5ffffffc070ffffffcb36ffffffa058005240ffffff80ffffffa67cffffffc7ffffff9fffffff80024ffffffe311a2a11ffffff84ffffffa80ffffff80ffffffec41607ffffffc00217ffffff800ffffffab010
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0217   00-->00 region: 00
+十一 22 22:22:26 dat: 00 01 00 80 d4 00 00 05 00 4e 00 02 00 01 00 2a .........N.....*
+十一 22 22:22:26      00 02 00 01 00 2d 40 0d 05 00 4f 52 41 4e 5f 4f .....-@...ORAN_O
+十一 22 22:22:26      41 4d 5f 44 55 00 2c 00 80 aa 00 00 00 2b 00 80 AM_DU.,......+..
+十一 22 22:22:26      a3 48 00 64 96 02 00 00 00 00 10 00 01 00 00 01 .H.d............
+十一 22 22:22:26      08 64 96 02 00 00 00 83 40 0c 00 01 40 20 02 03 .d......@...@ ..
+十一 22 22:22:26      04 40 a0 06 07 08 01 00 05 57 30 00 00 41 00 40 .@.......W0..A.@
+十一 22 22:22:26      06 8f b0 00 00 41 00 47 08 e0 01 00 00 03 00 00 .....A.G........
+十一 22 22:22:26      0c 62 70 00 30 91 9b 24 00 01 00 00 01 00 00 00 .bp.0..$........
+十一 22 22:22:26      00 1a 40 00 04 05 02 42 00 41 00 18 00 00 00 20 ..@....B.A..... 
+十一 22 22:22:26      00 13 60 70 cb 35 d8 01 b8 20 10 00 78 88 40 10 ..`p.5... ..x.@.
+十一 22 22:22:26      41 a3 01 0a 0a 13 30 08 00 00 00 20 00 13 d5 c0 A.....0.... ....
+十一 22 22:22:26      70 cb 36 a0 58 00 00 52 40 80 a6 7c c7 9f 80 00 p.6.X..R@..|....
+十一 22 22:22:26      24 e3 11 0a 2a 11 84 a8 00 80 ec 04 16 00 07 c0 $...*...........
+十一 22 22:22:26      00 02 17 80 00 ab 00 01 00                      .........
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  SCTP : sending the message to CU
+十一 22 22:22:26 DEBUG   -->  DU_APP : EGTP configuraton complete
+十一 22 22:22:26 DEBUG   -->  DU_APP : Sending EGTP server open request
+十一 22 22:22:26 INFO   -->  E2AP : Building E2 Setup Request
+十一 22 22:22:26 <E2AP-PDU>
+十一 22 22:22:26     <initiatingMessage>
+十一 22 22:22:26         <procedureCode>1</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG  -->  EGTP : Received EGTP open server request            <E2setupRequest>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <E2setupRequestIEs>
+十一 22 22:22:26                         <id>3</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <GlobalE2node-ID>
+十一 22 22:22:26                                 <gNB>
+十一 22 22:22:26                                     <global-gNB-ID>
+十一 22 22:22:26                                         <plmn-id>64 96 02</plmn-id>
+十一 22 22:22:26                                         <gnb-id>
+十一 22 22:22:26                                             <gnb-ID>
+十一 22 22:22:26                                                 00000000000000000000000000000001
+十一 22 22:22:26                                             </gnb-ID>
+十一 22 22:22:26                                         </gnb-id>
+十一 22 22:22:26                                     </global-gNB-ID>
+十一 22 22:22:26                                 </gNB>
+十一 22 22:22:26                             </GlobalE2node-ID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </E2setupRequestIEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </E2setupRequest>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </initiatingMessage>
+十一 22 22:22:26 </E2AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  EGTP : Receiver socket[7] and Sender socket[8] open
+十一 22 22:22:26 DEBUG   -->  E2AP : Created APER encoded buffer for E2SetupRequest
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  EGTP : Starting Socket Polling010100010309064ffffff962500001
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0020   00-->00 region: 00
+十一 22 22:22:26 dat: 00 01 00 10 00 00 01 00 03 00 09 00 64 96 02 50 ............d..P
+十一 22 22:22:26      00 00 00 01                                     ....
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  SCTP : sending the message to ric
+十一 22 22:22:26 DEBUG   -->  DU_APP : EGTP server opened successfully
+十一 22 22:22:26 DEBUG   -->  SCTP : Forwarding received message to duApp
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0073   00-->00 region: 00
+十一 22 22:22:26 dat: 40 01 00 45 00 00 03 00 4e 00 02 00 01 00 52 40 @..E....N.....R@
+十一 22 22:22:26      10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+十一 22 22:22:26      55 00 03 00 24 00 00 00 04 00 1e 60 64 96 02 00 U...$......`d...
+十一 22 22:22:26      00 00 00 10 00 01 00 00 00 76 00 0d 00 00 09 00 .........v......
+十一 22 22:22:26      40 01 00 90 00 a0 94 40 00                      @......@.
+十一 22 22:22:26      
+十一 22 22:22:26 INFO  -->  F1AP : Received F1AP message buffer
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0073   00-->00 region: 00
+十一 22 22:22:26 dat: 40 01 00 45 00 00 03 00 4e 00 02 00 01 00 52 40 @..E....N.....R@
+十一 22 22:22:26      10 06 80 67 4e 42 2d 45 75 72 65 63 6f 6d 2d 43 ...gNB-Eurecom-C
+十一 22 22:22:26      55 00 03 00 24 00 00 00 04 00 1e 60 64 96 02 00 U...$......`d...
+十一 22 22:22:26      00 00 00 10 00 01 00 00 00 76 00 0d 00 00 09 00 .........v......
+十一 22 22:22:26      40 01 00 90 00 a0 94 40 00                      @......@.
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  F1AP : Received flat buffer to be decoded : 40104500304e020105240106ffffff80674e422d45757265636f6d2d435503024000401e6064ffffff96200001001000760d00904010ffffff900ffffffa0ffffff94400
+十一 22 22:22:26 <F1AP-PDU>
+十一 22 22:22:26     <successfulOutcome>
+十一 22 22:22:26         <procedureCode>1</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26             <F1SetupResponse>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <F1SetupResponseIEs>
+十一 22 22:22:26                         <id>78</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <TransactionID>1</TransactionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupResponseIEs>
+十一 22 22:22:26                     <F1SetupResponseIEs>
+十一 22 22:22:26                         <id>82</id>
+十一 22 22:22:26                         <criticality><ignore/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <GNB-CU-Name>gNB-Eurecom-CU</GNB-CU-Name>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupResponseIEs>
+十一 22 22:22:26                     <F1SetupResponseIEs>
+十一 22 22:22:26                         <id>3</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <Cells-to-be-Activated-List>
+十一 22 22:22:26                                 <ProtocolIE-SingleContainer>
+十一 22 22:22:26                                     <id>4</id>
+十一 22 22:22:26                                     <criticality><reject/></criticality>
+十一 22 22:22:26                                     <value>
+十一 22 22:22:26                                         <Cells-to-be-Activated-List-Item>
+十一 22 22:22:26                                             <nRCGI>
+十一 22 22:22:26                                                 <pLMN-Identity>64 96 02</pLMN-Identity>
+十一 22 22:22:26                                                 <nRCellIdentity>
+十一 22 22:22:26                                                     000000000000000000000000000000000001
+十一 22 22:22:26                                                 </nRCellIdentity>
+十一 22 22:22:26                                             </nRCGI>
+十一 22 22:22:26                                             <nRPCI>1</nRPCI>
+十一 22 22:22:26                                             <iE-Extensions>
+十一 22 22:22:26                                                 <Cells-to-be-Activated-List-ItemExtIEs>
+十一 22 22:22:26                                                     <id>118</id>
+十一 22 22:22:26                                                     <criticality><reject/></criticality>
+十一 22 22:22:26                                                     <extensionValue>
+十一 22 22:22:26                                                         <GNB-CUSystemInformation>
+十一 22 22:22:26                                                             <sibtypetobeupdatedlist>
+十一 22 22:22:26                                                                 <SibtypetobeupdatedListItem>
+十一 22 22:22:26                                                                     <sIBtype>2</sIBtype>
+十一 22 22:22:26                                                                     <sIBmessage>00 40 01 00 90 00 A0 94 40</sIBmessage>
+十一 22 22:22:26                                                                     <valueTag>0</valueTag>
+十一 22 22:22:26                                                                 </SibtypetobeupdatedListItem>
+十一 22 22:22:26                                                             </sibtypetobeupdatedlist>
+十一 22 22:22:26                                                         </GNB-CUSystemInformation>
+十一 22 22:22:26                                                     </extensionValue>
+十一 22 22:22:26                                                 </Cells-to-be-Activated-List-ItemExtIEs>
+十一 22 22:22:26                                             </iE-Extensions>
+十一 22 22:22:26                                         </Cells-to-be-Activated-List-Item>
+十一 22 22:22:26                                     </value>
+十一 22 22:22:26                                 </ProtocolIE-SingleContainer>
+十一 22 22:22:26                             </Cells-to-be-Activated-List>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </F1SetupResponseIEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </F1SetupResponse>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </successfulOutcome>
+十一 22 22:22:26 </F1AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 INFO   -->  F1AP : F1 Setup Response received
+十一 22 22:22:26 INFO   -->  DU_APP : F1 Setup Response received
+十一 22 22:22:26 INFO   -->  DU_APP : F1 Setup Response received
+十一 22 22:22:26 DEBUG  -->  DU-APP : MAC CELL config sent
+十一 22 22:22:26 INFO   -->  DU_APP : F1 Setup Response received
+十一 22 22:22:26 DEBUG   -->  SCTP : Forwarding received message to duApp
+十一 22 22:22:26 NTUST --> I am here in MacProcCellCfgReq
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
+十一 22 22:22:26 dat: 20 01 00 0e 00 
+十一 22 22:22:26 NTUST --> In MacSchCellCfgReq/SchCellCfgOpts:100 01 00 04 00 07 00 13 41 08 00  ............A..
+十一 22 22:22:26      00 10                                           ..
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  E2AP : Received E2AP message buffer
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0018   00-->00 region: 00
+十一 22 22:22:26 dat: 20 01 00 0e 00 00 01 00 04 00 07 00 13 41 08 00  ............A..
+十一 22 22:22:26      00 10                                           ..
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  E2AP : Received flat buffer to be decoded : 2010e00104070134180010
+十一 22 22:22:26 INFO  -->  SCH : Cell init completed for cellId:1
+十一 22 22:22:26 <E2AP-PDU>
+十一 22 22:22:26     <successfulOutcome>
+十一 22 22:22:26         <procedureCode>1</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26             <E2setupResponse>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <E2setupResponseIEs>
+十一 22 22:22:26                         <id>4</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26 
+十一 22 22:22:26 NTUST --> In SchHdlCellCfgReq/SchCellCfgCfmOpts:1
+十一 22 22:22:26 INFO  -->  LWR_MAC [Lwr Mac Sch Info] : MacProcSchCellCfgCfm
+十一 22 22:22:26 NTUST --> schCellCfgCfm->rsp == RSP_OK : sendToLowerMac()
+十一 22 22:22:26 [MWNL] The VNF_ENABLE is set to YES and waiting for pthread signal ...
+十一 22 22:22:26                             <GlobalRIC-ID>
+十一 22 22:22:26                                 <pLMN-Identity>13 41 08</pLMN-Identity>
+十一 22 22:22:26                                 <ric-ID>
+十一 22 22:22:26                                     00000000000000000001
+十一 22 22:22:26                                 </ric-ID>
+十一 22 22:22:26                             </GlobalRIC-ID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </E2setupResponseIEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </E2setupResponse>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </successfulOutcome>
+十一 22 22:22:26 </E2AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  E2AP : Store E2 setup response Params
+十一 22 22:22:26 INFO   -->  E2AP : E2 Setup Response received
+十一 22 22:22:26 DEBUG   -->  SCTP : Forwarding received message to duApp
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
+十一 22 22:22:26 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
+十一 22 22:22:26      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
+十一 22 22:22:26      00 13 40 03 00 00 00                            ..@....
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  E2AP : Received E2AP message buffer
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0039   00-->00 region: 00
+十一 22 22:22:26 dat: 00 08 00 23 00 00 03 00 1d 00 05 00 00 01 00 01 ...#............
+十一 22 22:22:26      00 05 00 02 00 01 00 1e 00 0d 00 03 13 41 08 00 .............A..
+十一 22 22:22:26      00 13 40 03 00 00 00                            ..@....
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  E2AP : Received flat buffer to be decoded : 0802300301d050010105020101e0d03134180013403000
+十一 22 22:22:26 <E2AP-PDU>
+十一 22 22:22:26     <initiatingMessage>
+十一 22 22:22:26         <procedureCode>8</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26             <RICsubscriptionRequest>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <RICsubscriptionRequest-IEs>
+十一 22 22:22:26                         <id>29</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICrequestID>
+十一 22 22:22:26                                 <ricRequestorID>1</ricRequestorID>
+十一 22 22:22:26                                 <ricInstanceID>1</ricInstanceID>
+十一 22 22:22:26                             </RICrequestID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionRequest-IEs>
+十一 22 22:22:26                     <RICsubscriptionRequest-IEs>
+十一 22 22:22:26                         <id>5</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RANfunctionID>1</RANfunctionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionRequest-IEs>
+十一 22 22:22:26                     <RICsubscriptionRequest-IEs>
+十一 22 22:22:26                         <id>30</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICsubscriptionDetails>
+十一 22 22:22:26                                 <ricEventTriggerDefinition>13 41 08</ricEventTriggerDefinition>
+十一 22 22:22:26                                 <ricAction-ToBeSetup-List>
+十一 22 22:22:26                                     <ProtocolIE-SingleContainerE2>
+十一 22 22:22:26                                         <id>19</id>
+十一 22 22:22:26                                         <criticality><ignore/></criticality>
+十一 22 22:22:26                                         <value>
+十一 22 22:22:26                                             <RICaction-ToBeSetup-Item>
+十一 22 22:22:26                                                 <ricActionID>0</ricActionID>
+十一 22 22:22:26                                                 <ricActionType><report/></ricActionType>
+十一 22 22:22:26                                             </RICaction-ToBeSetup-Item>
+十一 22 22:22:26                                         </value>
+十一 22 22:22:26                                     </ProtocolIE-SingleContainerE2>
+十一 22 22:22:26                                 </ricAction-ToBeSetup-List>
+十一 22 22:22:26                             </RICsubscriptionDetails>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionRequest-IEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </RICsubscriptionRequest>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </initiatingMessage>
+十一 22 22:22:26 </E2AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 INFO   -->  E2AP : RIC Subscription request received
+十一 22 22:22:26 INFO   -->  E2AP : Building RIC Subscription Response
+十一 22 22:22:26 <E2AP-PDU>
+十一 22 22:22:26     <successfulOutcome>
+十一 22 22:22:26         <procedureCode>8</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26             <RICsubscriptionResponse>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <RICsubscriptionResponse-IEs>
+十一 22 22:22:26                         <id>29</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICrequestID>
+十一 22 22:22:26                                 <ricRequestorID>1</ricRequestorID>
+十一 22 22:22:26                                 <ricInstanceID>1</ricInstanceID>
+十一 22 22:22:26                             </RICrequestID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionResponse-IEs>
+十一 22 22:22:26                     <RICsubscriptionResponse-IEs>
+十一 22 22:22:26                         <id>5</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RANfunctionID>1</RANfunctionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionResponse-IEs>
+十一 22 22:22:26                     <RICsubscriptionResponse-IEs>
+十一 22 22:22:26                         <id>17</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICaction-Admitted-List>
+十一 22 22:22:26                                 <ProtocolIE-SingleContainerE2>
+十一 22 22:22:26                                     <id>14</id>
+十一 22 22:22:26                                     <criticality><reject/></criticality>
+十一 22 22:22:26                                     <value>
+十一 22 22:22:26                                         <RICaction-Admitted-Item>
+十一 22 22:22:26                                             <ricActionID>1</ricActionID>
+十一 22 22:22:26                                         </RICaction-Admitted-Item>
+十一 22 22:22:26                                     </value>
+十一 22 22:22:26                                 </ProtocolIE-SingleContainerE2>
+十一 22 22:22:26                             </RICaction-Admitted-List>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICsubscriptionResponse-IEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </RICsubscriptionResponse>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </successfulOutcome>
+十一 22 22:22:26 </E2AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG   -->  E2AP : Created APER encoded buffer for RIC subscription response 
+十一 22 22:22:26 20801d00301d05001010502010110700e0201
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0033   00-->00 region: 00
+十一 22 22:22:26 dat: 20 08 00 1d 00 00 03 00 1d 00 05 00 00 01 00 01  ...............
+十一 22 22:22:26      00 05 00 02 00 01 00 11 00 07 00 00 0e 00 02 00 ................
+十一 22 22:22:26      01                                              .
+十一 22 22:22:26      
+十一 22 22:22:26 DEBUG   -->  SCTP : sending the message to ric
+十一 22 22:22:26 INFO   -->  E2AP : Building RIC Indication Message
+十一 22 22:22:26 <E2AP-PDU>
+十一 22 22:22:26     <initiatingMessage>
+十一 22 22:22:26         <procedureCode>5</procedureCode>
+十一 22 22:22:26         <criticality><reject/></criticality>
+十一 22 22:22:26         <value>
+十一 22 22:22:26             <RICindication>
+十一 22 22:22:26                 <protocolIEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>29</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICrequestID>
+十一 22 22:22:26                                 <ricRequestorID>1</ricRequestorID>
+十一 22 22:22:26                                 <ricInstanceID>1</ricInstanceID>
+十一 22 22:22:26                             </RICrequestID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>5</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RANfunctionID>1</RANfunctionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>15</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICactionID>0</RICactionID>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>28</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICindicationType><report/></RICindicationType>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>25</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICindicationHeader>64 96 02</RICindicationHeader>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                     <RICindication-IEs>
+十一 22 22:22:26                         <id>26</id>
+十一 22 22:22:26                         <criticality><reject/></criticality>
+十一 22 22:22:26                         <value>
+十一 22 22:22:26                             <RICindicationMessage>64 96 02</RICindicationMessage>
+十一 22 22:22:26                         </value>
+十一 22 22:22:26                     </RICindication-IEs>
+十一 22 22:22:26                 </protocolIEs>
+十一 22 22:22:26             </RICindication>
+十一 22 22:22:26         </value>
+十一 22 22:22:26     </initiatingMessage>
+十一 22 22:22:26 </E2AP-PDU>
+十一 22 22:22:26 
+十一 22 22:22:26 DEBUG  -->  E2AP : Created APER encoded buffer for RIC Indication Message 
+十一 22 22:22:26 0502c00601d05001010502010f01001c01001904364ffffff96201a04364ffffff962
+十一 22 22:22:26 msg: qlen: 0001 mlen: 0048   00-->00 region: 00
+十一 22 22:22:26 dat: 00 05 00 2c 00 00 06 00 1d 00 05 00 00 01 00 01 ...,............
+十一 22 22:22:26      00 05 00 02 00 01 00 0f 00 01 00 00 1c 00 01 00 ................
+十一 22 22:22:26      00 19 00 04 03 64 96 02 00 1a 00 04 03 64 96 02 .....d.......d..
+十一 22 22:22:26      
+十一 22 22:22:28 DEBUG   -->  SCTP : sending the message to ric
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  PNF connection (fd:9) accepted from 127.0.0.1:39537 
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f026c000b20
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf connection indication idx:0
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Association ID = 72
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF In Streams = 5
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 74, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf param response idx:0 error:0
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
+十一 22 22:22:28 [NFAPI VNF]  ->  Adding phy p5_idx:0 phy_id:1
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) (RF0) 0
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
+十一 22 22:22:28 NFAPI	->	DJP:Hard coded num phy rf to 2
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 12, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf config response idx:0 resp[header[phy_id:0 message_id:103 message_length:12]]
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 12, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf start response idx:0 config:0x55a642c8ffd0 user_data:0x55a642c8eb80 p7_vnf[config:0x55a642c8f300 thread_started:0]
+十一 22 22:22:28 [NFAPI VNF]  ->  P7 thread is running
+十一 22 22:22:28 Calling sched_setscheduler(79)
+十一 22 22:22:28 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:1
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 354, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PARAM_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+十一 22 22:22:28 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+十一 22 22:22:28 [NFAPI VNF]  ->  PNF P7 Port: 32123
+十一 22 22:22:28 [NFAPI VNF]  ->  The PNF has been running, set FALG to 0
+十一 22 22:22:28 [NFAPI VNF]  ->  The PNF has been running, set FALG to 1
+十一 22 22:22:28 INFO  -->  LWR_MAC : phystate :  0 in msgType : 2
+十一 22 22:22:28 INFO  -->  LWR_MAC: Process Config Request Event
+十一 22 22:22:28 DEBUG  -->  LWR_MAC: MIB PDU 600
+十一 22 22:22:28 [NFAPI VNF]  ->  Received NFAPI_PARAM_RESP idx:0 phy_id:1
+十一 22 22:22:28 [NFAPI VNF]  ->  p5_idx : 0 phy_idx : 1 pnf p7 127.0.0.2:32123 timing 30 10 0 10
+十一 22 22:22:28 [NFAPI VNF]  ->  Send NFAPI_CONFIG_REQUEST
+十一 22 22:22:28 [NFAPI VNF]  ->  DJP local_port:50611
+十一 22 22:22:28 [NFAPI VNF]  ->  DJP local_addr:127.0.0.1
+十一 22 22:22:28 NFAPI	->	[VNF]Timing window tag : 286 Timing window:30
+十一 22 22:22:28 [NFAPI P5]  ->  Number of TLVs in ORAN_OAI 25
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1001 with value 20 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1002 with value 2169080 and length 4
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1004 with value 106 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1005 with value 1 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1006 with value 20 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1007 with value 1769080 and length 4
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1009 with value 106 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x100a with value 1 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x100c with value 1 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x100d with value 0 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x100e with value 0 and length 4
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1010 with value 1 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1012 with value 30 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1013 with value 0 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1014 with value 1 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1029 with value 88 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1015 with value 0 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1017 with value 0 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1018 with value 4 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x101b with value 1 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x101d with value 24 and length 2
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x101f with value 2 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1020 with value 0 and length 1
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1021 with value 1536 and length 4
+十一 22 22:22:28 [NFAPI P5]  ->  TAG 0x1022 with value 1 and length 4
+十一 22 22:22:28 [NFAPI VNF]  ->  Sent NFAPI_VNF_CONFIG_REQ
+十一 22 22:22:28 NTUST --> MacSchCellCfgReq result != ROK:0
+十一 22 22:22:28 [NFAPI VNF]  ->  vnf_nr_p7_start_thread()
+十一 22 22:22:28 [NFAPI P7] ->  Initialising VNF P7 port:50611
+十一 22 22:22:28 [NFAPI P7] ->  VNF P7 socket created...
+十一 22 22:22:28 [NFAPI P7] ->  VNF P7 setsockopt succeeded...
+十一 22 22:22:28 [NFAPI P7] ->  VNF P7 binding too 0.0.0.0:50611
+十一 22 22:22:28 [NFAPI P7] ->  VNF P7 bind succeeded...
+十一 22 22:22:28 
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 9, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received CONFIG_RESPONSE
+十一 22 22:22:28 INFO  -->  LWR_MAC : phystate :  0 in msgType : 3
+十一 22 22:22:28 INFO  -->  LWR_MAC: Received EVENT[3] at STATE[0]
+十一 22 22:22:28  I am here lwr_mac_procConfigRspEvt()
+十一 22 22:22:28 DEBUG  -->  LWR_MAC: PHY has moved to Configured state 
+十一 22 22:22:28 
+十一 22 22:22:28 [NFAPI VNF]  ->  Received NFAPI_CONFIG_RESP idx:0 phy_id:1
+十一 22 22:22:28 [NFAPI VNF]  ->  Calling oai_enb_init()
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:9 from 127.0.0.1:39537 assoc:72 on stream 0, PPID 704643072, length 12, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  NR Received START_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  Received NFAPI_START_RESP idx:0 phy_id:1nfapi_vnf_p7_add_pnf(config:0x55a642c8f300 phy_id:1 pnf_addr:127.0.0.2 pnf_p7_port:32123)
+十一 22 22:22:28 
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  Accepting connection from PNF...
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  PNF connection (fd:11) accepted from 127.0.0.1:42273 
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  MALLOC nfapi_vnf_pnf_info_t for pnf_list pnf:0x7f026c0011b0
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf connection indication idx:1
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Association ID = 74
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Receiver window size = 106488
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF In Streams = 5
+十一 22 22:22:28 [NFAPI VNF INTF]  ->  VNF Out Streams = 5
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:42273 assoc:74 on stream 0, PPID 704643072, length 74, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_PARAM.reponse
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf param response idx:1 error:0
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) phy_config_idx:0
+十一 22 22:22:28 [NFAPI VNF]  ->  Adding phy p5_idx:1 phy_id:2
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) (RF0) 0
+十一 22 22:22:28 [NFAPI VNF]  ->  (PHY:0) (RF1) 0
+十一 22 22:22:28 NFAPI	->	DJP:Hard coded num phy rf to 2
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:42273 assoc:74 on stream 0, PPID 704643072, length 12, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_CONFIG_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf config response idx:1 resp[header[phy_id:0 message_id:103 message_length:12]]
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:42273 assoc:74 on stream 0, PPID 704643072, length 12, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PNF_START_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  pnf start response idx:1 config:0x55a642c8ffd0 user_data:0x55a642c8eb80 p7_vnf[config:0x55a642c8f300 thread_started:1]
+十一 22 22:22:28 [NFAPI VNF]  ->  P7 thread has been running
+十一 22 22:22:28 [NFAPI VNF]  ->  Sending NFAPI_VNF_PARAM_REQUEST phy_id:2
+十一 22 22:22:28 [NFAPI VNF]  ->  Func : vnf_nr_read_dispatch_message
+十一 22 22:22:28 [NFAPI VNF]  ->  Received message fd:11 from 127.0.0.1:42273 assoc:74 on stream 0, PPID 704643072, length 354, flags 0x80
+十一 22 22:22:28 [NFAPI VNF]  ->  Received PARAM_RESPONSE
+十一 22 22:22:28 [NFAPI VNF]  ->  PNF P7 IPv4 address: 127.0.0.2
+十一 22 22:22:28 [NFAPI VNF]  ->  PNF P7 IPv6 address: ::
+十一 22 22:22:36 [NFAPI VNF]  ->  PNF P7 Port: 32123[MWNL] vnf_handle_nr_slot_indication
+十一 22 22:22:36 VNF SFN/Slot 0.6 
+十一 22 22:22:36 [MWNL]  ->  The slot_ind sfn : 0, slot : 6
+十一 22 22:22:36 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 6, prev_slot = 0, setup_time = 8
+十一 22 22:22:36 [MWNL] ORAN_OAI_procSlotInd
+十一 22 22:22:36 
+十一 22 22:22:36 INFO  -->  LWR_MAC: PHY has moved to running stateMWNL  -->  MAC : Slot Indication received. [0 : 0]
+十一 22 22:22:36 
+十一 22 22:22:36 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+十一 22 22:22:36 DEBUG  -->  LWR_MAC: Processing UCI Indication
+十一 22 22:22:36 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+十一 22 22:22:36 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+十一 22 22:22:36 NTUST  -->  MAC : [ cellid: 1 ] Slot Indication received. [0 : 6]
+十一 22 22:22:36 MAC to sch
+十一 22 22:22:36 [MWNL] sendSlotIndMacToSch
+十一 22 22:22:36 [MWNL] macProcSlotInd
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillDlTtiReq
+十一 22 22:22:36 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 8
+十一 22 22:22:36 [MWNL]  ->  The DL TTI Timing Info : sfn : 0, slot : 9
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillUlTtiReq
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillUlDciReq
+十一 22 22:22:36 [MWNL] ORAN_OAI_sendTxDataReq
+十一 22 22:22:36 [MWNL] nfapi_vnf_p7_nr_dl_config_req
+十一 22 22:22:36 P7 is about to send msg
+十一 22 22:22:36 P7 msg sent with result 27
+十一 22 22:22:36 
+十一 22 22:22:36 INFO   -->  DU APP : 5G-NR Cell 1 is UP
+十一 22 22:22:36 DEBUG  -->  DU_APP : Sending Slice Cfg Request to MAC 
+十一 22 22:22:36 INFO  -->  MAC : Received Slice Cfg request from DU APP
+十一 22 22:22:36 INFO  -->  SCH : Received Slice Cfg request from MAC
+十一 22 22:22:36 INFO  -->  DU_APP : Slice Configuration is done sucessfully [MWNL] vnf_handle_nr_slot_indication
+十一 22 22:22:36 VNF SFN/Slot 0.7 
+十一 22 22:22:36 [MWNL]  ->  The slot_ind sfn : 0, slot : 7
+十一 22 22:22:36 [NFAPI_TRACE_DEBUG]  UL_INFO.frame = 0 and slot 7, prev_slot = 6, setup_time = 8
+十一 22 22:22:36 [MWNL] ORAN_OAI_procSlotInd
+十一 22 22:22:36 MWNL  -->  MAC : Slot Indication received. [0 : 0]
+十一 22 22:22:36 
+十一 22 22:22:36 DEBUG  -->  LWR_MAC : No PDU in RACH.indication at [0, 0]
+十一 22 22:22:36 DEBUG  -->  LWR_MAC: Processing UCI Indication
+十一 22 22:22:36 DEBUG  -->  LWR_MAC : No PDU in RX_Data.indication at [0, 0]
+十一 22 22:22:36 DEBUG  --> LWR_MAC : No CRC PDUs in CRC.indication at [0, 0]
+十一 22 22:22:36 NTUST  -->  MAC : [ cellid: 1 ] Slot Indication received. [0 : 7]
+十一 22 22:22:36 MAC to sch
+十一 22 22:22:36 [MWNL] sendSlotIndMacToSch
+十一 22 22:22:36 [MWNL] macProcSlotInd
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillDlTtiReq
+十一 22 22:22:36 [MWNL]  ->  The current Timing Info : sfn : 0, slot : 9
+十一 22 22:22:36 [MWNL]  ->  The DL TTI Timing Info : sfn : 1, slot : 0
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillUlTtiReq
+十一 22 22:22:36 [MWNL] ORAN_OAI_fillUlDciReq
+十一 22 22:22:36 [MWNL] ORAN_OAI_sendTxDataReq
+十一 22 22:22:36 [MWNL] nfapi_vnf_p7_nr_dl_config_req
+十一 22 22:22:36 P7 is about to send msg
+十一 22 22:22:36 P7 msg sent with result 27

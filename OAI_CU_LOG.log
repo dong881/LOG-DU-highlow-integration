@@ -1,254 +1,254 @@
-十一 15 12:29:13 CMDLINE: "/home/gnb/OAIOSC/OAI_CU/cmake_targets/ran_build/build/nr-softmodem" "-O" "../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf" "--sa" 
-十一 15 12:29:13 [CONFIG] get parameters from libconfig ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf , debug flags: 0x00000000
-十一 15 12:29:13 [LIBCONFIG] Path for include directive set to: ../../../ci-scripts/conf_files
-十一 15 12:29:13 [CONFIG] function config_libconfig_init returned 0
-十一 15 12:29:13 [CONFIG] config module libconfig loaded
-十一 15 12:29:13 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
-十一 15 12:29:13 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
-十一 15 12:29:13 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
-十一 15 12:29:13 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
-十一 15 12:29:13 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-十一 15 12:29:13 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
-十一 15 12:29:13 log init done
-十一 15 12:29:13 [HW]   # /dev/cpu_dma_latency set to 2 us
-十一 15 12:29:13 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
-十一 15 12:29:13 [1;31m[HW]   Can't set cpu frequency
-十一 15 12:29:13 [0mReading in command-line options
-十一 15 12:29:13 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
-十一 15 12:29:13 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
-十一 15 12:29:13 [ENB_APP]   nfapi running mode: MONOLITHIC
-十一 15 12:29:13 [0m[GNB_APP]   Getting GNBSParams
-十一 15 12:29:13 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:13 [LIBCONFIG] list MACRLCs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:13 [LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:13 [LIBCONFIG] list RUs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:13 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:13 [CONFIG] parallel_conf is set to 2
-十一 15 12:29:13 [CONFIG] worker_conf is set to 1
-十一 15 12:29:13 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
-十一 15 12:29:13 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
-十一 15 12:29:13 configuring for RAU/RRU
-十一 15 12:29:14 CPU Freq is 2.095206 
-十一 15 12:29:14 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 41
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 42
-十一 15 12:29:14 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 43
-十一 15 12:29:14 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
-十一 15 12:29:14 [OPT]   OPT disabled
-十一 15 12:29:14 [0m[HW]   Version: Branch: HEAD Abrev. Hash:  Date: 
-十一 15 12:29:14 [0m[SCTP]   Starting SCTP layer
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_SCTP
-十一 15 12:29:14 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
-十一 15 12:29:14 [X2AP]   X2AP is disabled.
-十一 15 12:29:14 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-十一 15 12:29:14 [34m[NGAP]   Configuration in the file: enp5s0:CU.
-十一 15 12:29:14 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129.
-十一 15 12:29:14 [0m[NGAP]   Starting NGAP layer
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_NGAP
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_GNB_APP
-十一 15 12:29:14 [0m[PHY]   gNB_app_task() Task ready initialize structures
-十一 15 12:29:14 [0m[NR_RRC]   Creating NR RRC gNB Task
-十一 15 12:29:14 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
-十一 15 12:29:14 [NR_PHY]   PRB blacklist 
-十一 15 12:29:14 [0m[NR_PHY]   RC.gNB = 0x7fd8f8000ce0
-十一 15 12:29:14 [0m[LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:14 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7fd90280a010
-十一 15 12:29:14 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
-十一 15 12:29:14 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
-十一 15 12:29:14 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7fd8f8002610
-十一 15 12:29:14 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7fd8f8002630 (1 of 1)
-十一 15 12:29:14 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (14 to default value)
-十一 15 12:29:14 [RRC]   Read in ServingCellConfigCommon (PhysCellId 1, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 430000, DLBW 106,RACH_TargetReceivedPower -100
-十一 15 12:29:14 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
-十一 15 12:29:14 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
-十一 15 12:29:14 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
-十一 15 12:29:14 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
-十一 15 12:29:14 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
-十一 15 12:29:14 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
-十一 15 12:29:14 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
-十一 15 12:29:14 [RRC]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-十一 15 12:29:14 [0m[RRC]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
-十一 15 12:29:14 [0mNRRRC 0: Southbound Transport f1
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [GNB_APP]   F1AP: gNB_CU_id[0] 3584
-十一 15 12:29:14 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
-十一 15 12:29:14 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [RRC]   SSB SCO 0
-十一 15 12:29:14 [0m[RRC]   pdsch_AntennaPorts N1 1
-十一 15 12:29:14 [0m[RRC]   pdsch_AntennaPorts N2 1
-十一 15 12:29:14 [0m[RRC]   pdsch_AntennaPorts XP 1
-十一 15 12:29:14 [0m[RRC]   pusch_AntennaPorts 1
-十一 15 12:29:14 [0m[RRC]   minTXRXTIME 6
-十一 15 12:29:14 [0m[RRC]   SIB1 TDA 0
-十一 15 12:29:14 [0m[RRC]   Do CSI-RS 0
-十一 15 12:29:14 [0m[RRC]   Do SRS 0
-十一 15 12:29:14 [0m[RRC]   256 QAM: may be on
-十一 15 12:29:14 [0m[GNB_APP]   SDAP layer is disabled
-十一 15 12:29:14 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [GNB_APP]   RRC starting with node type 5
-十一 15 12:29:14 [0m[GNB_APP]   Sending configuration message to NR_RRC task
-十一 15 12:29:14 [0m[NR_RRC]   Entering main loop of NR_RRC message task
-十一 15 12:29:14 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
-十一 15 12:29:14 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7fd8f8003c80
-十一 15 12:29:14 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
-十一 15 12:29:14 [0m[PDCP]   pdcp init,usegtp 
-十一 15 12:29:14 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
-十一 15 12:29:14 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
-十一 15 12:29:14 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
-十一 15 12:29:14 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
-十一 15 12:29:14 [0m[LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [NR_RRC]   do_SIB23_NR, size 9 
-十一 15 12:29:14  [0m[NR_RRC]   Done init_NR_SI
-十一 15 12:29:14 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-十一 15 12:29:14 [GNB_APP]   default drx 0
-十一 15 12:29:14 [0m[GTPU]   Configuring GTPu
-十一 15 12:29:14 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
-十一 15 12:29:14 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
-十一 15 12:29:14 [GTPU]   SA mode 
-十一 15 12:29:14 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
-十一 15 12:29:14 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
-十一 15 12:29:14 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
-十一 15 12:29:14 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
-十一 15 12:29:14 [0m[NGAP]   [gNB 0] check the amf registration state
-十一 15 12:29:14 [0m[SCTP]   Converted ipv4 address 192.168.70.132 to network type
-十一 15 12:29:14 [0m[SCTP]   connectx assoc_id  262 in progress..., used 1 addresses
-十一 15 12:29:14 [0m[SCTP]   Inserted new descriptor for sd 94 in list, nb elements 1, assoc_id 262
-十一 15 12:29:14 [0m[F1AP]   Starting F1AP at CU
-十一 15 12:29:14 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_CU_F1
-十一 15 12:29:14 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
-十一 15 12:29:14 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
-十一 15 12:29:14 [0m[SCTP]   Received SCTP_INIT_MSG
-十一 15 12:29:14 [0m[SCTP]   Creating new listen socket on port 30923 with
-十一 15 12:29:14 [0m[SCTP]   ipv4 addresses:
-十一 15 12:29:14 [0m[SCTP]   	- 192.168.130.83
-十一 15 12:29:14 [0m[93m[GTPU]   bind: Cannot assign requested address
-十一 15 12:29:14 [0m[1;31m[GTPU]   failed to bind socket: 192.168.70.129 2152 
-十一 15 12:29:14 [0m[1;31m[GTPU]   can't create GTP-U instance
-十一 15 12:29:14 [0m[GTPU]   Created gtpu instance id: -1
-十一 15 12:29:14 [0mNFAPI MODE:MONOLITHIC
-十一 15 12:29:14 START MAIN THREADS
-十一 15 12:29:14 RC.nb_nr_L1_inst:0
-十一 15 12:29:14 wait_gNBs()
-十一 15 12:29:14 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
-十一 15 12:29:14 gNB L1 are configured
-十一 15 12:29:14 About to Init RU threads RC.nb_RU:0
-十一 15 12:29:14 About to call end_configmodule() from main() /home/gnb/OAIOSC/OAI_CU/executables/nr-softmodem.c:786
-十一 15 12:29:14 Called end_configmodule() from main() /home/gnb/OAIOSC/OAI_CU/executables/nr-softmodem.c:791
-十一 15 12:29:14 TYPE <CTRL-C> TO TERMINATE
-十一 15 12:29:14 Entering ITTI signals handler
+十一 22 12:27:58 CMDLINE: "/home/gnb/OAIOSC/OAI_CU/cmake_targets/ran_build/build/nr-softmodem" "-O" "../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf" "--sa" 
+十一 22 12:27:58 [CONFIG] get parameters from libconfig ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf , debug flags: 0x00000000
+十一 22 12:27:58 [LIBCONFIG] Path for include directive set to: ../../../ci-scripts/conf_files
+十一 22 12:27:58 [CONFIG] function config_libconfig_init returned 0
+十一 22 12:27:58 [CONFIG] config module libconfig loaded
+十一 22 12:27:58 [LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+十一 22 12:27:58 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+十一 22 12:27:58 [LIBCONFIG] log_config: 55/55 parameters successfully set, (47 to default value)
+十一 22 12:27:58 [LIBCONFIG] log_config: 55/55 parameters successfully set, (55 to default value)
+十一 22 12:27:58 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+十一 22 12:27:58 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+十一 22 12:27:58 log init done
+十一 22 12:27:58 [HW]   # /dev/cpu_dma_latency set to 2 us
+十一 22 12:27:58 [0msh: 1: cannot create /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu1/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu10/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu11/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu12/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu13/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu14/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu15/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu16/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu17/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu18/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu19/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu2/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu20/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu21/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu22/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu23/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu24/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu25/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu26/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu27/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu28/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu29/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu3/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu30/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu31/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu32/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu33/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu34/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu35/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu36/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu37/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu38/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu39/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu40/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu41/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu42/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu43/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu44/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu45/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu46/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu47/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu48/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu49/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu5/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu50/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu51/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu52/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu53/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu54/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu55/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu56/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu57/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu58/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu59/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu6/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu60/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu61/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu62/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu63/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu7/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu8/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 sh: 1: cannot create /sys/devices/system/cpu/cpu9/cpufreq/scaling_min_freq: Directory nonexistent
+十一 22 12:27:58 [1;31m[HW]   Can't set cpu frequency
+十一 22 12:27:58 [0mReading in command-line options
+十一 22 12:27:58 [LIBCONFIG] (root): 33/33 parameters successfully set, (29 to default value)
+十一 22 12:27:58 [LIBCONFIG] (root): 5/5 parameters successfully set, (4 to default value)
+十一 22 12:27:58 [ENB_APP]   nfapi running mode: MONOLITHIC
+十一 22 12:27:58 [0m[GNB_APP]   Getting GNBSParams
+十一 22 12:27:58 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:58 [LIBCONFIG] list MACRLCs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:58 [LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:58 [LIBCONFIG] list RUs not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:58 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:58 [CONFIG] parallel_conf is set to 2
+十一 22 12:27:58 [CONFIG] worker_conf is set to 1
+十一 22 12:27:58 Configuration: nb_rrc_inst 1, nb_nr_L1_inst 0, nb_ru 0
+十一 22 12:27:58 [LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+十一 22 12:27:58 configuring for RAU/RRU
+十一 22 12:27:59 CPU Freq is 2.095248 
+十一 22 12:27:59 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_MAC_ENB as task 5
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 9
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 10
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 11
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 12
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 13
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 14
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 15
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 16
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 17
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 18
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 19
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 20
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 21
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 22
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 23
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 24
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 25
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 26
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_FLEXRAN_AGENT as task 27
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 39
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 40
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 41
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 42
+十一 22 12:27:59 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 43
+十一 22 12:27:59 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+十一 22 12:27:59 [OPT]   OPT disabled
+十一 22 12:27:59 [0m[HW]   Version: Branch: HEAD Abrev. Hash:  Date: 
+十一 22 12:27:59 [0m[SCTP]   Starting SCTP layer
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_SCTP
+十一 22 12:27:59 [0m[LIBCONFIG] eNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0]: 1/1 parameters successfully set, (1 to default value)
+十一 22 12:27:59 [X2AP]   X2AP is disabled.
+十一 22 12:27:59 [0m[LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+十一 22 12:27:59 [34m[NGAP]   Configuration in the file: enp5s0:CU.
+十一 22 12:27:59 [0m[34m[NGAP]   Configuration in the file: 192.168.70.129.
+十一 22 12:27:59 [0m[NGAP]   Starting NGAP layer
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_NGAP
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_GNB_APP
+十一 22 12:27:59 [0m[NR_RRC]   Creating NR RRC gNB Task
+十一 22 12:27:59 [0m[PHY]   gNB_app_task() Task ready initialize structures
+十一 22 12:27:59 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+十一 22 12:27:59 [NR_PHY]   PRB blacklist 
+十一 22 12:27:59 [0m[NR_PHY]   RC.gNB = 0x7f5384000ce0
+十一 22 12:27:59 [0m[LIBCONFIG] list L1s not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:59 [PHY]   No L1s configuration found[0m[PHY]   RC.gNB[0] = 0x7f538fd68010
+十一 22 12:27:59 [0m[PHY]   gNB_app_task() RC.nb_nr_L1_inst:0
+十一 22 12:27:59 [0m[GNB_APP]   Allocating gNB_RRC_INST for 1 instances
+十一 22 12:27:59 [0m[PHY]   gNB_app_task() RC.nb_nr_inst:1 RC.nrrrc:0x7f5384002610
+十一 22 12:27:59 [0m[PHY]   gNB_app_task() Creating RRC instance RC.nrrrc[0]:0x7f5384002630 (1 of 1)
+十一 22 12:27:59 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].pdcch_ConfigSIB1.[0]: 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].servingCellConfigCommon.[0]: 60/60 parameters successfully set, (14 to default value)
+十一 22 12:27:59 [RRC]   Read in ServingCellConfigCommon (PhysCellId 1, ABSFREQSSB 433096, DLBand 66, ABSFREQPOINTA 430000, DLBW 106,RACH_TargetReceivedPower -100
+十一 22 12:27:59 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+十一 22 12:27:59 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+十一 22 12:27:59 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+十一 22 12:27:59 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+十一 22 12:27:59 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+十一 22 12:27:59 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+十一 22 12:27:59 [0m[LIBCONFIG] list gNBs.[0].servingCellConfigDedicated not found in config file ../../../ci-scripts/conf_files/cu.band66.tm1.106PRB.usrpb210.conf 
+十一 22 12:27:59 [RRC]   DL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+十一 22 12:27:59 [0m[RRC]   UL PTRS frequencyDensity 1 not set. Assuming PTRS not present! 
+十一 22 12:27:59 [0mNRRRC 0: Southbound Transport f1
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [GNB_APP]   F1AP: gNB_CU_id[0] 3584
+十一 22 12:27:59 [0m[GNB_APP]   F1AP: gNB_CU_name[0] gNB-Eurecom-CU
+十一 22 12:27:59 [0m[LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [RRC]   SSB SCO 0
+十一 22 12:27:59 [0m[RRC]   pdsch_AntennaPorts N1 1
+十一 22 12:27:59 [0m[RRC]   pdsch_AntennaPorts N2 1
+十一 22 12:27:59 [0m[RRC]   pdsch_AntennaPorts XP 1
+十一 22 12:27:59 [0m[RRC]   pusch_AntennaPorts 1
+十一 22 12:27:59 [0m[RRC]   minTXRXTIME 6
+十一 22 12:27:59 [0m[RRC]   SIB1 TDA 0
+十一 22 12:27:59 [0m[RRC]   Do CSI-RS 0
+十一 22 12:27:59 [0m[RRC]   Do SRS 0
+十一 22 12:27:59 [0m[RRC]   256 QAM: may be on
+十一 22 12:27:59 [0m[GNB_APP]   SDAP layer is disabled
+十一 22 12:27:59 [0m[LIBCONFIG] security: 4/4 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [GNB_APP]   RRC starting with node type 5
+十一 22 12:27:59 [0m[GNB_APP]   Sending configuration message to NR_RRC task
+十一 22 12:27:59 [0m[NR_RRC]   Entering main loop of NR_RRC message task
+十一 22 12:27:59 [0m[NR_RRC]   Received message NRRRC_CONFIGURATION_REQ
+十一 22 12:27:59 [0m[NR_RRC]   [gNB 0] Received NRRRC_CONFIGURATION_REQ : 0x7f5384003c80
+十一 22 12:27:59 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Init...
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_RRC_GNB
+十一 22 12:27:59 [0m[PDCP]   pdcp init,usegtp 
+十一 22 12:27:59 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0]: 27/27 parameters successfully set, (9 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[0]: 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].plmn_list.[0].snssaiList.[1]: 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].amf_ip_address.[0]: 4/4 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+十一 22 12:27:59 [GNB_APP]   default drx 0
+十一 22 12:27:59 [0m[GTPU]   Configuring GTPu
+十一 22 12:27:59 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (0 to default value)
+十一 22 12:27:59 [LIBCONFIG] gNBs.[0].NETWORK_INTERFACES: 10/10 parameters successfully set, (3 to default value)
+十一 22 12:27:59 [GTPU]   SA mode 
+十一 22 12:27:59 [0m[GTPU]   Configuring GTPu address : 192.168.70.129 -> 8146a8c0
+十一 22 12:27:59 [0m[PHY]   not found same deltaf_raster == scs_khz, use only band and last deltaf_raster 
+十一 22 12:27:59 [0m[NR_MAC]   NR band duplex spacing is -400000 KHz (nr_bandtable[28].band = 66)
+十一 22 12:27:59 [0m[NR_MAC]   NR band 66, duplex mode FDD, duplex spacing = -400000 KHz
+十一 22 12:27:59 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] Checking release 
+十一 22 12:27:59 [0m[GNB_APP]   [gNB 0] gNB_app_register for instance 0
+十一 22 12:27:59 [0m[NR_RRC]   do_SIB23_NR, size 9 
+十一 22 12:27:59  [0m[NR_RRC]   Done init_NR_SI
+十一 22 12:27:59 [0m[NGAP]   Registered new gNB[0] and macro gNB id 3584
+十一 22 12:27:59 [0m[NGAP]   [gNB 0] check the amf registration state
+十一 22 12:27:59 [0m[NR_RRC]   [FRAME 00000][gNB][MOD 00][RNTI 0] gNB:OPENAIR NR RRC IN....
+十一 22 12:27:59 [0m[SCTP]   Converted ipv4 address 192.168.70.132 to network type
+十一 22 12:27:59 [0m[SCTP]   connectx assoc_id  35 in progress..., used 1 addresses
+十一 22 12:27:59 [0m[SCTP]   Inserted new descriptor for sd 94 in list, nb elements 1, assoc_id 35
+十一 22 12:27:59 [0m[F1AP]   Starting F1AP at CU
+十一 22 12:27:59 [0m[F1AP]   F1AP_CU_SCTP_REQ(create socket)
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_CU_F1
+十一 22 12:27:59 [0m[ITTI]   Created Posix thread TASK_GTPV1_U
+十一 22 12:27:59 [0m[GTPU]   Initializing UDP for local address 192.168.70.129 with port 2152
+十一 22 12:27:59 [0m[SCTP]   Received SCTP_INIT_MSG
+十一 22 12:27:59 [0m[SCTP]   Creating new listen socket on port 30923 with
+十一 22 12:27:59 [0m[SCTP]   ipv4 addresses:
+十一 22 12:27:59 [0m[SCTP]   	- 192.168.130.83
+十一 22 12:27:59 [0m[93m[GTPU]   bind: Cannot assign requested address
+十一 22 12:27:59 [0m[1;31m[GTPU]   failed to bind socket: 192.168.70.129 2152 
+十一 22 12:27:59 [0m[1;31m[GTPU]   can't create GTP-U instance
+十一 22 12:27:59 [0m[GTPU]   Created gtpu instance id: -1
+十一 22 12:27:59 [0mNFAPI MODE:MONOLITHIC
+十一 22 12:27:59 START MAIN THREADS
+十一 22 12:27:59 RC.nb_nr_L1_inst:0
+十一 22 12:27:59 wait_gNBs()
+十一 22 12:27:59 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 0)
+十一 22 12:27:59 gNB L1 are configured
+十一 22 12:27:59 About to Init RU threads RC.nb_RU:0
+十一 22 12:27:59 About to call end_configmodule() from main() /home/gnb/OAIOSC/OAI_CU/executables/nr-softmodem.c:786
+十一 22 12:27:59 Called end_configmodule() from main() /home/gnb/OAIOSC/OAI_CU/executables/nr-softmodem.c:791
+十一 22 12:27:59 TYPE <CTRL-C> TO TERMINATE
+十一 22 12:27:59 Entering ITTI signals handler
