@@ -1,0 +1,113 @@
+十二 26 17:13:35 CMDLINE: "./nr-softmodem" "-O" "../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf" "--nfapi" "PNF" "--rfsim" "--rfsimulator.serveraddr" "server" "--sa" 
+十二 26 17:13:35 [CONFIG] get parameters from libconfig ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf [LIBCONFIG] Path for include directive set to: ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF
+十二 26 17:13:35 [CONFIG] function config_libconfig_init returned 0
+十二 26 17:13:35 [CONFIG] config module libconfig loaded
+十二 26 17:13:35 [LIBCONFIG] config: 2/2 parameters successfully set, (2 to default value)
+十二 26 17:13:35 [CONFIG] debug flags: 0x00000000
+十二 26 17:13:35 [LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+十二 26 17:13:35 [LIBCONFIG] log_config: 53/53 parameters successfully set, (51 to default value)
+十二 26 17:13:35 [LIBCONFIG] log_config: 53/53 parameters successfully set, (53 to default value)
+十二 26 17:13:35 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+十二 26 17:13:35 [LIBCONFIG] log_config: 16/16 parameters successfully set, (16 to default value)
+十二 26 17:13:35 log init done
+十二 26 17:13:35 [HW]   # /dev/cpu_dma_latency set to 2 us
+十二 26 17:13:35 [0mReading in command-line options
+十二 26 17:13:35 [LIBCONFIG] (root): 41/41 parameters successfully set, (38 to default value)
+十二 26 17:13:35 [LIBCONFIG] (root): 6/6 parameters successfully set, (5 to default value)
+十二 26 17:13:35 [ENB_APP]   nfapi running mode: PNF
+十二 26 17:13:35 [0m[GNB_APP]   Getting GNBSParams
+十二 26 17:13:35 [0m[LIBCONFIG] (root): 2/2 parameters successfully set, (1 to default value)
+十二 26 17:13:35 [LIBCONFIG] list MACRLCs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+十二 26 17:13:35 [LIBCONFIG] list THREAD_STRUCT not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+十二 26 17:13:35 [CONFIG] parallel_conf is set to 2
+十二 26 17:13:35 [CONFIG] worker_conf is set to 1
+十二 26 17:13:35 Configuration: nb_rrc_inst 0, nb_nr_L1_inst 1, nb_ru 1
+十二 26 17:13:35 [LIBCONFIG] TTracer: 3/3 parameters successfully set, (3 to default value)
+十二 26 17:13:35 configuring for RAU/RRU
+十二 26 17:13:36 [ITTI]   Starting itti queue: TASK_UNKNOWN as task 0
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_TIMER as task 1
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_L2L1 as task 2
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_BM as task 3
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_PHY_ENB as task 4
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_MAC_GNB as task 5
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RLC_ENB as task 6
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_PDCP_ENB as task 8
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_PDCP_GNB as task 9
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_DATA_FORWARDING as task 10
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_END_MARKER as task 11
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_ENB as task 12
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB as task 13
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RAL_ENB as task 14
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_S1AP as task 15
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_NGAP as task 16
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_X2AP as task 17
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_M2AP_ENB as task 18
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_M2AP_MCE as task 19
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_M3AP as task 20
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_M3AP_MME as task 21
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_M3AP_MCE as task 22
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_SCTP as task 23
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_ENB_APP as task 24
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_GNB_APP as task 25
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_MCE_APP as task 26
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_MME_APP as task 27
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_PHY_UE as task 28
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_MAC_UE as task 29
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RLC_UE as task 30
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_PDCP_UE as task 31
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_UE as task 32
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_NRUE as task 33
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_NAS_UE as task 34
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RAL_UE as task 35
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_GTPV1_U as task 36
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_CU_F1 as task 37
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_DU_F1 as task 38
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_CUCP_E1 as task 39
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_CUUP_E1 as task 40
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_UE_SIM as task 41
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_GNB_SIM as task 42
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_UE as task 43
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_RRC_NSA_NRUE as task 44
+十二 26 17:13:36 [0m[ITTI]   Starting itti queue: TASK_NAS_NRUE as task 45
+十二 26 17:13:36 [0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+十二 26 17:13:36 [OPT]   OPT disabled
+十二 26 17:13:36 [0m[HW]   Version: Branch: nfapi-fixes Abrev. Hash: e403c9f308 Date: Thu Nov 23 13:53:45 2023 +0100
+十二 26 17:13:36 [0m[NR_PHY]   RC.gNB = 0x562d92e02930
+十二 26 17:13:36 [0m[LIBCONFIG] L1s.[0]: 19/19 parameters successfully set, (10 to default value)
+十二 26 17:13:36 [PHY]   L1_RX_THREAD_CORE -1 (16)
+十二 26 17:13:36 [0m[PHY]   TX_AMP = 519 (-36 dBFS)
+十二 26 17:13:36 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_inst=1 this is because phy_init_RU() uses that to index and not RC.num_gNB - why the 2 similar variables?
+十二 26 17:13:36 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_CC[0]=1 for init_gNB_afterRU()
+十二 26 17:13:36 [0m[PHY]   RCconfig_NR_L1() NFAPI PNF mode - RC.nb_nr_macrlc_inst:1 because used by mac_top_init_gNB()
+十二 26 17:13:36 [0mconfigure_nr_nfapi_pnf() PNF
+十二 26 17:13:36 
+十二 26 17:13:36 
+十二 26 17:13:36 
+十二 26 17:13:36 
+十二 26 17:13:36 
+十二 26 17:13:36 [ENB_APP]   nfapi running mode: PNF
+十二 26 17:13:36 [0mconfigure_nr_nfapi_pnf() VNF:127.0.0.2:50001 PNF_PHY[addr:127.0.0.1 UDP:tx_addr:127.0.0.2:50011 rx:50010]
+十二 26 17:13:36 Initializing northbound interface for L1
+十二 26 17:13:36 [PHY]   l1_north_init_gNB() RC.nb_nr_L1_inst:1
+十二 26 17:13:36 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+十二 26 17:13:36 [0m[MAC]   Allocating shared L1/L2 interface structure for instance 0 @ 0x562d92e05c00
+十二 26 17:13:36 [0m[PHY]   l1_north_init_gNB() RC.gNB[0] installing callbacks
+十二 26 17:13:36 [0m[LIBCONFIG] list gNBs not found in config file ../../../targets/PROJECTS/GENERIC-LTE-EPC/CONF/oaiL1.nfapi.usrpb210.conf 
+十二 26 17:13:36 NFAPI*** - mutex and cond created - will block shortly for completion of PNF connection
+十二 26 17:13:36 START MAIN THREADS
+十二 26 17:13:36 RC.nb_nr_L1_inst:1
+十二 26 17:13:36 Initializing gNB threads single_thread_flag:1 wait_for_sync:0
+十二 26 17:13:36 [PHY]   Initializing gNB 0 single_thread_flag:1
+十二 26 17:13:36 [0m[PHY]   Initializing gNB 0
+十二 26 17:13:36 [0m[PHY]   Registering with MAC interface module (before 0x562d92e05c00)
+十二 26 17:13:36 [0m[PHY]   Installing callbacks for IF_Module - UL_indication
+十二 26 17:13:36 [0m[PHY]   Registering with MAC interface module (after 0x562d92e05c00)
+十二 26 17:13:36 [0m[PHY]   Setting indication lists
+十二 26 17:13:36 [0m[PHY]   [nr-gnb.c] gNB structure allocated
+十二 26 17:13:36 [0mwait_gNBs()
+十二 26 17:13:36 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+十二 26 17:13:36 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+十二 26 17:13:36 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+十二 26 17:13:36 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
+十二 26 17:13:37 Waiting for gNB L1 instances to all get configured ... sleeping 50ms (nb_nr_sL1_inst 1)
